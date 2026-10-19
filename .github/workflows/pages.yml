@@ -1,0 +1,75 @@
+name: Refresh and publish GitHub workbench
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 1 * * *' # 06:47 IST; off the top of the hour
+permissions:
+  contents: read
+concurrency:
+  group: workbench-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          submodules: recursive
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Test collection and rendering
+        run: python -m unittest discover -s tests -v
+      - name: Refresh public data
+        if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/collect.py
+      - name: Render saved data
+        if: github.ref != 'refs/heads/master' || github.event_name == 'pull_request'
+        run: python scripts/collect.py --offline
+      - name: Install pinned Zola
+        run: |
+          curl --fail --location --retry 3 https://github.com/getzola/zola/releases/download/v0.21.0/zola-v0.21.0-x86_64-unknown-linux-gnu.tar.gz -o /tmp/zola.tar.gz
+          echo '5c37a8f706567d6cad3f0dbc0eaebe3b9591cc301bd67089e5ddc0d0401732d6  /tmp/zola.tar.gz' | sha256sum --check
+          tar xzf /tmp/zola.tar.gz -C /tmp
+          sudo install /tmp/zola /usr/local/bin/zola
+      - name: Build Zola site
+        run: zola build
+      - name: Keep public history
+        if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/github.json data/profile-activity.md static/github.json content/activity
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update public GitHub work log'
+            git push
+          fi
+      - uses: actions/upload-pages-artifact@v3
+        if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
+        with:
+          path: public
+      - uses: actions/upload-artifact@v4
+        if: github.event_name == 'pull_request' || github.ref != 'refs/heads/master'
+        with:
+          name: site-preview
+          path: public
+  deploy:
+    if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - uses: actions/deploy-pages@v4
+        id: deployment

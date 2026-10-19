@@ -1,0 +1,12 @@
+{% extends "index.html" %}
+{% block content %}
+{% set github = load_data(path="data/github.json") %}
+<div class="workbench"><header class="intro compact"><p class="eyebrow">THE DIRECTORY</p><h1>Projects<span class="cursor" aria-hidden="true">_</span></h1><p>Public repositories from rhnvrm and Oddship. Some Oddship projects are shared work.</p></header>
+<form class="project-filters" role="search" onsubmit="return false" hidden>
+<label>Find a project<input id="project-query" type="search" placeholder="Name, description, topic…"></label>
+<label>Language<select id="project-language"><option value="">All languages</option>{% for language, repos in github.projects | group_by(attribute="language") %}<option>{{ language }}</option>{% endfor %}</select></label>
+<label>Status<select id="project-status"><option value="">All projects</option><option value="maintained">Not archived</option><option value="archived">Archived</option></select></label>
+<label>Owner<select id="project-owner"><option value="">All owners</option><option>rhnvrm</option><option>oddship</option></select></label>
+</form><p id="project-count" class="sync" aria-live="polite">{{ github.projects | length }} projects · ordered by last push</p>
+<div class="directory">{% for repo in github.projects %}<article class="project-row" data-project data-language="{{ repo.language }}" data-owner="{{ repo.owner }}" data-status="{% if repo.archived %}archived{% else %}maintained{% endif %}"><div><p class="owner">{{ repo.owner }}{% if repo.archived %} · archived{% endif %}</p><h2><a href="{{ repo.url }}">{{ repo.name }}</a></h2><p>{{ repo.description }}</p><p class="topics">{{ repo.topics | join(sep=" · ") }}</p></div><div class="project-meta"><span>{{ repo.language }} · {{ repo.stars }} stars</span><span>Last push {{ repo.pushed_at | date(format="%d %b %Y") }}</span>{% if repo.homepage %}<a href="{{ repo.homepage }}">Website ↗</a>{% endif %}</div></article>{% endfor %}</div><p id="project-empty" hidden>No projects match those filters.</p></div>
+{% endblock content %}

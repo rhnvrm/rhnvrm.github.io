@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block head_extra %}<link rel="stylesheet" href="{{ get_url(path='css/workbench.css') }}">{% endblock head_extra %}
+{% block content %}
+{% set github = load_data(path="data/github.json") %}
+<div class="workbench">
+<header class="intro">
+<p class="eyebrow">R H N V R M &nbsp; / &nbsp; OPEN SOURCE</p>
+<h1>Rohan Verma<span class="cursor" aria-hidden="true">_</span></h1>
+<p class="intro-copy">Software engineer at <a href="https://zerodha.tech">Zerodha</a>.<br>Systems, infrastructure, and tools I wanted to exist.</p>
+<p class="elsewhere"><a href="https://rohanverma.net">Writing &amp; personal website ↗</a><a href="https://oddship.net">Oddship ↗</a><a href="https://github.com/rhnvrm">GitHub ↗</a><a href="mailto:hello@rohanverma.net">Email ↗</a></p>
+<p class="sync">Updated {{ github.updated_at | date(format="%d %b %Y, %H:%M", timezone="Asia/Kolkata") }} IST · public activity · refreshed daily</p>
+</header>
+<section aria-labelledby="working-title">
+<div class="section-heading"><h2 id="working-title">/* Working on */</h2><a href="/activity/">Full work log →</a></div>
+<div class="project-grid">
+{% for repo in github.working_on %}<article class="project-card"><p class="owner">{{ repo.owner }}</p><h3><a href="{{ repo.url }}">{{ repo.name }}</a></h3><p>{{ repo.description }}</p><p class="latest"><span>{{ repo.latest.at | date(format="%d %b") }} · {{ repo.latest.kind }}</span><a href="{{ repo.latest.url }}">{{ repo.latest.title }}</a></p><p class="project-meta">{{ repo.language }} · {{ repo.stars }} stars</p></article>{% else %}<p>Recent contributions will appear here after the next update. Explore the selected projects below.</p>{% endfor %}
+</div>
+</section>
+<section aria-labelledby="selected-title">
+<div class="section-heading"><h2 id="selected-title">/* Selected projects */</h2><a href="/projects/">All {{ github.projects | length }} projects →</a></div>
+<div class="project-grid">{% for repo in github.featured %}<article class="project-card"><p class="owner">{{ repo.owner }}</p><h3><a href="{{ repo.url }}">{{ repo.name }}</a></h3><p>{{ repo.description }}</p><p class="project-meta">{{ repo.language }} · {{ repo.stars }} stars{% if repo.homepage %} · <a href="{{ repo.homepage }}">Website ↗</a>{% endif %}</p></article>{% endfor %}</div>
+</section>
+<section aria-labelledby="log-title"><div class="section-heading"><h2 id="log-title">/* Recent activity */</h2><a href="/activity/">Archive →</a></div>
+{% for day in github.days | slice(end=3) %}<div class="log-day"><h3><a href="/activity/{{ day.date }}/">{{ day.date | date(format="%d %b %Y") }}</a></h3><ul>{% for item in day.items | slice(end=6) %}<li><span class="activity-repo">{{ item.repo }}</span><span class="activity-kind">{{ item.kind }}</span><a href="{{ item.url }}">{{ item.title }}</a></li>{% endfor %}</ul>{% if day.items | length > 6 %}<a href="/activity/{{ day.date }}/">All {{ day.items | length }} updates →</a>{% endif %}</div>{% else %}<p>No recent public activity collected yet.</p>{% endfor %}
+</section>
+</div>
+{% endblock content %}
+{% block footer %}<p>Built with <a href="https://github.com/oddship/doordarshan-zola">Doordarshan</a> &amp; Zola · <a href="https://github.com/rhnvrm/rhnvrm.github.io">Source</a> · <a href="/activity/rss.xml">Activity RSS</a> · <a href="https://rohanverma.net">rohanverma.net ↗</a></p>{% endblock footer %}
