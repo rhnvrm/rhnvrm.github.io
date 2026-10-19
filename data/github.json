@@ -2,6 +2,8 @@
   "updated_at": "2026-10-19T12:30:00+00:00",
   "projects": [
     {
+      "private": false,
+      "visibility": "public",
       "name": "stock-market-circulars",
       "full_name": "rhnvrm/stock-market-circulars",
       "url": "https://github.com/rhnvrm/stock-market-circulars",
@@ -15,6 +17,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "jali-studio",
       "full_name": "rhnvrm/jali-studio",
       "url": "https://github.com/rhnvrm/jali-studio",
@@ -28,6 +32,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "logchef-nix",
       "full_name": "oddship/logchef-nix",
       "url": "https://github.com/oddship/logchef-nix",
@@ -41,6 +47,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "reading-list",
       "full_name": "oddship/reading-list",
       "url": "https://github.com/oddship/reading-list",
@@ -54,6 +62,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "nix-system",
       "full_name": "oddship/nix-system",
       "url": "https://github.com/oddship/nix-system",
@@ -67,6 +77,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "nixos-update-manager",
       "full_name": "oddship/nixos-update-manager",
       "url": "https://github.com/oddship/nixos-update-manager",
@@ -87,6 +99,8 @@
       ]
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "px0-nix-flake",
       "full_name": "oddship/px0-nix-flake",
       "url": "https://github.com/oddship/px0-nix-flake",
@@ -100,6 +114,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "doot",
       "full_name": "oddship/doot",
       "url": "https://github.com/oddship/doot",
@@ -113,6 +129,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "forge",
       "full_name": "oddship/forge",
       "url": "https://github.com/oddship/forge",
@@ -126,6 +144,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "oddship.net",
       "full_name": "oddship/oddship.net",
       "url": "https://github.com/oddship/oddship.net",
@@ -139,6 +159,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "s3site",
       "full_name": "rhnvrm/s3site",
       "url": "https://github.com/rhnvrm/s3site",
@@ -152,6 +174,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "fidget-toys-android",
       "full_name": "oddship/fidget-toys-android",
       "url": "https://github.com/oddship/fidget-toys-android",
@@ -165,6 +189,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "wg-tui",
       "full_name": "oddship/wg-tui",
       "url": "https://github.com/oddship/wg-tui",
@@ -182,6 +208,8 @@
       ]
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "alpha-centauri",
       "full_name": "rhnvrm/alpha-centauri",
       "url": "https://github.com/rhnvrm/alpha-centauri",
@@ -195,6 +223,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "doordarshan-zola",
       "full_name": "oddship/doordarshan-zola",
       "url": "https://github.com/oddship/doordarshan-zola",
@@ -208,6 +238,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "oatbase",
       "full_name": "oddship/oatbase",
       "url": "https://github.com/oddship/oatbase",
@@ -221,6 +253,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "esgun",
       "full_name": "oddship/esgun",
       "url": "https://github.com/oddship/esgun",
@@ -234,6 +268,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "moat",
       "full_name": "oddship/moat",
       "url": "https://github.com/oddship/moat",
@@ -247,6 +283,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "stargazers-action",
       "full_name": "oddship/stargazers-action",
       "url": "https://github.com/oddship/stargazers-action",
@@ -260,6 +298,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "linkpage",
       "full_name": "rhnvrm/linkpage",
       "url": "https://github.com/rhnvrm/linkpage",
@@ -273,6 +313,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "sketch-is-more",
       "full_name": "rhnvrm/sketch-is-more",
       "url": "https://github.com/rhnvrm/sketch-is-more",
@@ -286,6 +328,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "mattermost-cli",
       "full_name": "rhnvrm/mattermost-cli",
       "url": "https://github.com/rhnvrm/mattermost-cli",
@@ -299,6 +343,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "bodhi",
       "full_name": "rhnvrm/bodhi",
       "url": "https://github.com/rhnvrm/bodhi",
@@ -312,6 +358,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "simples3",
       "full_name": "rhnvrm/simples3",
       "url": "https://github.com/rhnvrm/simples3",
@@ -330,6 +378,8 @@
       ]
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "bosun",
       "full_name": "oddship/bosun",
       "url": "https://github.com/oddship/bosun",
@@ -343,6 +393,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "pi-bash-readonly",
       "full_name": "rhnvrm/pi-bash-readonly",
       "url": "https://github.com/rhnvrm/pi-bash-readonly",
@@ -356,6 +408,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "kiteconnect.zig",
       "full_name": "rhnvrm/kiteconnect.zig",
       "url": "https://github.com/rhnvrm/kiteconnect.zig",
@@ -369,6 +423,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "pi-mesh",
       "full_name": "rhnvrm/pi-mesh",
       "url": "https://github.com/rhnvrm/pi-mesh",
@@ -382,6 +438,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "quartermaster",
       "full_name": "oddship/quartermaster",
       "url": "https://github.com/oddship/quartermaster",
@@ -395,6 +453,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "czero",
       "full_name": "rhnvrm/czero",
       "url": "https://github.com/rhnvrm/czero",
@@ -408,6 +468,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "lzo1z",
       "full_name": "rhnvrm/lzo1z",
       "url": "https://github.com/rhnvrm/lzo1z",
@@ -421,6 +483,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "hq",
       "full_name": "rhnvrm/hq",
       "url": "https://github.com/rhnvrm/hq",
@@ -434,6 +498,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "listmonk-mcp",
       "full_name": "rhnvrm/listmonk-mcp",
       "url": "https://github.com/rhnvrm/listmonk-mcp",
@@ -447,6 +513,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "catprinter",
       "full_name": "rhnvrm/catprinter",
       "url": "https://github.com/rhnvrm/catprinter",
@@ -460,6 +528,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "duh-extension",
       "full_name": "rhnvrm/duh-extension",
       "url": "https://github.com/rhnvrm/duh-extension",
@@ -473,6 +543,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "nvim-claudecode-mcp",
       "full_name": "rhnvrm/nvim-claudecode-mcp",
       "url": "https://github.com/rhnvrm/nvim-claudecode-mcp",
@@ -486,6 +558,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "yt2embed",
       "full_name": "rhnvrm/yt2embed",
       "url": "https://github.com/rhnvrm/yt2embed",
@@ -499,6 +573,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "zed-flexoki-theme",
       "full_name": "oddship/zed-flexoki-theme",
       "url": "https://github.com/oddship/zed-flexoki-theme",
@@ -515,6 +591,8 @@
       ]
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "test-submodule-versioning",
       "full_name": "rhnvrm/test-submodule-versioning",
       "url": "https://github.com/rhnvrm/test-submodule-versioning",
@@ -528,6 +606,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "coffee.run",
       "full_name": "rhnvrm/coffee.run",
       "url": "https://github.com/rhnvrm/coffee.run",
@@ -541,6 +621,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "summio",
       "full_name": "rhnvrm/summio",
       "url": "https://github.com/rhnvrm/summio",
@@ -554,6 +636,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "koanf-test-version-retract",
       "full_name": "rhnvrm/koanf-test-version-retract",
       "url": "https://github.com/rhnvrm/koanf-test-version-retract",
@@ -567,6 +651,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "ConstAssemblyBot",
       "full_name": "rhnvrm/ConstAssemblyBot",
       "url": "https://github.com/rhnvrm/ConstAssemblyBot",
@@ -586,6 +672,8 @@
       ]
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "docmonk",
       "full_name": "rhnvrm/docmonk",
       "url": "https://github.com/rhnvrm/docmonk",
@@ -599,6 +687,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "google-chatgpt-bot",
       "full_name": "rhnvrm/google-chatgpt-bot",
       "url": "https://github.com/rhnvrm/google-chatgpt-bot",
@@ -612,6 +702,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "frozen-lobster",
       "full_name": "rhnvrm/frozen-lobster",
       "url": "https://github.com/rhnvrm/frozen-lobster",
@@ -625,6 +717,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "lyric-api-go",
       "full_name": "rhnvrm/lyric-api-go",
       "url": "https://github.com/rhnvrm/lyric-api-go",
@@ -643,6 +737,8 @@
       ]
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "NuDrop",
       "full_name": "rhnvrm/NuDrop",
       "url": "https://github.com/rhnvrm/NuDrop",
@@ -656,6 +752,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "azure-design-architects",
       "full_name": "rhnvrm/azure-design-architects",
       "url": "https://github.com/rhnvrm/azure-design-architects",
@@ -669,6 +767,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "varsity-twitter-bot",
       "full_name": "rhnvrm/varsity-twitter-bot",
       "url": "https://github.com/rhnvrm/varsity-twitter-bot",
@@ -682,6 +782,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "dotfiles",
       "full_name": "rhnvrm/dotfiles",
       "url": "https://github.com/rhnvrm/dotfiles",
@@ -695,6 +797,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "tg-taskwarrior-bot",
       "full_name": "rhnvrm/tg-taskwarrior-bot",
       "url": "https://github.com/rhnvrm/tg-taskwarrior-bot",
@@ -708,6 +812,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "simplelock",
       "full_name": "rhnvrm/simplelock",
       "url": "https://github.com/rhnvrm/simplelock",
@@ -725,6 +831,8 @@
       ]
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "glmate",
       "full_name": "rhnvrm/glmate",
       "url": "https://github.com/rhnvrm/glmate",
@@ -738,6 +846,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "htn",
       "full_name": "rhnvrm/htn",
       "url": "https://github.com/rhnvrm/htn",
@@ -751,6 +861,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "sms_data_clustering",
       "full_name": "rhnvrm/sms_data_clustering",
       "url": "https://github.com/rhnvrm/sms_data_clustering",
@@ -764,6 +876,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "bhav-browser",
       "full_name": "rhnvrm/bhav-browser",
       "url": "https://github.com/rhnvrm/bhav-browser",
@@ -777,6 +891,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "nats-publish-py",
       "full_name": "rhnvrm/nats-publish-py",
       "url": "https://github.com/rhnvrm/nats-publish-py",
@@ -793,6 +909,8 @@
       ]
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "mini-projects",
       "full_name": "rhnvrm/mini-projects",
       "url": "https://github.com/rhnvrm/mini-projects",
@@ -806,6 +924,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "chefrank",
       "full_name": "rhnvrm/chefrank",
       "url": "https://github.com/rhnvrm/chefrank",
@@ -819,6 +939,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "textsimilarity",
       "full_name": "rhnvrm/textsimilarity",
       "url": "https://github.com/rhnvrm/textsimilarity",
@@ -841,6 +963,8 @@
       ]
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "lyric-api",
       "full_name": "rhnvrm/lyric-api",
       "url": "https://github.com/rhnvrm/lyric-api",
@@ -854,6 +978,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "resume",
       "full_name": "rhnvrm/resume",
       "url": "https://github.com/rhnvrm/resume",
@@ -870,6 +996,8 @@
       ]
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "galaxy-image-classifier-tensorflow",
       "full_name": "rhnvrm/galaxy-image-classifier-tensorflow",
       "url": "https://github.com/rhnvrm/galaxy-image-classifier-tensorflow",
@@ -887,6 +1015,8 @@
       ]
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "iot-hackerearth",
       "full_name": "rhnvrm/iot-hackerearth",
       "url": "https://github.com/rhnvrm/iot-hackerearth",
@@ -900,6 +1030,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "snu-data-limit",
       "full_name": "rhnvrm/snu-data-limit",
       "url": "https://github.com/rhnvrm/snu-data-limit",
@@ -913,6 +1045,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "machine-learning-nanodegree",
       "full_name": "rhnvrm/machine-learning-nanodegree",
       "url": "https://github.com/rhnvrm/machine-learning-nanodegree",
@@ -930,6 +1064,8 @@
       ]
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "compete",
       "full_name": "rhnvrm/compete",
       "url": "https://github.com/rhnvrm/compete",
@@ -943,6 +1079,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "labeled-tweet-generator",
       "full_name": "rhnvrm/labeled-tweet-generator",
       "url": "https://github.com/rhnvrm/labeled-tweet-generator",
@@ -962,6 +1100,8 @@
       ]
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "algo",
       "full_name": "rhnvrm/algo",
       "url": "https://github.com/rhnvrm/algo",
@@ -975,6 +1115,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "universe-coaster-racer-challenge",
       "full_name": "rhnvrm/universe-coaster-racer-challenge",
       "url": "https://github.com/rhnvrm/universe-coaster-racer-challenge",
@@ -988,6 +1130,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "networks",
       "full_name": "rhnvrm/networks",
       "url": "https://github.com/rhnvrm/networks",
@@ -1001,6 +1145,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "meetup",
       "full_name": "rhnvrm/meetup",
       "url": "https://github.com/rhnvrm/meetup",
@@ -1014,6 +1160,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "breeze-website-mac-concept",
       "full_name": "rhnvrm/breeze-website-mac-concept",
       "url": "https://github.com/rhnvrm/breeze-website-mac-concept",
@@ -1027,6 +1175,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "os-course",
       "full_name": "rhnvrm/os-course",
       "url": "https://github.com/rhnvrm/os-course",
@@ -1040,6 +1190,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "temporal-phrases",
       "full_name": "rhnvrm/temporal-phrases",
       "url": "https://github.com/rhnvrm/temporal-phrases",
@@ -1053,6 +1205,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "allura-website",
       "full_name": "rhnvrm/allura-website",
       "url": "https://github.com/rhnvrm/allura-website",
@@ -1066,6 +1220,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "workshop-tools",
       "full_name": "rhnvrm/workshop-tools",
       "url": "https://github.com/rhnvrm/workshop-tools",
@@ -1079,6 +1235,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "breeze-website",
       "full_name": "rhnvrm/breeze-website",
       "url": "https://github.com/rhnvrm/breeze-website",
@@ -1092,6 +1250,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "allura-install",
       "full_name": "rhnvrm/allura-install",
       "url": "https://github.com/rhnvrm/allura-install",
@@ -1105,6 +1265,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "codechef-api-bouncer",
       "full_name": "rhnvrm/codechef-api-bouncer",
       "url": "https://github.com/rhnvrm/codechef-api-bouncer",
@@ -1118,6 +1280,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "rhnvrm.github.io.backup",
       "full_name": "rhnvrm/rhnvrm.github.io.backup",
       "url": "https://github.com/rhnvrm/rhnvrm.github.io.backup",
@@ -1131,6 +1295,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "data-structures",
       "full_name": "rhnvrm/data-structures",
       "url": "https://github.com/rhnvrm/data-structures",
@@ -1144,6 +1310,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "back2work",
       "full_name": "rhnvrm/back2work",
       "url": "https://github.com/rhnvrm/back2work",
@@ -1157,6 +1325,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "intro-to-git",
       "full_name": "rhnvrm/intro-to-git",
       "url": "https://github.com/rhnvrm/intro-to-git",
@@ -1170,6 +1340,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "swdel-lost-and-found-twitter-bot",
       "full_name": "rhnvrm/swdel-lost-and-found-twitter-bot",
       "url": "https://github.com/rhnvrm/swdel-lost-and-found-twitter-bot",
@@ -1183,6 +1355,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "breeze-photo-booth",
       "full_name": "rhnvrm/breeze-photo-booth",
       "url": "https://github.com/rhnvrm/breeze-photo-booth",
@@ -1196,6 +1370,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "java_learn",
       "full_name": "rhnvrm/java_learn",
       "url": "https://github.com/rhnvrm/java_learn",
@@ -1209,6 +1385,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "Baato",
       "full_name": "rhnvrm/Baato",
       "url": "https://github.com/rhnvrm/Baato",
@@ -1222,6 +1400,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "SubScribe",
       "full_name": "rhnvrm/SubScribe",
       "url": "https://github.com/rhnvrm/SubScribe",
@@ -1235,6 +1415,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "brick_game",
       "full_name": "rhnvrm/brick_game",
       "url": "https://github.com/rhnvrm/brick_game",
@@ -1248,6 +1430,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "youtube-local",
       "full_name": "rhnvrm/youtube-local",
       "url": "https://github.com/rhnvrm/youtube-local",
@@ -1261,6 +1445,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "30s_challenge",
       "full_name": "rhnvrm/30s_challenge",
       "url": "https://github.com/rhnvrm/30s_challenge",
@@ -1274,6 +1460,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "bbc-school-report-apeejay-pitampura",
       "full_name": "rhnvrm/bbc-school-report-apeejay-pitampura",
       "url": "https://github.com/rhnvrm/bbc-school-report-apeejay-pitampura",
@@ -1287,6 +1475,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "forer-effect-demo",
       "full_name": "rhnvrm/forer-effect-demo",
       "url": "https://github.com/rhnvrm/forer-effect-demo",
@@ -1300,6 +1490,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "merapaisa",
       "full_name": "rhnvrm/merapaisa",
       "url": "https://github.com/rhnvrm/merapaisa",
@@ -1533,6 +1725,8 @@
   ],
   "featured": [
     {
+      "private": false,
+      "visibility": "public",
       "name": "nixos-update-manager",
       "full_name": "oddship/nixos-update-manager",
       "url": "https://github.com/oddship/nixos-update-manager",
@@ -1553,6 +1747,8 @@
       ]
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "fidget-toys-android",
       "full_name": "oddship/fidget-toys-android",
       "url": "https://github.com/oddship/fidget-toys-android",
@@ -1566,6 +1762,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "simples3",
       "full_name": "rhnvrm/simples3",
       "url": "https://github.com/rhnvrm/simples3",
@@ -1584,6 +1782,8 @@
       ]
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "moat",
       "full_name": "oddship/moat",
       "url": "https://github.com/oddship/moat",
@@ -1597,6 +1797,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "pi-mesh",
       "full_name": "rhnvrm/pi-mesh",
       "url": "https://github.com/rhnvrm/pi-mesh",
@@ -1610,6 +1812,8 @@
       "topics": []
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "s3site",
       "full_name": "rhnvrm/s3site",
       "url": "https://github.com/rhnvrm/s3site",
@@ -1873,6 +2077,8 @@
   ],
   "working_on": [
     {
+      "private": false,
+      "visibility": "public",
       "name": "jali-studio",
       "full_name": "rhnvrm/jali-studio",
       "url": "https://github.com/rhnvrm/jali-studio",
@@ -1894,6 +2100,8 @@
       }
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "nix-system",
       "full_name": "oddship/nix-system",
       "url": "https://github.com/oddship/nix-system",
@@ -1915,6 +2123,8 @@
       }
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "nixos-update-manager",
       "full_name": "oddship/nixos-update-manager",
       "url": "https://github.com/oddship/nixos-update-manager",
@@ -1943,6 +2153,8 @@
       }
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "logchef-nix",
       "full_name": "oddship/logchef-nix",
       "url": "https://github.com/oddship/logchef-nix",
@@ -1964,6 +2176,8 @@
       }
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "doot",
       "full_name": "oddship/doot",
       "url": "https://github.com/oddship/doot",
@@ -1985,6 +2199,8 @@
       }
     },
     {
+      "private": false,
+      "visibility": "public",
       "name": "forge",
       "full_name": "oddship/forge",
       "url": "https://github.com/oddship/forge",
@@ -2005,5 +2221,105 @@
         "at": "2026-10-05T09:57:42Z"
       }
     }
+  ],
+  "public_repositories": [
+    "oddship/bosun",
+    "oddship/doordarshan-zola",
+    "oddship/doot",
+    "oddship/esgun",
+    "oddship/fidget-toys-android",
+    "oddship/forge",
+    "oddship/logchef-nix",
+    "oddship/moat",
+    "oddship/nix-system",
+    "oddship/nixos-update-manager",
+    "oddship/oatbase",
+    "oddship/oddship.net",
+    "oddship/px0-nix-flake",
+    "oddship/quartermaster",
+    "oddship/reading-list",
+    "oddship/stargazers-action",
+    "oddship/wg-tui",
+    "oddship/zed-flexoki-theme",
+    "rhnvrm/30s_challenge",
+    "rhnvrm/Baato",
+    "rhnvrm/ConstAssemblyBot",
+    "rhnvrm/NuDrop",
+    "rhnvrm/SubScribe",
+    "rhnvrm/algo",
+    "rhnvrm/allura-install",
+    "rhnvrm/allura-website",
+    "rhnvrm/alpha-centauri",
+    "rhnvrm/azure-design-architects",
+    "rhnvrm/back2work",
+    "rhnvrm/bbc-school-report-apeejay-pitampura",
+    "rhnvrm/bhav-browser",
+    "rhnvrm/bodhi",
+    "rhnvrm/breeze-photo-booth",
+    "rhnvrm/breeze-website",
+    "rhnvrm/breeze-website-mac-concept",
+    "rhnvrm/brick_game",
+    "rhnvrm/catprinter",
+    "rhnvrm/chefrank",
+    "rhnvrm/codechef-api-bouncer",
+    "rhnvrm/coffee.run",
+    "rhnvrm/compete",
+    "rhnvrm/czero",
+    "rhnvrm/data-structures",
+    "rhnvrm/docmonk",
+    "rhnvrm/dotfiles",
+    "rhnvrm/duh-extension",
+    "rhnvrm/forer-effect-demo",
+    "rhnvrm/frozen-lobster",
+    "rhnvrm/galaxy-image-classifier-tensorflow",
+    "rhnvrm/glmate",
+    "rhnvrm/google-chatgpt-bot",
+    "rhnvrm/hq",
+    "rhnvrm/htn",
+    "rhnvrm/intro-to-git",
+    "rhnvrm/iot-hackerearth",
+    "rhnvrm/jali-studio",
+    "rhnvrm/java_learn",
+    "rhnvrm/kiteconnect.zig",
+    "rhnvrm/koanf-test-version-retract",
+    "rhnvrm/labeled-tweet-generator",
+    "rhnvrm/linkpage",
+    "rhnvrm/listmonk-mcp",
+    "rhnvrm/lyric-api",
+    "rhnvrm/lyric-api-go",
+    "rhnvrm/lzo1z",
+    "rhnvrm/machine-learning-nanodegree",
+    "rhnvrm/mattermost-cli",
+    "rhnvrm/meetup",
+    "rhnvrm/merapaisa",
+    "rhnvrm/mini-projects",
+    "rhnvrm/nats-publish-py",
+    "rhnvrm/networks",
+    "rhnvrm/nvim-claudecode-mcp",
+    "rhnvrm/os-course",
+    "rhnvrm/pi-bash-readonly",
+    "rhnvrm/pi-mesh",
+    "rhnvrm/resume",
+    "rhnvrm/rhnvrm",
+    "rhnvrm/rhnvrm.github.io.backup",
+    "rhnvrm/rohanverma.net",
+    "rhnvrm/s3site",
+    "rhnvrm/simplelock",
+    "rhnvrm/simples3",
+    "rhnvrm/sketch-is-more",
+    "rhnvrm/sms_data_clustering",
+    "rhnvrm/snu-data-limit",
+    "rhnvrm/stock-market-circulars",
+    "rhnvrm/summio",
+    "rhnvrm/swdel-lost-and-found-twitter-bot",
+    "rhnvrm/temporal-phrases",
+    "rhnvrm/test-submodule-versioning",
+    "rhnvrm/textsimilarity",
+    "rhnvrm/tg-taskwarrior-bot",
+    "rhnvrm/universe-coaster-racer-challenge",
+    "rhnvrm/varsity-twitter-bot",
+    "rhnvrm/workshop-tools",
+    "rhnvrm/youtube-local",
+    "rhnvrm/yt2embed"
   ]
 }

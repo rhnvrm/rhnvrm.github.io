@@ -29,6 +29,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/collect.py
+      - name: Live public collection smoke test
+        if: github.event_name == 'push' && github.ref != 'refs/heads/master'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/collect.py
       - name: Render saved data
         if: github.ref != 'refs/heads/master' || github.event_name == 'pull_request'
         run: python scripts/collect.py --offline

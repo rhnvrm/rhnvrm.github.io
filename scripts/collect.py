@@ -55,14 +55,16 @@ def pages(path):
 
 
 def public_repo(repo):
-    return not repo.get('private', True) and repo.get('visibility', 'public') == 'public'
+    return repo.get('private') is False and repo.get('visibility') == 'public'
 
 
 def project(repo):
     homepage = repo.get('homepage') or ''
     if urlparse(homepage).scheme not in ('http', 'https'):
         homepage = ''
-    return dict(name=repo['name'], full_name=repo['full_name'], url=repo['html_url'],
+    if not public_repo(repo):
+        raise ValueError('Refusing to render a repository without explicit public visibility')
+    return dict(private=False, visibility='public', name=repo['name'], full_name=repo['full_name'], url=repo['html_url'],
                 description=repo.get('description') or 'Source code and project notes on GitHub.',
                 language=repo.get('language') or 'Other', stars=repo.get('stargazers_count', 0),
                 archived=repo['archived'], pushed_at=repo['pushed_at'], homepage=homepage,
@@ -143,6 +145,7 @@ def collect(settings, previous):
             confirmed_public.add(name)
     activity = {key:value for key,value in activity.items() if value['repo'] in confirmed_public}
     return dict(updated_at=datetime.now(timezone.utc).isoformat(timespec='seconds'),
+                public_repositories=sorted(confirmed_public),
                 projects=[project(r) for r in repos if r['full_name'] not in settings['exclude']],
                 activity=sorted(activity.values(), key=lambda a:a['at'], reverse=True))
 
@@ -152,6 +155,9 @@ def md(text):
 
 
 def render(snapshot, settings):
+    snapshot['projects'] = [p for p in snapshot['projects'] if public_repo(p)]
+    confirmed = set(snapshot.get('public_repositories', []))
+    snapshot['activity'] = [a for a in snapshot['activity'] if a['repo'] in confirmed]
     snapshot['projects'].sort(key=lambda r:r['pushed_at'], reverse=True)
     projects = {r['full_name']:r for r in snapshot['projects']}
     snapshot['featured'] = [projects[n] for n in settings['featured'] if n in projects]

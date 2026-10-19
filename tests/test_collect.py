@@ -1,6 +1,9 @@
 import importlib.util
 from pathlib import Path
 import unittest
+import tempfile
+import json
+from unittest.mock import patch
 
 spec = importlib.util.spec_from_file_location('collect', Path(__file__).parents[1] / 'scripts/collect.py')
 c = importlib.util.module_from_spec(spec)
@@ -17,6 +20,24 @@ class CollectionTests(unittest.TestCase):
         self.assertIsNone(c.normalize_event(self.event(public=False), 'rhnvrm'))
         self.assertIsNone(c.normalize_event(self.event(actor={'login':'other'}), 'rhnvrm'))
         self.assertFalse(c.public_repo({'private':True}))
+        self.assertFalse(c.public_repo({'private':False}))
+        self.assertFalse(c.public_repo({'visibility':'public'}))
+
+    def test_private_metadata_cannot_reach_any_rendered_output(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            (root / 'data').mkdir()
+            (root / 'static').mkdir()
+            snapshot = dict(updated_at='2026-10-19T00:00:00Z', public_repositories=[],
+                            projects=[dict(private=True, visibility='private', full_name='example/secret-project')],
+                            activity=[dict(id='1',repo='example/secret-project',at='2026-10-19T00:00:00Z',kind='Commit',title='confidential-title',url='https://example.invalid')])
+            with patch.object(c, 'ROOT', root):
+                c.render(snapshot, {'featured':[], 'exclude':[]})
+            for path in root.rglob('*'):
+                if path.is_file():
+                    self.assertNotIn('secret-project', path.read_text())
+                    self.assertNotIn('confidential-title', path.read_text())
+            self.assertEqual(json.loads((root / 'data/github.json').read_text())['activity'], [])
 
     def test_merged_pr_is_not_closed_pr(self):
         event = self.event(type='PullRequestEvent', payload={'action':'closed','pull_request':{'merged':True,'title':'Ship it','html_url':'https://github.com/a/b/pull/1'}})
