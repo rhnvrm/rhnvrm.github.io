@@ -1,0 +1,6 @@
+{
+  "user": "rhnvrm",
+  "owners": ["rhnvrm", "oddship"],
+  "exclude": ["rhnvrm/rhnvrm", "rhnvrm/rhnvrm.github.io", "rhnvrm/rohanverma.net"],
+  "featured": ["oddship/nixos-update-manager", "oddship/fidget-toys-android", "rhnvrm/simples3", "oddship/moat", "rhnvrm/pi-mesh", "rhnvrm/s3site"]
+}

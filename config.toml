@@ -1,0 +1,36 @@
+base_url = "https://rhnvrm.github.io"
+title = "Rohan Verma · GitHub"
+description = "Open source projects and a public work log by Rohan Verma."
+author = "Rohan Verma"
+theme = "doordarshan"
+compile_sass = true
+minify_html = true
+generate_feeds = true
+feed_filenames = ["rss.xml"]
+build_search_index = false
+
+[extra.doordarshan.features]
+site_search = false
+pages_search = false
+
+[extra.doordarshan.identity]
+nav_brand = "~/rhnvrm/github"
+homepage_title = "Rohan Verma"
+github_url = "https://github.com/rhnvrm/rhnvrm.github.io"
+favicon = "/images/favicon.ico"
+
+[extra.doordarshan.analytics]
+enabled = false
+
+[extra.doordarshan.scripts]
+additional = ["js/projects.js"]
+
+[[extra.doordarshan.nav.menu]]
+name = "Projects"
+url = "/projects/"
+[[extra.doordarshan.nav.menu]]
+name = "Work log"
+url = "/activity/"
+[[extra.doordarshan.nav.menu]]
+name = "Website ↗"
+url = "https://rohanverma.net"

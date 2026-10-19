@@ -1,9 +1,5 @@
-# project
-_site
-.sass-cache
-.vagrant
-
-# general
+/public/
+/.cache/
+__pycache__/
+*.pyc
 .DS_Store
-Thumbs.db
-ehthumbs.db
