@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T20:26:16+00:00",
+  "updated_at": "2026-10-20T05:59:42+00:00",
   "public_repositories": [
     "oddship/bosun",
     "oddship/doordarshan-zola",
@@ -104,6 +104,21 @@
     {
       "private": false,
       "visibility": "public",
+      "name": "reading-list",
+      "full_name": "oddship/reading-list",
+      "url": "https://github.com/oddship/reading-list",
+      "description": "Source code and project notes on GitHub.",
+      "language": "HTML",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-10-20T03:50:28Z",
+      "homepage": "https://reading-list.oddship.net",
+      "owner": "oddship",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
       "name": "oatbase",
       "full_name": "oddship/oatbase",
       "url": "https://github.com/oddship/oatbase",
@@ -111,8 +126,38 @@
       "language": "JavaScript",
       "stars": 1,
       "archived": false,
-      "pushed_at": "2026-10-19T15:30:21Z",
+      "pushed_at": "2026-10-20T01:27:07Z",
       "homepage": "https://oddship.github.io/oatbase/",
+      "owner": "oddship",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "stock-market-circulars",
+      "full_name": "rhnvrm/stock-market-circulars",
+      "url": "https://github.com/rhnvrm/stock-market-circulars",
+      "description": "Automated processing and publishing of regulatory circulars from NSE, BSE, and SEBI with AI-powered summaries",
+      "language": "Python",
+      "stars": 11,
+      "archived": false,
+      "pushed_at": "2026-10-20T00:14:06Z",
+      "homepage": "https://exchangecirculars.com/",
+      "owner": "rhnvrm",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "oddship.net",
+      "full_name": "oddship/oddship.net",
+      "url": "https://github.com/oddship/oddship.net",
+      "description": "oddship.net website",
+      "language": "HTML",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-10-19T20:33:23Z",
+      "homepage": "https://oddship.net",
       "owner": "oddship",
       "topics": []
     },
@@ -141,36 +186,6 @@
     {
       "private": false,
       "visibility": "public",
-      "name": "oddship.net",
-      "full_name": "oddship/oddship.net",
-      "url": "https://github.com/oddship/oddship.net",
-      "description": "oddship.net website",
-      "language": "JavaScript",
-      "stars": 0,
-      "archived": false,
-      "pushed_at": "2026-10-19T12:44:40Z",
-      "homepage": "https://oddship.net",
-      "owner": "oddship",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "stock-market-circulars",
-      "full_name": "rhnvrm/stock-market-circulars",
-      "url": "https://github.com/rhnvrm/stock-market-circulars",
-      "description": "Automated processing and publishing of regulatory circulars from NSE, BSE, and SEBI with AI-powered summaries",
-      "language": "Python",
-      "stars": 11,
-      "archived": false,
-      "pushed_at": "2026-10-19T12:25:46Z",
-      "homepage": "https://exchangecirculars.com/",
-      "owner": "rhnvrm",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
       "name": "jali-studio",
       "full_name": "rhnvrm/jali-studio",
       "url": "https://github.com/rhnvrm/jali-studio",
@@ -195,21 +210,6 @@
       "archived": false,
       "pushed_at": "2026-10-19T10:52:49Z",
       "homepage": "https://oddship.github.io/logchef-nix/",
-      "owner": "oddship",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "reading-list",
-      "full_name": "oddship/reading-list",
-      "url": "https://github.com/oddship/reading-list",
-      "description": "Source code and project notes on GitHub.",
-      "language": "HTML",
-      "stars": 0,
-      "archived": false,
-      "pushed_at": "2026-10-19T05:33:17Z",
-      "homepage": "https://reading-list.oddship.net",
       "owner": "oddship",
       "topics": []
     },
@@ -1607,6 +1607,38 @@
   ],
   "activity": [
     {
+      "id": "commit:oddship/oatbase:2f894bee0c2c43327e3007b3d1c9fed27b51653b",
+      "repo": "oddship/oatbase",
+      "kind": "Commit",
+      "title": "Merge pull request #8 from oddship/feat/ai-elements",
+      "url": "https://github.com/oddship/oatbase/commit/2f894bee0c2c43327e3007b3d1c9fed27b51653b",
+      "at": "2026-10-19T20:36:53Z"
+    },
+    {
+      "id": "commit:oddship/oddship.net:a0875b49af7c8a75d1756bbbe2257539b9c05b2c",
+      "repo": "oddship/oddship.net",
+      "kind": "Commit",
+      "title": "Merge pull request #3 from oddship/revamp/doordarshan-projects",
+      "url": "https://github.com/oddship/oddship.net/commit/a0875b49af7c8a75d1756bbbe2257539b9c05b2c",
+      "at": "2026-10-19T20:33:22Z"
+    },
+    {
+      "id": "commit:oddship/oddship.net:3183bd7b292ce252b866b3f10f00716ac3ada7a5",
+      "repo": "oddship/oddship.net",
+      "kind": "Commit",
+      "title": "feat(site): showcase projects with Doordarshan and Zola",
+      "url": "https://github.com/oddship/oddship.net/commit/3183bd7b292ce252b866b3f10f00716ac3ada7a5",
+      "at": "2026-10-19T20:31:51Z"
+    },
+    {
+      "id": "commit:oddship/oatbase:145723104acc27a690959ecad41f2d59bc8ef04c",
+      "repo": "oddship/oatbase",
+      "kind": "Commit",
+      "title": "feat(ai-elements): add native agent interface primitives and recipes",
+      "url": "https://github.com/oddship/oatbase/commit/145723104acc27a690959ecad41f2d59bc8ef04c",
+      "at": "2026-10-19T15:30:06Z"
+    },
+    {
       "id": "commit:rhnvrm/jali-studio:dc89c0d418d3b582cdea65e4afe37f252460f009",
       "repo": "rhnvrm/jali-studio",
       "kind": "Commit",
@@ -1929,8 +1961,45 @@
   ],
   "days": [
     {
+      "date": "2026-10-20",
+      "items": [
+        {
+          "id": "commit:oddship/oatbase:2f894bee0c2c43327e3007b3d1c9fed27b51653b",
+          "repo": "oddship/oatbase",
+          "kind": "Commit",
+          "title": "Merge pull request #8 from oddship/feat/ai-elements",
+          "url": "https://github.com/oddship/oatbase/commit/2f894bee0c2c43327e3007b3d1c9fed27b51653b",
+          "at": "2026-10-19T20:36:53Z"
+        },
+        {
+          "id": "commit:oddship/oddship.net:a0875b49af7c8a75d1756bbbe2257539b9c05b2c",
+          "repo": "oddship/oddship.net",
+          "kind": "Commit",
+          "title": "Merge pull request #3 from oddship/revamp/doordarshan-projects",
+          "url": "https://github.com/oddship/oddship.net/commit/a0875b49af7c8a75d1756bbbe2257539b9c05b2c",
+          "at": "2026-10-19T20:33:22Z"
+        },
+        {
+          "id": "commit:oddship/oddship.net:3183bd7b292ce252b866b3f10f00716ac3ada7a5",
+          "repo": "oddship/oddship.net",
+          "kind": "Commit",
+          "title": "feat(site): showcase projects with Doordarshan and Zola",
+          "url": "https://github.com/oddship/oddship.net/commit/3183bd7b292ce252b866b3f10f00716ac3ada7a5",
+          "at": "2026-10-19T20:31:51Z"
+        }
+      ]
+    },
+    {
       "date": "2026-10-19",
       "items": [
+        {
+          "id": "commit:oddship/oatbase:145723104acc27a690959ecad41f2d59bc8ef04c",
+          "repo": "oddship/oatbase",
+          "kind": "Commit",
+          "title": "feat(ai-elements): add native agent interface primitives and recipes",
+          "url": "https://github.com/oddship/oatbase/commit/145723104acc27a690959ecad41f2d59bc8ef04c",
+          "at": "2026-10-19T15:30:06Z"
+        },
         {
           "id": "commit:rhnvrm/jali-studio:dc89c0d418d3b582cdea65e4afe37f252460f009",
           "repo": "rhnvrm/jali-studio",
@@ -2179,6 +2248,52 @@
     {
       "private": false,
       "visibility": "public",
+      "name": "oatbase",
+      "full_name": "oddship/oatbase",
+      "url": "https://github.com/oddship/oatbase",
+      "description": "Advanced, semantic components for Oat UI",
+      "language": "JavaScript",
+      "stars": 1,
+      "archived": false,
+      "pushed_at": "2026-10-20T01:27:07Z",
+      "homepage": "https://oddship.github.io/oatbase/",
+      "owner": "oddship",
+      "topics": [],
+      "latest": {
+        "id": "commit:oddship/oatbase:2f894bee0c2c43327e3007b3d1c9fed27b51653b",
+        "repo": "oddship/oatbase",
+        "kind": "Commit",
+        "title": "Merge pull request #8 from oddship/feat/ai-elements",
+        "url": "https://github.com/oddship/oatbase/commit/2f894bee0c2c43327e3007b3d1c9fed27b51653b",
+        "at": "2026-10-19T20:36:53Z"
+      }
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "oddship.net",
+      "full_name": "oddship/oddship.net",
+      "url": "https://github.com/oddship/oddship.net",
+      "description": "oddship.net website",
+      "language": "HTML",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-10-19T20:33:23Z",
+      "homepage": "https://oddship.net",
+      "owner": "oddship",
+      "topics": [],
+      "latest": {
+        "id": "commit:oddship/oddship.net:a0875b49af7c8a75d1756bbbe2257539b9c05b2c",
+        "repo": "oddship/oddship.net",
+        "kind": "Commit",
+        "title": "Merge pull request #3 from oddship/revamp/doordarshan-projects",
+        "url": "https://github.com/oddship/oddship.net/commit/a0875b49af7c8a75d1756bbbe2257539b9c05b2c",
+        "at": "2026-10-19T20:33:22Z"
+      }
+    },
+    {
+      "private": false,
+      "visibility": "public",
       "name": "jali-studio",
       "full_name": "rhnvrm/jali-studio",
       "url": "https://github.com/rhnvrm/jali-studio",
@@ -2273,52 +2388,6 @@
         "title": "Merge pull request #5 from oddship/automation/logchef-2.2.0",
         "url": "https://github.com/oddship/logchef-nix/commit/fbf5366ff7b2f92535632bd45283b7ffdb3db438",
         "at": "2026-10-07T09:30:47Z"
-      }
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "doot",
-      "full_name": "oddship/doot",
-      "url": "https://github.com/oddship/doot",
-      "description": "A trusted, local-first emissary for your inbox",
-      "language": "TypeScript",
-      "stars": 1,
-      "archived": false,
-      "pushed_at": "2026-10-14T19:53:26Z",
-      "homepage": "https://oddship.github.io/doot/",
-      "owner": "oddship",
-      "topics": [],
-      "latest": {
-        "id": "commit:oddship/doot:8a7f0305dcde2e5bd103400a7b259ddf0adb4562",
-        "repo": "oddship/doot",
-        "kind": "Commit",
-        "title": "feat(agent): migrate to Pi Durable and support multi-action flows",
-        "url": "https://github.com/oddship/doot/commit/8a7f0305dcde2e5bd103400a7b259ddf0adb4562",
-        "at": "2026-10-06T07:25:12Z"
-      }
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "forge",
-      "full_name": "oddship/forge",
-      "url": "https://github.com/oddship/forge",
-      "description": "Open-source Nix and OpenTofu infrastructure for operating Forge on Hetzner.",
-      "language": "Nix",
-      "stars": 0,
-      "archived": false,
-      "pushed_at": "2026-10-05T10:11:50Z",
-      "homepage": "",
-      "owner": "oddship",
-      "topics": [],
-      "latest": {
-        "id": "commit:oddship/forge:eea2584e7836cce0743c42c6e838c7c8cce23d8f",
-        "repo": "oddship/forge",
-        "kind": "Commit",
-        "title": "fix(infra): reject all zero-prefix operator networks",
-        "url": "https://github.com/oddship/forge/commit/eea2584e7836cce0743c42c6e838c7c8cce23d8f",
-        "at": "2026-10-05T09:57:42Z"
       }
     }
   ]
