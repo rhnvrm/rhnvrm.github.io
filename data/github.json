@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T05:59:42+00:00",
+  "updated_at": "2026-10-21T06:01:18+00:00",
   "public_repositories": [
     "oddship/bosun",
     "oddship/doordarshan-zola",
@@ -104,6 +104,36 @@
     {
       "private": false,
       "visibility": "public",
+      "name": "doot",
+      "full_name": "oddship/doot",
+      "url": "https://github.com/oddship/doot",
+      "description": "A trusted, local-first emissary for your inbox",
+      "language": "TypeScript",
+      "stars": 1,
+      "archived": false,
+      "pushed_at": "2026-10-21T04:55:19Z",
+      "homepage": "https://oddship.github.io/doot/",
+      "owner": "oddship",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "stock-market-circulars",
+      "full_name": "rhnvrm/stock-market-circulars",
+      "url": "https://github.com/rhnvrm/stock-market-circulars",
+      "description": "Automated processing and publishing of regulatory circulars from NSE, BSE, and SEBI with AI-powered summaries",
+      "language": "Python",
+      "stars": 11,
+      "archived": false,
+      "pushed_at": "2026-10-21T03:28:39Z",
+      "homepage": "https://exchangecirculars.com/",
+      "owner": "rhnvrm",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
       "name": "reading-list",
       "full_name": "oddship/reading-list",
       "url": "https://github.com/oddship/reading-list",
@@ -111,7 +141,7 @@
       "language": "HTML",
       "stars": 0,
       "archived": false,
-      "pushed_at": "2026-10-20T03:50:28Z",
+      "pushed_at": "2026-10-20T18:27:18Z",
       "homepage": "https://reading-list.oddship.net",
       "owner": "oddship",
       "topics": []
@@ -126,7 +156,7 @@
       "language": "JavaScript",
       "stars": 1,
       "archived": false,
-      "pushed_at": "2026-10-20T01:27:07Z",
+      "pushed_at": "2026-10-20T16:52:44Z",
       "homepage": "https://oddship.github.io/oatbase/",
       "owner": "oddship",
       "topics": []
@@ -134,16 +164,31 @@
     {
       "private": false,
       "visibility": "public",
-      "name": "stock-market-circulars",
-      "full_name": "rhnvrm/stock-market-circulars",
-      "url": "https://github.com/rhnvrm/stock-market-circulars",
-      "description": "Automated processing and publishing of regulatory circulars from NSE, BSE, and SEBI with AI-powered summaries",
-      "language": "Python",
-      "stars": 11,
+      "name": "px0-nix-flake",
+      "full_name": "oddship/px0-nix-flake",
+      "url": "https://github.com/oddship/px0-nix-flake",
+      "description": "Source-built px0 Nix flake with validated daily upstream release updates",
+      "language": "Nix",
+      "stars": 1,
       "archived": false,
-      "pushed_at": "2026-10-20T00:14:06Z",
-      "homepage": "https://exchangecirculars.com/",
-      "owner": "rhnvrm",
+      "pushed_at": "2026-10-20T12:44:54Z",
+      "homepage": "",
+      "owner": "oddship",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "logchef-nix",
+      "full_name": "oddship/logchef-nix",
+      "url": "https://github.com/oddship/logchef-nix",
+      "description": "Native Nix package and NixOS module for Logchef",
+      "language": "Nix",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-10-20T10:11:19Z",
+      "homepage": "https://oddship.github.io/logchef-nix/",
+      "owner": "oddship",
       "topics": []
     },
     {
@@ -201,21 +246,6 @@
     {
       "private": false,
       "visibility": "public",
-      "name": "logchef-nix",
-      "full_name": "oddship/logchef-nix",
-      "url": "https://github.com/oddship/logchef-nix",
-      "description": "Native Nix package and NixOS module for Logchef",
-      "language": "Nix",
-      "stars": 0,
-      "archived": false,
-      "pushed_at": "2026-10-19T10:52:49Z",
-      "homepage": "https://oddship.github.io/logchef-nix/",
-      "owner": "oddship",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
       "name": "nix-system",
       "full_name": "oddship/nix-system",
       "url": "https://github.com/oddship/nix-system",
@@ -225,36 +255,6 @@
       "archived": false,
       "pushed_at": "2026-10-18T13:10:12Z",
       "homepage": "",
-      "owner": "oddship",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "px0-nix-flake",
-      "full_name": "oddship/px0-nix-flake",
-      "url": "https://github.com/oddship/px0-nix-flake",
-      "description": "Source-built px0 Nix flake with validated daily upstream release updates",
-      "language": "Nix",
-      "stars": 1,
-      "archived": false,
-      "pushed_at": "2026-10-18T09:43:24Z",
-      "homepage": "",
-      "owner": "oddship",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "doot",
-      "full_name": "oddship/doot",
-      "url": "https://github.com/oddship/doot",
-      "description": "A trusted, local-first emissary for your inbox",
-      "language": "TypeScript",
-      "stars": 1,
-      "archived": false,
-      "pushed_at": "2026-10-14T19:53:26Z",
-      "homepage": "https://oddship.github.io/doot/",
       "owner": "oddship",
       "topics": []
     },
@@ -1607,6 +1607,150 @@
   ],
   "activity": [
     {
+      "id": "commit:oddship/oatbase:6e667cfea93c276d05637d2aec6eda349f75fa13",
+      "repo": "oddship/oatbase",
+      "kind": "Commit",
+      "title": "Merge pull request #11 from oddship/fix/docs-demo-tab-visibility",
+      "url": "https://github.com/oddship/oatbase/commit/6e667cfea93c276d05637d2aec6eda349f75fa13",
+      "at": "2026-10-20T16:52:44Z"
+    },
+    {
+      "id": "commit:oddship/oatbase:4579682ed8dd8996cc08f8fdc6f185f3b7b23cfc",
+      "repo": "oddship/oatbase",
+      "kind": "Commit",
+      "title": "fix(docs): hide previews when displaying example code",
+      "url": "https://github.com/oddship/oatbase/commit/4579682ed8dd8996cc08f8fdc6f185f3b7b23cfc",
+      "at": "2026-10-20T16:42:57Z"
+    },
+    {
+      "id": "commit:oddship/oatbase:1f42f6a7be4818de5f398450f7298343126a7354",
+      "repo": "oddship/oatbase",
+      "kind": "Commit",
+      "title": "Merge pull request #10 from oddship/chore/upgrade-oat-1.0.0",
+      "url": "https://github.com/oddship/oatbase/commit/1f42f6a7be4818de5f398450f7298343126a7354",
+      "at": "2026-10-20T16:36:05Z"
+    },
+    {
+      "id": "commit:oddship/oatbase:f32ff354cbf78dc99a4a2c7b5cfd8854d6b5b7a6",
+      "repo": "oddship/oatbase",
+      "kind": "Commit",
+      "title": "fix(tooltip): dismiss retained popovers after focus and hover target loss",
+      "url": "https://github.com/oddship/oatbase/commit/f32ff354cbf78dc99a4a2c7b5cfd8854d6b5b7a6",
+      "at": "2026-10-20T16:14:24Z"
+    },
+    {
+      "id": "commit:oddship/oatbase:7a971fffa2ae9a1f725c0b8852983baa3f241cdf",
+      "repo": "oddship/oatbase",
+      "kind": "Commit",
+      "title": "test: audit settled palette colors across browser engines",
+      "url": "https://github.com/oddship/oatbase/commit/7a971fffa2ae9a1f725c0b8852983baa3f241cdf",
+      "at": "2026-10-20T13:32:12Z"
+    },
+    {
+      "id": "commit:oddship/oatbase:9bdd4792dc15efe82d685c7b3cec2f1c4a01e44a",
+      "repo": "oddship/oatbase",
+      "kind": "Commit",
+      "title": "fix(tooltip): keep hovered content visible without restarting its delay",
+      "url": "https://github.com/oddship/oatbase/commit/9bdd4792dc15efe82d685c7b3cec2f1c4a01e44a",
+      "at": "2026-10-20T13:28:19Z"
+    },
+    {
+      "id": "commit:oddship/oatbase:1ffc6eddfc4f716c15663cf1d8e046c1adc787b3",
+      "repo": "oddship/oatbase",
+      "kind": "Commit",
+      "title": "test: refresh remaining visual baselines with CI fonts",
+      "url": "https://github.com/oddship/oatbase/commit/1ffc6eddfc4f716c15663cf1d8e046c1adc787b3",
+      "at": "2026-10-20T13:25:13Z"
+    },
+    {
+      "id": "commit:oddship/oatbase:ca0bd7499e80ce6280ab268b0d90af7720e5c4a1",
+      "repo": "oddship/oatbase",
+      "kind": "Commit",
+      "title": "fix(tooltips): preserve Oat popovers and application mouse events",
+      "url": "https://github.com/oddship/oatbase/commit/ca0bd7499e80ce6280ab268b0d90af7720e5c4a1",
+      "at": "2026-10-20T13:24:21Z"
+    },
+    {
+      "id": "commit:oddship/oatbase:14aa4da2b12710f4d734f502e9b88995ca789851",
+      "repo": "oddship/oatbase",
+      "kind": "Commit",
+      "title": "test: align light visual baseline with CI font rendering",
+      "url": "https://github.com/oddship/oatbase/commit/14aa4da2b12710f4d734f502e9b88995ca789851",
+      "at": "2026-10-20T13:15:47Z"
+    },
+    {
+      "id": "commit:oddship/oatbase:f0abf4f466dfc43dea23670142f6eea85bb13bd8",
+      "repo": "oddship/oatbase",
+      "kind": "Commit",
+      "title": "test: stabilize palette audits and retain browser failure artifacts",
+      "url": "https://github.com/oddship/oatbase/commit/f0abf4f466dfc43dea23670142f6eea85bb13bd8",
+      "at": "2026-10-20T13:09:16Z"
+    },
+    {
+      "id": "commit:oddship/px0-nix-flake:a6aff604593a644c4d9dabab62840213fc34e5d0",
+      "repo": "oddship/px0-nix-flake",
+      "kind": "Commit",
+      "title": "Merge pull request #2 from oddship/fix/upstream-bundler-patch",
+      "url": "https://github.com/oddship/px0-nix-flake/commit/a6aff604593a644c4d9dabab62840213fc34e5d0",
+      "at": "2026-10-20T12:42:44Z"
+    },
+    {
+      "id": "commit:oddship/oatbase:6111458692c87e659002c978770555db9ff3eaf4",
+      "repo": "oddship/oatbase",
+      "kind": "Commit",
+      "title": "chore(deps): upgrade Oat to 1.0.0",
+      "url": "https://github.com/oddship/oatbase/commit/6111458692c87e659002c978770555db9ff3eaf4",
+      "at": "2026-10-20T12:19:40Z"
+    },
+    {
+      "id": "commit:oddship/px0-nix-flake:1ab2886b5a38f98d56316d1497f9c3ff627f3c62",
+      "repo": "oddship/px0-nix-flake",
+      "kind": "Commit",
+      "title": "fix: retire the bundler patch after the upstream fix",
+      "url": "https://github.com/oddship/px0-nix-flake/commit/1ab2886b5a38f98d56316d1497f9c3ff627f3c62",
+      "at": "2026-10-20T12:11:57Z"
+    },
+    {
+      "id": "commit:oddship/px0-nix-flake:bfa282f8193db1d149926f94c03ca7c1e8d1e667",
+      "repo": "oddship/px0-nix-flake",
+      "kind": "Commit",
+      "title": "Merge pull request #1 from oddship/fix/node-multiline-imports",
+      "url": "https://github.com/oddship/px0-nix-flake/commit/bfa282f8193db1d149926f94c03ca7c1e8d1e667",
+      "at": "2026-10-20T11:59:12Z"
+    },
+    {
+      "id": "commit:oddship/oatbase:e88cdfedc89c9b359f4dd832bababb2a9c7bc6cf",
+      "repo": "oddship/oatbase",
+      "kind": "Commit",
+      "title": "Merge pull request #9 from oddship/feat/shadcn-components",
+      "url": "https://github.com/oddship/oatbase/commit/e88cdfedc89c9b359f4dd832bababb2a9c7bc6cf",
+      "at": "2026-10-20T11:58:12Z"
+    },
+    {
+      "id": "commit:oddship/px0-nix-flake:af352d24371d400fdf70501645ada94da06a60d5",
+      "repo": "oddship/px0-nix-flake",
+      "kind": "Commit",
+      "title": "fix: handle multiline imports in the Node frontend bundler",
+      "url": "https://github.com/oddship/px0-nix-flake/commit/af352d24371d400fdf70501645ada94da06a60d5",
+      "at": "2026-10-20T11:55:48Z"
+    },
+    {
+      "id": "commit:oddship/oatbase:8aeaca4b6a4f7667db7fe57c6435e87e57fb57b6",
+      "repo": "oddship/oatbase",
+      "kind": "Commit",
+      "title": "feat(components): add remaining shadcn patterns and coverage mappings",
+      "url": "https://github.com/oddship/oatbase/commit/8aeaca4b6a4f7667db7fe57c6435e87e57fb57b6",
+      "at": "2026-10-20T01:26:52Z"
+    },
+    {
+      "id": "commit:oddship/oatbase:ebf1967215e49a1c8db22b3c46d63205a9b5b665",
+      "repo": "oddship/oatbase",
+      "kind": "Commit",
+      "title": "fix(trace): preserve error text contrast across themes",
+      "url": "https://github.com/oddship/oatbase/commit/ebf1967215e49a1c8db22b3c46d63205a9b5b665",
+      "at": "2026-10-19T20:51:10Z"
+    },
+    {
       "id": "commit:oddship/oatbase:2f894bee0c2c43327e3007b3d1c9fed27b51653b",
       "repo": "oddship/oatbase",
       "kind": "Commit",
@@ -1964,6 +2108,150 @@
       "date": "2026-10-20",
       "items": [
         {
+          "id": "commit:oddship/oatbase:6e667cfea93c276d05637d2aec6eda349f75fa13",
+          "repo": "oddship/oatbase",
+          "kind": "Commit",
+          "title": "Merge pull request #11 from oddship/fix/docs-demo-tab-visibility",
+          "url": "https://github.com/oddship/oatbase/commit/6e667cfea93c276d05637d2aec6eda349f75fa13",
+          "at": "2026-10-20T16:52:44Z"
+        },
+        {
+          "id": "commit:oddship/oatbase:4579682ed8dd8996cc08f8fdc6f185f3b7b23cfc",
+          "repo": "oddship/oatbase",
+          "kind": "Commit",
+          "title": "fix(docs): hide previews when displaying example code",
+          "url": "https://github.com/oddship/oatbase/commit/4579682ed8dd8996cc08f8fdc6f185f3b7b23cfc",
+          "at": "2026-10-20T16:42:57Z"
+        },
+        {
+          "id": "commit:oddship/oatbase:1f42f6a7be4818de5f398450f7298343126a7354",
+          "repo": "oddship/oatbase",
+          "kind": "Commit",
+          "title": "Merge pull request #10 from oddship/chore/upgrade-oat-1.0.0",
+          "url": "https://github.com/oddship/oatbase/commit/1f42f6a7be4818de5f398450f7298343126a7354",
+          "at": "2026-10-20T16:36:05Z"
+        },
+        {
+          "id": "commit:oddship/oatbase:f32ff354cbf78dc99a4a2c7b5cfd8854d6b5b7a6",
+          "repo": "oddship/oatbase",
+          "kind": "Commit",
+          "title": "fix(tooltip): dismiss retained popovers after focus and hover target loss",
+          "url": "https://github.com/oddship/oatbase/commit/f32ff354cbf78dc99a4a2c7b5cfd8854d6b5b7a6",
+          "at": "2026-10-20T16:14:24Z"
+        },
+        {
+          "id": "commit:oddship/oatbase:7a971fffa2ae9a1f725c0b8852983baa3f241cdf",
+          "repo": "oddship/oatbase",
+          "kind": "Commit",
+          "title": "test: audit settled palette colors across browser engines",
+          "url": "https://github.com/oddship/oatbase/commit/7a971fffa2ae9a1f725c0b8852983baa3f241cdf",
+          "at": "2026-10-20T13:32:12Z"
+        },
+        {
+          "id": "commit:oddship/oatbase:9bdd4792dc15efe82d685c7b3cec2f1c4a01e44a",
+          "repo": "oddship/oatbase",
+          "kind": "Commit",
+          "title": "fix(tooltip): keep hovered content visible without restarting its delay",
+          "url": "https://github.com/oddship/oatbase/commit/9bdd4792dc15efe82d685c7b3cec2f1c4a01e44a",
+          "at": "2026-10-20T13:28:19Z"
+        },
+        {
+          "id": "commit:oddship/oatbase:1ffc6eddfc4f716c15663cf1d8e046c1adc787b3",
+          "repo": "oddship/oatbase",
+          "kind": "Commit",
+          "title": "test: refresh remaining visual baselines with CI fonts",
+          "url": "https://github.com/oddship/oatbase/commit/1ffc6eddfc4f716c15663cf1d8e046c1adc787b3",
+          "at": "2026-10-20T13:25:13Z"
+        },
+        {
+          "id": "commit:oddship/oatbase:ca0bd7499e80ce6280ab268b0d90af7720e5c4a1",
+          "repo": "oddship/oatbase",
+          "kind": "Commit",
+          "title": "fix(tooltips): preserve Oat popovers and application mouse events",
+          "url": "https://github.com/oddship/oatbase/commit/ca0bd7499e80ce6280ab268b0d90af7720e5c4a1",
+          "at": "2026-10-20T13:24:21Z"
+        },
+        {
+          "id": "commit:oddship/oatbase:14aa4da2b12710f4d734f502e9b88995ca789851",
+          "repo": "oddship/oatbase",
+          "kind": "Commit",
+          "title": "test: align light visual baseline with CI font rendering",
+          "url": "https://github.com/oddship/oatbase/commit/14aa4da2b12710f4d734f502e9b88995ca789851",
+          "at": "2026-10-20T13:15:47Z"
+        },
+        {
+          "id": "commit:oddship/oatbase:f0abf4f466dfc43dea23670142f6eea85bb13bd8",
+          "repo": "oddship/oatbase",
+          "kind": "Commit",
+          "title": "test: stabilize palette audits and retain browser failure artifacts",
+          "url": "https://github.com/oddship/oatbase/commit/f0abf4f466dfc43dea23670142f6eea85bb13bd8",
+          "at": "2026-10-20T13:09:16Z"
+        },
+        {
+          "id": "commit:oddship/px0-nix-flake:a6aff604593a644c4d9dabab62840213fc34e5d0",
+          "repo": "oddship/px0-nix-flake",
+          "kind": "Commit",
+          "title": "Merge pull request #2 from oddship/fix/upstream-bundler-patch",
+          "url": "https://github.com/oddship/px0-nix-flake/commit/a6aff604593a644c4d9dabab62840213fc34e5d0",
+          "at": "2026-10-20T12:42:44Z"
+        },
+        {
+          "id": "commit:oddship/oatbase:6111458692c87e659002c978770555db9ff3eaf4",
+          "repo": "oddship/oatbase",
+          "kind": "Commit",
+          "title": "chore(deps): upgrade Oat to 1.0.0",
+          "url": "https://github.com/oddship/oatbase/commit/6111458692c87e659002c978770555db9ff3eaf4",
+          "at": "2026-10-20T12:19:40Z"
+        },
+        {
+          "id": "commit:oddship/px0-nix-flake:1ab2886b5a38f98d56316d1497f9c3ff627f3c62",
+          "repo": "oddship/px0-nix-flake",
+          "kind": "Commit",
+          "title": "fix: retire the bundler patch after the upstream fix",
+          "url": "https://github.com/oddship/px0-nix-flake/commit/1ab2886b5a38f98d56316d1497f9c3ff627f3c62",
+          "at": "2026-10-20T12:11:57Z"
+        },
+        {
+          "id": "commit:oddship/px0-nix-flake:bfa282f8193db1d149926f94c03ca7c1e8d1e667",
+          "repo": "oddship/px0-nix-flake",
+          "kind": "Commit",
+          "title": "Merge pull request #1 from oddship/fix/node-multiline-imports",
+          "url": "https://github.com/oddship/px0-nix-flake/commit/bfa282f8193db1d149926f94c03ca7c1e8d1e667",
+          "at": "2026-10-20T11:59:12Z"
+        },
+        {
+          "id": "commit:oddship/oatbase:e88cdfedc89c9b359f4dd832bababb2a9c7bc6cf",
+          "repo": "oddship/oatbase",
+          "kind": "Commit",
+          "title": "Merge pull request #9 from oddship/feat/shadcn-components",
+          "url": "https://github.com/oddship/oatbase/commit/e88cdfedc89c9b359f4dd832bababb2a9c7bc6cf",
+          "at": "2026-10-20T11:58:12Z"
+        },
+        {
+          "id": "commit:oddship/px0-nix-flake:af352d24371d400fdf70501645ada94da06a60d5",
+          "repo": "oddship/px0-nix-flake",
+          "kind": "Commit",
+          "title": "fix: handle multiline imports in the Node frontend bundler",
+          "url": "https://github.com/oddship/px0-nix-flake/commit/af352d24371d400fdf70501645ada94da06a60d5",
+          "at": "2026-10-20T11:55:48Z"
+        },
+        {
+          "id": "commit:oddship/oatbase:8aeaca4b6a4f7667db7fe57c6435e87e57fb57b6",
+          "repo": "oddship/oatbase",
+          "kind": "Commit",
+          "title": "feat(components): add remaining shadcn patterns and coverage mappings",
+          "url": "https://github.com/oddship/oatbase/commit/8aeaca4b6a4f7667db7fe57c6435e87e57fb57b6",
+          "at": "2026-10-20T01:26:52Z"
+        },
+        {
+          "id": "commit:oddship/oatbase:ebf1967215e49a1c8db22b3c46d63205a9b5b665",
+          "repo": "oddship/oatbase",
+          "kind": "Commit",
+          "title": "fix(trace): preserve error text contrast across themes",
+          "url": "https://github.com/oddship/oatbase/commit/ebf1967215e49a1c8db22b3c46d63205a9b5b665",
+          "at": "2026-10-19T20:51:10Z"
+        },
+        {
           "id": "commit:oddship/oatbase:2f894bee0c2c43327e3007b3d1c9fed27b51653b",
           "repo": "oddship/oatbase",
           "kind": "Commit",
@@ -2255,17 +2543,40 @@
       "language": "JavaScript",
       "stars": 1,
       "archived": false,
-      "pushed_at": "2026-10-20T01:27:07Z",
+      "pushed_at": "2026-10-20T16:52:44Z",
       "homepage": "https://oddship.github.io/oatbase/",
       "owner": "oddship",
       "topics": [],
       "latest": {
-        "id": "commit:oddship/oatbase:2f894bee0c2c43327e3007b3d1c9fed27b51653b",
+        "id": "commit:oddship/oatbase:6e667cfea93c276d05637d2aec6eda349f75fa13",
         "repo": "oddship/oatbase",
         "kind": "Commit",
-        "title": "Merge pull request #8 from oddship/feat/ai-elements",
-        "url": "https://github.com/oddship/oatbase/commit/2f894bee0c2c43327e3007b3d1c9fed27b51653b",
-        "at": "2026-10-19T20:36:53Z"
+        "title": "Merge pull request #11 from oddship/fix/docs-demo-tab-visibility",
+        "url": "https://github.com/oddship/oatbase/commit/6e667cfea93c276d05637d2aec6eda349f75fa13",
+        "at": "2026-10-20T16:52:44Z"
+      }
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "px0-nix-flake",
+      "full_name": "oddship/px0-nix-flake",
+      "url": "https://github.com/oddship/px0-nix-flake",
+      "description": "Source-built px0 Nix flake with validated daily upstream release updates",
+      "language": "Nix",
+      "stars": 1,
+      "archived": false,
+      "pushed_at": "2026-10-20T12:44:54Z",
+      "homepage": "",
+      "owner": "oddship",
+      "topics": [],
+      "latest": {
+        "id": "commit:oddship/px0-nix-flake:a6aff604593a644c4d9dabab62840213fc34e5d0",
+        "repo": "oddship/px0-nix-flake",
+        "kind": "Commit",
+        "title": "Merge pull request #2 from oddship/fix/upstream-bundler-patch",
+        "url": "https://github.com/oddship/px0-nix-flake/commit/a6aff604593a644c4d9dabab62840213fc34e5d0",
+        "at": "2026-10-20T12:42:44Z"
       }
     },
     {
@@ -2365,29 +2676,6 @@
         "title": "Merge pull request #3 from oddship/feat/failure-explanations",
         "url": "https://github.com/oddship/nixos-update-manager/commit/d299ad897cbd8a8cf5a52a0af57488859a176bdc",
         "at": "2026-10-18T10:34:36Z"
-      }
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "logchef-nix",
-      "full_name": "oddship/logchef-nix",
-      "url": "https://github.com/oddship/logchef-nix",
-      "description": "Native Nix package and NixOS module for Logchef",
-      "language": "Nix",
-      "stars": 0,
-      "archived": false,
-      "pushed_at": "2026-10-19T10:52:49Z",
-      "homepage": "https://oddship.github.io/logchef-nix/",
-      "owner": "oddship",
-      "topics": [],
-      "latest": {
-        "id": "commit:oddship/logchef-nix:fbf5366ff7b2f92535632bd45283b7ffdb3db438",
-        "repo": "oddship/logchef-nix",
-        "kind": "Commit",
-        "title": "Merge pull request #5 from oddship/automation/logchef-2.2.0",
-        "url": "https://github.com/oddship/logchef-nix/commit/fbf5366ff7b2f92535632bd45283b7ffdb3db438",
-        "at": "2026-10-07T09:30:47Z"
       }
     }
   ]
