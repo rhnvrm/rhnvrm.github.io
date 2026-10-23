@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T06:06:32+00:00",
+  "updated_at": "2026-10-23T06:01:46+00:00",
   "public_repositories": [
     "oddship/bosun",
     "oddship/doordarshan-zola",
@@ -47,6 +47,7 @@
     "rhnvrm/docmonk",
     "rhnvrm/dotfiles",
     "rhnvrm/duh-extension",
+    "rhnvrm/exchange-circulars",
     "rhnvrm/forer-effect-demo",
     "rhnvrm/frozen-lobster",
     "rhnvrm/galaxy-image-classifier-tensorflow",
@@ -99,23 +100,81 @@
     "rhnvrm/varsity-twitter-bot",
     "rhnvrm/workshop-tools",
     "rhnvrm/youtube-local",
-    "rhnvrm/yt2embed"
+    "rhnvrm/yt2embed",
+    "zerodha/kite-mcp-server"
   ],
   "projects": [
     {
       "private": false,
       "visibility": "public",
-      "name": "stock-market-circulars",
-      "full_name": "rhnvrm/stock-market-circulars",
-      "url": "https://github.com/rhnvrm/stock-market-circulars",
+      "name": "exchange-circulars",
+      "full_name": "rhnvrm/exchange-circulars",
+      "url": "https://github.com/rhnvrm/exchange-circulars",
       "description": "Automated processing and publishing of regulatory circulars from NSE, BSE, and SEBI with AI-powered summaries",
       "language": "Python",
       "stars": 11,
       "archived": false,
-      "pushed_at": "2026-10-22T06:06:11Z",
+      "pushed_at": "2026-10-23T03:36:58Z",
       "homepage": "https://exchangecirculars.com/",
       "owner": "rhnvrm",
       "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "simples3",
+      "full_name": "rhnvrm/simples3",
+      "url": "https://github.com/rhnvrm/simples3",
+      "description": "Simple no frills AWS S3 Golang Library using REST with V4 Signing (without AWS Go SDK)",
+      "language": "Go",
+      "stars": 208,
+      "archived": false,
+      "pushed_at": "2026-10-22T11:43:43Z",
+      "homepage": "",
+      "owner": "rhnvrm",
+      "topics": [
+        "aws",
+        "aws-s3",
+        "aws-signature-v4",
+        "golang"
+      ]
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "logchef-nix",
+      "full_name": "oddship/logchef-nix",
+      "url": "https://github.com/oddship/logchef-nix",
+      "description": "Native Nix package and NixOS module for Logchef",
+      "language": "Nix",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-10-22T10:18:26Z",
+      "homepage": "https://oddship.github.io/logchef-nix/",
+      "owner": "oddship",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "nixos-update-manager",
+      "full_name": "oddship/nixos-update-manager",
+      "url": "https://github.com/oddship/nixos-update-manager",
+      "description": "Native GNOME app for reviewing and applying updates to local NixOS flake repositories.",
+      "language": "Rust",
+      "stars": 2,
+      "archived": false,
+      "pushed_at": "2026-10-22T09:05:54Z",
+      "homepage": "",
+      "owner": "oddship",
+      "topics": [
+        "flakes",
+        "gnome",
+        "gtk4",
+        "nix",
+        "nixos",
+        "rust"
+      ]
     },
     {
       "private": false,
@@ -135,26 +194,6 @@
     {
       "private": false,
       "visibility": "public",
-      "name": "simples3",
-      "full_name": "rhnvrm/simples3",
-      "url": "https://github.com/rhnvrm/simples3",
-      "description": "Simple no frills AWS S3 Golang Library using REST with V4 Signing (without AWS Go SDK)",
-      "language": "Go",
-      "stars": 208,
-      "archived": false,
-      "pushed_at": "2026-10-22T05:34:13Z",
-      "homepage": "",
-      "owner": "rhnvrm",
-      "topics": [
-        "aws",
-        "aws-s3",
-        "aws-signature-v4",
-        "golang"
-      ]
-    },
-    {
-      "private": false,
-      "visibility": "public",
       "name": "reading-list",
       "full_name": "oddship/reading-list",
       "url": "https://github.com/oddship/reading-list",
@@ -164,21 +203,6 @@
       "archived": false,
       "pushed_at": "2026-10-21T15:22:31Z",
       "homepage": "https://reading-list.oddship.net",
-      "owner": "oddship",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "logchef-nix",
-      "full_name": "oddship/logchef-nix",
-      "url": "https://github.com/oddship/logchef-nix",
-      "description": "Native Nix package and NixOS module for Logchef",
-      "language": "Nix",
-      "stars": 0,
-      "archived": false,
-      "pushed_at": "2026-10-21T10:16:51Z",
-      "homepage": "https://oddship.github.io/logchef-nix/",
       "owner": "oddship",
       "topics": []
     },
@@ -196,28 +220,6 @@
       "homepage": "",
       "owner": "oddship",
       "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "nixos-update-manager",
-      "full_name": "oddship/nixos-update-manager",
-      "url": "https://github.com/oddship/nixos-update-manager",
-      "description": "Native GNOME app for reviewing and applying updates to local NixOS flake repositories.",
-      "language": "Rust",
-      "stars": 2,
-      "archived": false,
-      "pushed_at": "2026-10-21T07:03:59Z",
-      "homepage": "",
-      "owner": "oddship",
-      "topics": [
-        "flakes",
-        "gnome",
-        "gtk4",
-        "nix",
-        "nixos",
-        "rust"
-      ]
     },
     {
       "private": false,
@@ -1608,11 +1610,179 @@
   ],
   "activity": [
     {
+      "id": "event:17985153602",
+      "repo": "zerodha/kite-mcp-server",
+      "kind": "Published release",
+      "title": "v0.4.0-dev21",
+      "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev21",
+      "at": "2026-10-23T05:13:28Z"
+    },
+    {
+      "id": "event:17969679456",
+      "repo": "zerodha/kite-mcp-server",
+      "kind": "Published release",
+      "title": "v0.4.0-dev20",
+      "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev20",
+      "at": "2026-10-22T23:50:35Z"
+    },
+    {
+      "id": "event:17959619876",
+      "repo": "zerodha/kite-mcp-server",
+      "kind": "Published release",
+      "title": "v0.4.0-dev19",
+      "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev19",
+      "at": "2026-10-22T21:40:27Z"
+    },
+    {
+      "id": "event:17943041875",
+      "repo": "zerodha/kite-mcp-server",
+      "kind": "Published release",
+      "title": "v0.4.0-dev18",
+      "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev18",
+      "at": "2026-10-22T18:43:59Z"
+    },
+    {
+      "id": "event:17905894909",
+      "repo": "rhnvrm/exchange-circulars",
+      "kind": "Published release",
+      "title": "v0.1.0 — First release",
+      "url": "https://github.com/rhnvrm/exchange-circulars/releases/tag/v0.1.0",
+      "at": "2026-10-22T10:56:40Z"
+    },
+    {
+      "id": "commit:rhnvrm/exchange-circulars:ea055d65c5d56dd25964a34b5792e8790d787e56",
+      "repo": "rhnvrm/exchange-circulars",
+      "kind": "Commit",
+      "title": "fix: correct September settlement circular date",
+      "url": "https://github.com/rhnvrm/exchange-circulars/commit/ea055d65c5d56dd25964a34b5792e8790d787e56",
+      "at": "2026-10-22T10:55:12Z"
+    },
+    {
+      "id": "commit:rhnvrm/exchange-circulars:6fa831e9639095e48c590d214f9009736e1ca652",
+      "repo": "rhnvrm/exchange-circulars",
+      "kind": "Commit",
+      "title": "chore: add MIT license for software and documentation",
+      "url": "https://github.com/rhnvrm/exchange-circulars/commit/6fa831e9639095e48c590d214f9009736e1ca652",
+      "at": "2026-10-22T10:35:21Z"
+    },
+    {
+      "id": "commit:rhnvrm/exchange-circulars:dd334b41d682f977389ba72b2e1a4f82769b52b3",
+      "repo": "rhnvrm/exchange-circulars",
+      "kind": "Commit",
+      "title": "feat: rebrand as exchangecirculars.com and publish server images",
+      "url": "https://github.com/rhnvrm/exchange-circulars/commit/dd334b41d682f977389ba72b2e1a4f82769b52b3",
+      "at": "2026-10-22T10:26:12Z"
+    },
+    {
+      "id": "commit:rhnvrm/simples3:61b17f646a260e65e5c9117b6e14ea3e41f679e0",
+      "repo": "rhnvrm/simples3",
+      "kind": "Commit",
+      "title": "fix(ci): replace MinIO test fixture with SeaweedFS (#53)",
+      "url": "https://github.com/rhnvrm/simples3/commit/61b17f646a260e65e5c9117b6e14ea3e41f679e0",
+      "at": "2026-10-22T09:49:04Z"
+    },
+    {
+      "id": "commit:rhnvrm/exchange-circulars:7167be15e99cd6ca8d824a9c0d6a19bffaccb0c3",
+      "repo": "rhnvrm/exchange-circulars",
+      "kind": "Commit",
+      "title": "Merge pull request #12 from rhnvrm/feat-indiainx-parser",
+      "url": "https://github.com/rhnvrm/exchange-circulars/commit/7167be15e99cd6ca8d824a9c0d6a19bffaccb0c3",
+      "at": "2026-10-22T09:11:47Z"
+    },
+    {
+      "id": "commit:rhnvrm/exchange-circulars:0d7fb802d6e509398f45e6fdf359457c89972e48",
+      "repo": "rhnvrm/exchange-circulars",
+      "kind": "Commit",
+      "title": "fix: address India INX parser review findings",
+      "url": "https://github.com/rhnvrm/exchange-circulars/commit/0d7fb802d6e509398f45e6fdf359457c89972e48",
+      "at": "2026-10-22T09:08:10Z"
+    },
+    {
+      "id": "commit:rhnvrm/exchange-circulars:2cf55309c06489595549474fc010bbe468494b1a",
+      "repo": "rhnvrm/exchange-circulars",
+      "kind": "Commit",
+      "title": "feat: add India INX circular listing parser",
+      "url": "https://github.com/rhnvrm/exchange-circulars/commit/2cf55309c06489595549474fc010bbe468494b1a",
+      "at": "2026-10-22T09:07:54Z"
+    },
+    {
+      "id": "commit:rhnvrm/exchange-circulars:b73f6edd6c33dbf08b644bcda92ac49f544f7397",
+      "repo": "rhnvrm/exchange-circulars",
+      "kind": "Commit",
+      "title": "Merge pull request #11 from rhnvrm/feat-msei-parser",
+      "url": "https://github.com/rhnvrm/exchange-circulars/commit/b73f6edd6c33dbf08b644bcda92ac49f544f7397",
+      "at": "2026-10-22T08:59:29Z"
+    },
+    {
+      "id": "commit:rhnvrm/exchange-circulars:d077d0c30952caa9b3a31d5fb743e34e9fbb9f3e",
+      "repo": "rhnvrm/exchange-circulars",
+      "kind": "Commit",
+      "title": "fix: address MSEI parser review findings",
+      "url": "https://github.com/rhnvrm/exchange-circulars/commit/d077d0c30952caa9b3a31d5fb743e34e9fbb9f3e",
+      "at": "2026-10-22T07:54:25Z"
+    },
+    {
+      "id": "commit:rhnvrm/exchange-circulars:6e77c36d2d89d2380b4f6df999f6ac6284aff170",
+      "repo": "rhnvrm/exchange-circulars",
+      "kind": "Commit",
+      "title": "feat: add MSEI circular RSS parser",
+      "url": "https://github.com/rhnvrm/exchange-circulars/commit/6e77c36d2d89d2380b4f6df999f6ac6284aff170",
+      "at": "2026-10-22T07:54:10Z"
+    },
+    {
+      "id": "commit:rhnvrm/exchange-circulars:1c058ce7809632334c51f9fa961491106ebe4f24",
+      "repo": "rhnvrm/exchange-circulars",
+      "kind": "Commit",
+      "title": "Merge pull request #10 from rhnvrm/feat-rbi-parser",
+      "url": "https://github.com/rhnvrm/exchange-circulars/commit/1c058ce7809632334c51f9fa961491106ebe4f24",
+      "at": "2026-10-22T07:50:11Z"
+    },
+    {
+      "id": "commit:rhnvrm/exchange-circulars:52aa5474226e3742c5baf9c15d8425c591ec9b16",
+      "repo": "rhnvrm/exchange-circulars",
+      "kind": "Commit",
+      "title": "fix: address RBI parser review findings",
+      "url": "https://github.com/rhnvrm/exchange-circulars/commit/52aa5474226e3742c5baf9c15d8425c591ec9b16",
+      "at": "2026-10-22T06:06:49Z"
+    },
+    {
+      "id": "commit:rhnvrm/exchange-circulars:9b5618df8616a53a9fcc0c3da3ad7868f7b30fd0",
+      "repo": "rhnvrm/exchange-circulars",
+      "kind": "Commit",
+      "title": "fix: allow Gemini temporary attachments",
+      "url": "https://github.com/rhnvrm/exchange-circulars/commit/9b5618df8616a53a9fcc0c3da3ad7868f7b30fd0",
+      "at": "2026-10-22T06:06:33Z"
+    },
+    {
+      "id": "commit:rhnvrm/exchange-circulars:0b7adaf038a7d147bbff6fe1da2ac618e35fb2e4",
+      "repo": "rhnvrm/exchange-circulars",
+      "kind": "Commit",
+      "title": "fix: harden RBI feed processing",
+      "url": "https://github.com/rhnvrm/exchange-circulars/commit/0b7adaf038a7d147bbff6fe1da2ac618e35fb2e4",
+      "at": "2026-10-22T06:06:01Z"
+    },
+    {
+      "id": "commit:rhnvrm/exchange-circulars:3463c7222320cf9d3025f92f8b7fe20fb75727dd",
+      "repo": "rhnvrm/exchange-circulars",
+      "kind": "Commit",
+      "title": "feat: add RBI feed parser",
+      "url": "https://github.com/rhnvrm/exchange-circulars/commit/3463c7222320cf9d3025f92f8b7fe20fb75727dd",
+      "at": "2026-10-22T06:05:24Z"
+    },
+    {
       "id": "commit:rhnvrm/stock-market-circulars:f2ebfe95fe9dcb29e9140284dd23b4a3ca85b7b6",
       "repo": "rhnvrm/stock-market-circulars",
       "kind": "Commit",
       "title": "Merge pull request #13 from rhnvrm/fix/isolate-circular-source-jobs",
       "url": "https://github.com/rhnvrm/stock-market-circulars/commit/f2ebfe95fe9dcb29e9140284dd23b4a3ca85b7b6",
+      "at": "2026-10-22T05:56:25Z"
+    },
+    {
+      "id": "commit:rhnvrm/exchange-circulars:f2ebfe95fe9dcb29e9140284dd23b4a3ca85b7b6",
+      "repo": "rhnvrm/exchange-circulars",
+      "kind": "Commit",
+      "title": "Merge pull request #13 from rhnvrm/fix/isolate-circular-source-jobs",
+      "url": "https://github.com/rhnvrm/exchange-circulars/commit/f2ebfe95fe9dcb29e9140284dd23b4a3ca85b7b6",
       "at": "2026-10-22T05:56:25Z"
     },
     {
@@ -1624,11 +1794,27 @@
       "at": "2026-10-22T05:37:53Z"
     },
     {
+      "id": "commit:rhnvrm/exchange-circulars:24fcfed341abf923e511f304c880eec6be72e928",
+      "repo": "rhnvrm/exchange-circulars",
+      "kind": "Commit",
+      "title": "fix(ci): start queued source updates from latest master",
+      "url": "https://github.com/rhnvrm/exchange-circulars/commit/24fcfed341abf923e511f304c880eec6be72e928",
+      "at": "2026-10-22T05:37:53Z"
+    },
+    {
       "id": "commit:rhnvrm/stock-market-circulars:dee2a023acf36042e7bb03a32b9da966c421a1b1",
       "repo": "rhnvrm/stock-market-circulars",
       "kind": "Commit",
       "title": "fix(ci): isolate circular updates by source",
       "url": "https://github.com/rhnvrm/stock-market-circulars/commit/dee2a023acf36042e7bb03a32b9da966c421a1b1",
+      "at": "2026-10-22T05:21:04Z"
+    },
+    {
+      "id": "commit:rhnvrm/exchange-circulars:dee2a023acf36042e7bb03a32b9da966c421a1b1",
+      "repo": "rhnvrm/exchange-circulars",
+      "kind": "Commit",
+      "title": "fix(ci): isolate circular updates by source",
+      "url": "https://github.com/rhnvrm/exchange-circulars/commit/dee2a023acf36042e7bb03a32b9da966c421a1b1",
       "at": "2026-10-22T05:21:04Z"
     },
     {
@@ -2115,7 +2301,7 @@
       "language": "Rust",
       "stars": 2,
       "archived": false,
-      "pushed_at": "2026-10-21T07:03:59Z",
+      "pushed_at": "2026-10-22T09:05:54Z",
       "homepage": "",
       "owner": "oddship",
       "topics": [
@@ -2152,7 +2338,7 @@
       "language": "Go",
       "stars": 208,
       "archived": false,
-      "pushed_at": "2026-10-22T05:34:13Z",
+      "pushed_at": "2026-10-22T11:43:43Z",
       "homepage": "",
       "owner": "rhnvrm",
       "topics": [
@@ -2210,14 +2396,187 @@
   ],
   "days": [
     {
+      "date": "2026-10-23",
+      "items": [
+        {
+          "id": "event:17985153602",
+          "repo": "zerodha/kite-mcp-server",
+          "kind": "Published release",
+          "title": "v0.4.0-dev21",
+          "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev21",
+          "at": "2026-10-23T05:13:28Z"
+        },
+        {
+          "id": "event:17969679456",
+          "repo": "zerodha/kite-mcp-server",
+          "kind": "Published release",
+          "title": "v0.4.0-dev20",
+          "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev20",
+          "at": "2026-10-22T23:50:35Z"
+        },
+        {
+          "id": "event:17959619876",
+          "repo": "zerodha/kite-mcp-server",
+          "kind": "Published release",
+          "title": "v0.4.0-dev19",
+          "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev19",
+          "at": "2026-10-22T21:40:27Z"
+        },
+        {
+          "id": "event:17943041875",
+          "repo": "zerodha/kite-mcp-server",
+          "kind": "Published release",
+          "title": "v0.4.0-dev18",
+          "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev18",
+          "at": "2026-10-22T18:43:59Z"
+        }
+      ]
+    },
+    {
       "date": "2026-10-22",
       "items": [
+        {
+          "id": "event:17905894909",
+          "repo": "rhnvrm/exchange-circulars",
+          "kind": "Published release",
+          "title": "v0.1.0 — First release",
+          "url": "https://github.com/rhnvrm/exchange-circulars/releases/tag/v0.1.0",
+          "at": "2026-10-22T10:56:40Z"
+        },
+        {
+          "id": "commit:rhnvrm/exchange-circulars:ea055d65c5d56dd25964a34b5792e8790d787e56",
+          "repo": "rhnvrm/exchange-circulars",
+          "kind": "Commit",
+          "title": "fix: correct September settlement circular date",
+          "url": "https://github.com/rhnvrm/exchange-circulars/commit/ea055d65c5d56dd25964a34b5792e8790d787e56",
+          "at": "2026-10-22T10:55:12Z"
+        },
+        {
+          "id": "commit:rhnvrm/exchange-circulars:6fa831e9639095e48c590d214f9009736e1ca652",
+          "repo": "rhnvrm/exchange-circulars",
+          "kind": "Commit",
+          "title": "chore: add MIT license for software and documentation",
+          "url": "https://github.com/rhnvrm/exchange-circulars/commit/6fa831e9639095e48c590d214f9009736e1ca652",
+          "at": "2026-10-22T10:35:21Z"
+        },
+        {
+          "id": "commit:rhnvrm/exchange-circulars:dd334b41d682f977389ba72b2e1a4f82769b52b3",
+          "repo": "rhnvrm/exchange-circulars",
+          "kind": "Commit",
+          "title": "feat: rebrand as exchangecirculars.com and publish server images",
+          "url": "https://github.com/rhnvrm/exchange-circulars/commit/dd334b41d682f977389ba72b2e1a4f82769b52b3",
+          "at": "2026-10-22T10:26:12Z"
+        },
+        {
+          "id": "commit:rhnvrm/simples3:61b17f646a260e65e5c9117b6e14ea3e41f679e0",
+          "repo": "rhnvrm/simples3",
+          "kind": "Commit",
+          "title": "fix(ci): replace MinIO test fixture with SeaweedFS (#53)",
+          "url": "https://github.com/rhnvrm/simples3/commit/61b17f646a260e65e5c9117b6e14ea3e41f679e0",
+          "at": "2026-10-22T09:49:04Z"
+        },
+        {
+          "id": "commit:rhnvrm/exchange-circulars:7167be15e99cd6ca8d824a9c0d6a19bffaccb0c3",
+          "repo": "rhnvrm/exchange-circulars",
+          "kind": "Commit",
+          "title": "Merge pull request #12 from rhnvrm/feat-indiainx-parser",
+          "url": "https://github.com/rhnvrm/exchange-circulars/commit/7167be15e99cd6ca8d824a9c0d6a19bffaccb0c3",
+          "at": "2026-10-22T09:11:47Z"
+        },
+        {
+          "id": "commit:rhnvrm/exchange-circulars:0d7fb802d6e509398f45e6fdf359457c89972e48",
+          "repo": "rhnvrm/exchange-circulars",
+          "kind": "Commit",
+          "title": "fix: address India INX parser review findings",
+          "url": "https://github.com/rhnvrm/exchange-circulars/commit/0d7fb802d6e509398f45e6fdf359457c89972e48",
+          "at": "2026-10-22T09:08:10Z"
+        },
+        {
+          "id": "commit:rhnvrm/exchange-circulars:2cf55309c06489595549474fc010bbe468494b1a",
+          "repo": "rhnvrm/exchange-circulars",
+          "kind": "Commit",
+          "title": "feat: add India INX circular listing parser",
+          "url": "https://github.com/rhnvrm/exchange-circulars/commit/2cf55309c06489595549474fc010bbe468494b1a",
+          "at": "2026-10-22T09:07:54Z"
+        },
+        {
+          "id": "commit:rhnvrm/exchange-circulars:b73f6edd6c33dbf08b644bcda92ac49f544f7397",
+          "repo": "rhnvrm/exchange-circulars",
+          "kind": "Commit",
+          "title": "Merge pull request #11 from rhnvrm/feat-msei-parser",
+          "url": "https://github.com/rhnvrm/exchange-circulars/commit/b73f6edd6c33dbf08b644bcda92ac49f544f7397",
+          "at": "2026-10-22T08:59:29Z"
+        },
+        {
+          "id": "commit:rhnvrm/exchange-circulars:d077d0c30952caa9b3a31d5fb743e34e9fbb9f3e",
+          "repo": "rhnvrm/exchange-circulars",
+          "kind": "Commit",
+          "title": "fix: address MSEI parser review findings",
+          "url": "https://github.com/rhnvrm/exchange-circulars/commit/d077d0c30952caa9b3a31d5fb743e34e9fbb9f3e",
+          "at": "2026-10-22T07:54:25Z"
+        },
+        {
+          "id": "commit:rhnvrm/exchange-circulars:6e77c36d2d89d2380b4f6df999f6ac6284aff170",
+          "repo": "rhnvrm/exchange-circulars",
+          "kind": "Commit",
+          "title": "feat: add MSEI circular RSS parser",
+          "url": "https://github.com/rhnvrm/exchange-circulars/commit/6e77c36d2d89d2380b4f6df999f6ac6284aff170",
+          "at": "2026-10-22T07:54:10Z"
+        },
+        {
+          "id": "commit:rhnvrm/exchange-circulars:1c058ce7809632334c51f9fa961491106ebe4f24",
+          "repo": "rhnvrm/exchange-circulars",
+          "kind": "Commit",
+          "title": "Merge pull request #10 from rhnvrm/feat-rbi-parser",
+          "url": "https://github.com/rhnvrm/exchange-circulars/commit/1c058ce7809632334c51f9fa961491106ebe4f24",
+          "at": "2026-10-22T07:50:11Z"
+        },
+        {
+          "id": "commit:rhnvrm/exchange-circulars:52aa5474226e3742c5baf9c15d8425c591ec9b16",
+          "repo": "rhnvrm/exchange-circulars",
+          "kind": "Commit",
+          "title": "fix: address RBI parser review findings",
+          "url": "https://github.com/rhnvrm/exchange-circulars/commit/52aa5474226e3742c5baf9c15d8425c591ec9b16",
+          "at": "2026-10-22T06:06:49Z"
+        },
+        {
+          "id": "commit:rhnvrm/exchange-circulars:9b5618df8616a53a9fcc0c3da3ad7868f7b30fd0",
+          "repo": "rhnvrm/exchange-circulars",
+          "kind": "Commit",
+          "title": "fix: allow Gemini temporary attachments",
+          "url": "https://github.com/rhnvrm/exchange-circulars/commit/9b5618df8616a53a9fcc0c3da3ad7868f7b30fd0",
+          "at": "2026-10-22T06:06:33Z"
+        },
+        {
+          "id": "commit:rhnvrm/exchange-circulars:0b7adaf038a7d147bbff6fe1da2ac618e35fb2e4",
+          "repo": "rhnvrm/exchange-circulars",
+          "kind": "Commit",
+          "title": "fix: harden RBI feed processing",
+          "url": "https://github.com/rhnvrm/exchange-circulars/commit/0b7adaf038a7d147bbff6fe1da2ac618e35fb2e4",
+          "at": "2026-10-22T06:06:01Z"
+        },
+        {
+          "id": "commit:rhnvrm/exchange-circulars:3463c7222320cf9d3025f92f8b7fe20fb75727dd",
+          "repo": "rhnvrm/exchange-circulars",
+          "kind": "Commit",
+          "title": "feat: add RBI feed parser",
+          "url": "https://github.com/rhnvrm/exchange-circulars/commit/3463c7222320cf9d3025f92f8b7fe20fb75727dd",
+          "at": "2026-10-22T06:05:24Z"
+        },
         {
           "id": "commit:rhnvrm/stock-market-circulars:f2ebfe95fe9dcb29e9140284dd23b4a3ca85b7b6",
           "repo": "rhnvrm/stock-market-circulars",
           "kind": "Commit",
           "title": "Merge pull request #13 from rhnvrm/fix/isolate-circular-source-jobs",
           "url": "https://github.com/rhnvrm/stock-market-circulars/commit/f2ebfe95fe9dcb29e9140284dd23b4a3ca85b7b6",
+          "at": "2026-10-22T05:56:25Z"
+        },
+        {
+          "id": "commit:rhnvrm/exchange-circulars:f2ebfe95fe9dcb29e9140284dd23b4a3ca85b7b6",
+          "repo": "rhnvrm/exchange-circulars",
+          "kind": "Commit",
+          "title": "Merge pull request #13 from rhnvrm/fix/isolate-circular-source-jobs",
+          "url": "https://github.com/rhnvrm/exchange-circulars/commit/f2ebfe95fe9dcb29e9140284dd23b4a3ca85b7b6",
           "at": "2026-10-22T05:56:25Z"
         },
         {
@@ -2229,11 +2588,27 @@
           "at": "2026-10-22T05:37:53Z"
         },
         {
+          "id": "commit:rhnvrm/exchange-circulars:24fcfed341abf923e511f304c880eec6be72e928",
+          "repo": "rhnvrm/exchange-circulars",
+          "kind": "Commit",
+          "title": "fix(ci): start queued source updates from latest master",
+          "url": "https://github.com/rhnvrm/exchange-circulars/commit/24fcfed341abf923e511f304c880eec6be72e928",
+          "at": "2026-10-22T05:37:53Z"
+        },
+        {
           "id": "commit:rhnvrm/stock-market-circulars:dee2a023acf36042e7bb03a32b9da966c421a1b1",
           "repo": "rhnvrm/stock-market-circulars",
           "kind": "Commit",
           "title": "fix(ci): isolate circular updates by source",
           "url": "https://github.com/rhnvrm/stock-market-circulars/commit/dee2a023acf36042e7bb03a32b9da966c421a1b1",
+          "at": "2026-10-22T05:21:04Z"
+        },
+        {
+          "id": "commit:rhnvrm/exchange-circulars:dee2a023acf36042e7bb03a32b9da966c421a1b1",
+          "repo": "rhnvrm/exchange-circulars",
+          "kind": "Commit",
+          "title": "fix(ci): isolate circular updates by source",
+          "url": "https://github.com/rhnvrm/exchange-circulars/commit/dee2a023acf36042e7bb03a32b9da966c421a1b1",
           "at": "2026-10-22T05:21:04Z"
         }
       ]
@@ -2755,24 +3130,52 @@
     {
       "private": false,
       "visibility": "public",
-      "name": "stock-market-circulars",
-      "full_name": "rhnvrm/stock-market-circulars",
-      "url": "https://github.com/rhnvrm/stock-market-circulars",
+      "name": "exchange-circulars",
+      "full_name": "rhnvrm/exchange-circulars",
+      "url": "https://github.com/rhnvrm/exchange-circulars",
       "description": "Automated processing and publishing of regulatory circulars from NSE, BSE, and SEBI with AI-powered summaries",
       "language": "Python",
       "stars": 11,
       "archived": false,
-      "pushed_at": "2026-10-22T06:06:11Z",
+      "pushed_at": "2026-10-23T03:36:58Z",
       "homepage": "https://exchangecirculars.com/",
       "owner": "rhnvrm",
       "topics": [],
       "latest": {
-        "id": "commit:rhnvrm/stock-market-circulars:f2ebfe95fe9dcb29e9140284dd23b4a3ca85b7b6",
-        "repo": "rhnvrm/stock-market-circulars",
+        "id": "event:17905894909",
+        "repo": "rhnvrm/exchange-circulars",
+        "kind": "Published release",
+        "title": "v0.1.0 — First release",
+        "url": "https://github.com/rhnvrm/exchange-circulars/releases/tag/v0.1.0",
+        "at": "2026-10-22T10:56:40Z"
+      }
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "simples3",
+      "full_name": "rhnvrm/simples3",
+      "url": "https://github.com/rhnvrm/simples3",
+      "description": "Simple no frills AWS S3 Golang Library using REST with V4 Signing (without AWS Go SDK)",
+      "language": "Go",
+      "stars": 208,
+      "archived": false,
+      "pushed_at": "2026-10-22T11:43:43Z",
+      "homepage": "",
+      "owner": "rhnvrm",
+      "topics": [
+        "aws",
+        "aws-s3",
+        "aws-signature-v4",
+        "golang"
+      ],
+      "latest": {
+        "id": "commit:rhnvrm/simples3:61b17f646a260e65e5c9117b6e14ea3e41f679e0",
+        "repo": "rhnvrm/simples3",
         "kind": "Commit",
-        "title": "Merge pull request #13 from rhnvrm/fix/isolate-circular-source-jobs",
-        "url": "https://github.com/rhnvrm/stock-market-circulars/commit/f2ebfe95fe9dcb29e9140284dd23b4a3ca85b7b6",
-        "at": "2026-10-22T05:56:25Z"
+        "title": "fix(ci): replace MinIO test fixture with SeaweedFS (#53)",
+        "url": "https://github.com/rhnvrm/simples3/commit/61b17f646a260e65e5c9117b6e14ea3e41f679e0",
+        "at": "2026-10-22T09:49:04Z"
       }
     },
     {
@@ -2854,7 +3257,7 @@
       "language": "Rust",
       "stars": 2,
       "archived": false,
-      "pushed_at": "2026-10-21T07:03:59Z",
+      "pushed_at": "2026-10-22T09:05:54Z",
       "homepage": "",
       "owner": "oddship",
       "topics": [
@@ -2872,29 +3275,6 @@
         "title": "Merge pull request #4 from oddship/dependabot/github_actions/cachix/install-nix-action-31.11.2",
         "url": "https://github.com/oddship/nixos-update-manager/commit/3280d862463eca8990df87d8eb715063ea807891",
         "at": "2026-10-21T07:03:50Z"
-      }
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "oatbase",
-      "full_name": "oddship/oatbase",
-      "url": "https://github.com/oddship/oatbase",
-      "description": "Advanced, semantic components for Oat UI",
-      "language": "JavaScript",
-      "stars": 1,
-      "archived": false,
-      "pushed_at": "2026-10-20T16:52:44Z",
-      "homepage": "https://oddship.github.io/oatbase/",
-      "owner": "oddship",
-      "topics": [],
-      "latest": {
-        "id": "commit:oddship/oatbase:6e667cfea93c276d05637d2aec6eda349f75fa13",
-        "repo": "oddship/oatbase",
-        "kind": "Commit",
-        "title": "Merge pull request #11 from oddship/fix/docs-demo-tab-visibility",
-        "url": "https://github.com/oddship/oatbase/commit/6e667cfea93c276d05637d2aec6eda349f75fa13",
-        "at": "2026-10-20T16:52:44Z"
       }
     }
   ]
