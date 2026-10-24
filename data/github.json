@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T06:01:46+00:00",
+  "updated_at": "2026-10-24T05:49:41+00:00",
   "public_repositories": [
     "oddship/bosun",
     "oddship/doordarshan-zola",
@@ -114,9 +114,24 @@
       "language": "Python",
       "stars": 11,
       "archived": false,
-      "pushed_at": "2026-10-23T03:36:58Z",
+      "pushed_at": "2026-10-24T03:29:59Z",
       "homepage": "https://exchangecirculars.com/",
       "owner": "rhnvrm",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "logchef-nix",
+      "full_name": "oddship/logchef-nix",
+      "url": "https://github.com/oddship/logchef-nix",
+      "description": "Native Nix package and NixOS module for Logchef",
+      "language": "Nix",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-10-23T10:12:46Z",
+      "homepage": "https://oddship.github.io/logchef-nix/",
+      "owner": "oddship",
       "topics": []
     },
     {
@@ -138,21 +153,6 @@
         "aws-signature-v4",
         "golang"
       ]
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "logchef-nix",
-      "full_name": "oddship/logchef-nix",
-      "url": "https://github.com/oddship/logchef-nix",
-      "description": "Native Nix package and NixOS module for Logchef",
-      "language": "Nix",
-      "stars": 0,
-      "archived": false,
-      "pushed_at": "2026-10-22T10:18:26Z",
-      "homepage": "https://oddship.github.io/logchef-nix/",
-      "owner": "oddship",
-      "topics": []
     },
     {
       "private": false,
@@ -1610,6 +1610,14 @@
   ],
   "activity": [
     {
+      "id": "event:17987812175",
+      "repo": "zerodha/kite-mcp-server",
+      "kind": "Published release",
+      "title": "v0.4.0-dev22",
+      "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev22",
+      "at": "2026-10-23T06:16:18Z"
+    },
+    {
       "id": "event:17985153602",
       "repo": "zerodha/kite-mcp-server",
       "kind": "Published release",
@@ -2399,6 +2407,14 @@
       "date": "2026-10-23",
       "items": [
         {
+          "id": "event:17987812175",
+          "repo": "zerodha/kite-mcp-server",
+          "kind": "Published release",
+          "title": "v0.4.0-dev22",
+          "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev22",
+          "at": "2026-10-23T06:16:18Z"
+        },
+        {
           "id": "event:17985153602",
           "repo": "zerodha/kite-mcp-server",
           "kind": "Published release",
@@ -3137,7 +3153,7 @@
       "language": "Python",
       "stars": 11,
       "archived": false,
-      "pushed_at": "2026-10-23T03:36:58Z",
+      "pushed_at": "2026-10-24T03:29:59Z",
       "homepage": "https://exchangecirculars.com/",
       "owner": "rhnvrm",
       "topics": [],
