@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T05:49:41+00:00",
+  "updated_at": "2026-10-25T06:05:19+00:00",
   "public_repositories": [
     "oddship/bosun",
     "oddship/doordarshan-zola",
@@ -107,6 +107,21 @@
     {
       "private": false,
       "visibility": "public",
+      "name": "px0-nix-flake",
+      "full_name": "oddship/px0-nix-flake",
+      "url": "https://github.com/oddship/px0-nix-flake",
+      "description": "Source-built px0 Nix flake with validated daily upstream release updates",
+      "language": "Nix",
+      "stars": 1,
+      "archived": false,
+      "pushed_at": "2026-10-25T05:19:00Z",
+      "homepage": "",
+      "owner": "oddship",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
       "name": "exchange-circulars",
       "full_name": "rhnvrm/exchange-circulars",
       "url": "https://github.com/rhnvrm/exchange-circulars",
@@ -114,7 +129,7 @@
       "language": "Python",
       "stars": 11,
       "archived": false,
-      "pushed_at": "2026-10-24T03:29:59Z",
+      "pushed_at": "2026-10-25T03:27:03Z",
       "homepage": "https://exchangecirculars.com/",
       "owner": "rhnvrm",
       "topics": []
@@ -129,7 +144,7 @@
       "language": "Nix",
       "stars": 0,
       "archived": false,
-      "pushed_at": "2026-10-23T10:12:46Z",
+      "pushed_at": "2026-10-24T09:40:25Z",
       "homepage": "https://oddship.github.io/logchef-nix/",
       "owner": "oddship",
       "topics": []
@@ -248,21 +263,6 @@
       "archived": false,
       "pushed_at": "2026-10-20T16:52:44Z",
       "homepage": "https://oddship.github.io/oatbase/",
-      "owner": "oddship",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "px0-nix-flake",
-      "full_name": "oddship/px0-nix-flake",
-      "url": "https://github.com/oddship/px0-nix-flake",
-      "description": "Source-built px0 Nix flake with validated daily upstream release updates",
-      "language": "Nix",
-      "stars": 1,
-      "archived": false,
-      "pushed_at": "2026-10-20T12:44:54Z",
-      "homepage": "",
       "owner": "oddship",
       "topics": []
     },
@@ -1610,6 +1610,14 @@
   ],
   "activity": [
     {
+      "id": "commit:oddship/px0-nix-flake:8e0b52182844166391becf30043289e237c8f622",
+      "repo": "oddship/px0-nix-flake",
+      "kind": "Commit",
+      "title": "fix: handle extracted upstream updater in v0.1.20",
+      "url": "https://github.com/oddship/px0-nix-flake/commit/8e0b52182844166391becf30043289e237c8f622",
+      "at": "2026-10-25T05:19:00Z"
+    },
+    {
       "id": "event:17987812175",
       "repo": "zerodha/kite-mcp-server",
       "kind": "Published release",
@@ -2404,6 +2412,19 @@
   ],
   "days": [
     {
+      "date": "2026-10-25",
+      "items": [
+        {
+          "id": "commit:oddship/px0-nix-flake:8e0b52182844166391becf30043289e237c8f622",
+          "repo": "oddship/px0-nix-flake",
+          "kind": "Commit",
+          "title": "fix: handle extracted upstream updater in v0.1.20",
+          "url": "https://github.com/oddship/px0-nix-flake/commit/8e0b52182844166391becf30043289e237c8f622",
+          "at": "2026-10-25T05:19:00Z"
+        }
+      ]
+    },
+    {
       "date": "2026-10-23",
       "items": [
         {
@@ -3146,6 +3167,29 @@
     {
       "private": false,
       "visibility": "public",
+      "name": "px0-nix-flake",
+      "full_name": "oddship/px0-nix-flake",
+      "url": "https://github.com/oddship/px0-nix-flake",
+      "description": "Source-built px0 Nix flake with validated daily upstream release updates",
+      "language": "Nix",
+      "stars": 1,
+      "archived": false,
+      "pushed_at": "2026-10-25T05:19:00Z",
+      "homepage": "",
+      "owner": "oddship",
+      "topics": [],
+      "latest": {
+        "id": "commit:oddship/px0-nix-flake:8e0b52182844166391becf30043289e237c8f622",
+        "repo": "oddship/px0-nix-flake",
+        "kind": "Commit",
+        "title": "fix: handle extracted upstream updater in v0.1.20",
+        "url": "https://github.com/oddship/px0-nix-flake/commit/8e0b52182844166391becf30043289e237c8f622",
+        "at": "2026-10-25T05:19:00Z"
+      }
+    },
+    {
+      "private": false,
+      "visibility": "public",
       "name": "exchange-circulars",
       "full_name": "rhnvrm/exchange-circulars",
       "url": "https://github.com/rhnvrm/exchange-circulars",
@@ -3153,7 +3197,7 @@
       "language": "Python",
       "stars": 11,
       "archived": false,
-      "pushed_at": "2026-10-24T03:29:59Z",
+      "pushed_at": "2026-10-25T03:27:03Z",
       "homepage": "https://exchangecirculars.com/",
       "owner": "rhnvrm",
       "topics": [],
@@ -3261,36 +3305,6 @@
         "title": "fix(theme): improve readability and responsive spacing",
         "url": "https://github.com/oddship/doordarshan-zola/commit/b45a5d5421eb7a2dfcb5f5e081ac5b3dc04d1c5c",
         "at": "2026-10-21T08:39:04Z"
-      }
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "nixos-update-manager",
-      "full_name": "oddship/nixos-update-manager",
-      "url": "https://github.com/oddship/nixos-update-manager",
-      "description": "Native GNOME app for reviewing and applying updates to local NixOS flake repositories.",
-      "language": "Rust",
-      "stars": 2,
-      "archived": false,
-      "pushed_at": "2026-10-22T09:05:54Z",
-      "homepage": "",
-      "owner": "oddship",
-      "topics": [
-        "flakes",
-        "gnome",
-        "gtk4",
-        "nix",
-        "nixos",
-        "rust"
-      ],
-      "latest": {
-        "id": "commit:oddship/nixos-update-manager:3280d862463eca8990df87d8eb715063ea807891",
-        "repo": "oddship/nixos-update-manager",
-        "kind": "Commit",
-        "title": "Merge pull request #4 from oddship/dependabot/github_actions/cachix/install-nix-action-31.11.2",
-        "url": "https://github.com/oddship/nixos-update-manager/commit/3280d862463eca8990df87d8eb715063ea807891",
-        "at": "2026-10-21T07:03:50Z"
       }
     }
   ]
