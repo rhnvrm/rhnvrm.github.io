@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T06:10:24+00:00",
+  "updated_at": "2026-10-27T06:15:23+00:00",
   "public_repositories": [
     "oddship/bosun",
     "oddship/doordarshan-zola",
@@ -114,9 +114,46 @@
       "language": "Python",
       "stars": 11,
       "archived": false,
-      "pushed_at": "2026-10-26T03:29:09Z",
+      "pushed_at": "2026-10-27T00:18:42Z",
       "homepage": "https://exchangecirculars.com/",
       "owner": "rhnvrm",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "nixos-update-manager",
+      "full_name": "oddship/nixos-update-manager",
+      "url": "https://github.com/oddship/nixos-update-manager",
+      "description": "Native GNOME app for reviewing and applying updates to local NixOS flake repositories.",
+      "language": "Rust",
+      "stars": 2,
+      "archived": false,
+      "pushed_at": "2026-10-26T14:27:00Z",
+      "homepage": "",
+      "owner": "oddship",
+      "topics": [
+        "flakes",
+        "gnome",
+        "gtk4",
+        "nix",
+        "nixos",
+        "rust"
+      ]
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "logchef-nix",
+      "full_name": "oddship/logchef-nix",
+      "url": "https://github.com/oddship/logchef-nix",
+      "description": "Native Nix package and NixOS module for Logchef",
+      "language": "Nix",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-10-26T11:15:51Z",
+      "homepage": "https://oddship.github.io/logchef-nix/",
+      "owner": "oddship",
       "topics": []
     },
     {
@@ -131,21 +168,6 @@
       "archived": false,
       "pushed_at": "2026-10-26T01:31:31Z",
       "homepage": "https://reading-list.oddship.net",
-      "owner": "oddship",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "logchef-nix",
-      "full_name": "oddship/logchef-nix",
-      "url": "https://github.com/oddship/logchef-nix",
-      "description": "Native Nix package and NixOS module for Logchef",
-      "language": "Nix",
-      "stars": 0,
-      "archived": false,
-      "pushed_at": "2026-10-25T09:56:32Z",
-      "homepage": "https://oddship.github.io/logchef-nix/",
       "owner": "oddship",
       "topics": []
     },
@@ -182,28 +204,6 @@
         "aws-s3",
         "aws-signature-v4",
         "golang"
-      ]
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "nixos-update-manager",
-      "full_name": "oddship/nixos-update-manager",
-      "url": "https://github.com/oddship/nixos-update-manager",
-      "description": "Native GNOME app for reviewing and applying updates to local NixOS flake repositories.",
-      "language": "Rust",
-      "stars": 2,
-      "archived": false,
-      "pushed_at": "2026-10-22T09:05:54Z",
-      "homepage": "",
-      "owner": "oddship",
-      "topics": [
-        "flakes",
-        "gnome",
-        "gtk4",
-        "nix",
-        "nixos",
-        "rust"
       ]
     },
     {
@@ -2317,7 +2317,7 @@
       "language": "Rust",
       "stars": 2,
       "archived": false,
-      "pushed_at": "2026-10-22T09:05:54Z",
+      "pushed_at": "2026-10-26T14:27:00Z",
       "homepage": "",
       "owner": "oddship",
       "topics": [
@@ -3197,7 +3197,7 @@
       "language": "Python",
       "stars": 11,
       "archived": false,
-      "pushed_at": "2026-10-26T03:29:09Z",
+      "pushed_at": "2026-10-27T00:18:42Z",
       "homepage": "https://exchangecirculars.com/",
       "owner": "rhnvrm",
       "topics": [],
