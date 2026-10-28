@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T06:15:23+00:00",
+  "updated_at": "2026-10-28T06:50:49+00:00",
   "public_repositories": [
     "oddship/bosun",
     "oddship/doordarshan-zola",
@@ -78,6 +78,7 @@
     "rhnvrm/os-course",
     "rhnvrm/pi-bash-readonly",
     "rhnvrm/pi-mesh",
+    "rhnvrm/px0",
     "rhnvrm/resume",
     "rhnvrm/rhnvrm",
     "rhnvrm/rhnvrm.github.io",
@@ -114,9 +115,24 @@
       "language": "Python",
       "stars": 11,
       "archived": false,
-      "pushed_at": "2026-10-27T00:18:42Z",
+      "pushed_at": "2026-10-28T04:13:43Z",
       "homepage": "https://exchangecirculars.com/",
       "owner": "rhnvrm",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "reading-list",
+      "full_name": "oddship/reading-list",
+      "url": "https://github.com/oddship/reading-list",
+      "description": "Source code and project notes on GitHub.",
+      "language": "HTML",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-10-27T16:54:34Z",
+      "homepage": "https://reading-list.oddship.net",
+      "owner": "oddship",
       "topics": []
     },
     {
@@ -129,7 +145,7 @@
       "language": "Rust",
       "stars": 2,
       "archived": false,
-      "pushed_at": "2026-10-26T14:27:00Z",
+      "pushed_at": "2026-10-27T13:17:24Z",
       "homepage": "",
       "owner": "oddship",
       "topics": [
@@ -151,7 +167,7 @@
       "language": "Nix",
       "stars": 0,
       "archived": false,
-      "pushed_at": "2026-10-26T11:15:51Z",
+      "pushed_at": "2026-10-27T13:16:29Z",
       "homepage": "https://oddship.github.io/logchef-nix/",
       "owner": "oddship",
       "topics": []
@@ -159,15 +175,15 @@
     {
       "private": false,
       "visibility": "public",
-      "name": "reading-list",
-      "full_name": "oddship/reading-list",
-      "url": "https://github.com/oddship/reading-list",
+      "name": "nix-system",
+      "full_name": "oddship/nix-system",
+      "url": "https://github.com/oddship/nix-system",
       "description": "Source code and project notes on GitHub.",
-      "language": "HTML",
+      "language": "Nix",
       "stars": 0,
       "archived": false,
-      "pushed_at": "2026-10-26T01:31:31Z",
-      "homepage": "https://reading-list.oddship.net",
+      "pushed_at": "2026-10-27T10:41:09Z",
+      "homepage": "",
       "owner": "oddship",
       "topics": []
     },
@@ -194,7 +210,7 @@
       "url": "https://github.com/rhnvrm/simples3",
       "description": "Simple no frills AWS S3 Golang Library using REST with V4 Signing (without AWS Go SDK)",
       "language": "Go",
-      "stars": 208,
+      "stars": 209,
       "archived": false,
       "pushed_at": "2026-10-22T11:43:43Z",
       "homepage": "",
@@ -294,21 +310,6 @@
       "pushed_at": "2026-10-19T12:13:14Z",
       "homepage": "https://rhnvrm.github.io/jali-studio/",
       "owner": "rhnvrm",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "nix-system",
-      "full_name": "oddship/nix-system",
-      "url": "https://github.com/oddship/nix-system",
-      "description": "Source code and project notes on GitHub.",
-      "language": "Nix",
-      "stars": 0,
-      "archived": false,
-      "pushed_at": "2026-10-18T13:10:12Z",
-      "homepage": "",
-      "owner": "oddship",
       "topics": []
     },
     {
@@ -1610,6 +1611,62 @@
   ],
   "activity": [
     {
+      "id": "event:18391597028",
+      "repo": "rhnvrm/px0",
+      "kind": "Published release",
+      "title": "px0 0.1.20 — BB embedding integration, revision 2",
+      "url": "https://github.com/rhnvrm/px0/releases/tag/v0.1.20-bb.2",
+      "at": "2026-10-27T21:58:24Z"
+    },
+    {
+      "id": "event:18391210779",
+      "repo": "rhnvrm/px0",
+      "kind": "Published release",
+      "title": "px0 0.1.20 — BB embedding integration",
+      "url": "https://github.com/rhnvrm/px0/releases/tag/v0.1.20-bb.1",
+      "at": "2026-10-27T21:53:30Z"
+    },
+    {
+      "id": "commit:oddship/nixos-update-manager:5f8a9289b88f31a51953db7cb51c288d6adeda2c",
+      "repo": "oddship/nixos-update-manager",
+      "kind": "Commit",
+      "title": "Merge pull request #6 from oddship/dependabot/github_actions/cachix/install-nix-action-31.11.3",
+      "url": "https://github.com/oddship/nixos-update-manager/commit/5f8a9289b88f31a51953db7cb51c288d6adeda2c",
+      "at": "2026-10-27T13:17:13Z"
+    },
+    {
+      "id": "commit:oddship/logchef-nix:05e648452ee4b6238f9832d41f18cb7b4ef48768",
+      "repo": "oddship/logchef-nix",
+      "kind": "Commit",
+      "title": "Merge pull request #9 from oddship/automation/logchef-2.5.0",
+      "url": "https://github.com/oddship/logchef-nix/commit/05e648452ee4b6238f9832d41f18cb7b4ef48768",
+      "at": "2026-10-27T13:16:28Z"
+    },
+    {
+      "id": "commit:oddship/nix-system:5c163869003f58cfe6999d27c5ed5cd684cc830c",
+      "repo": "oddship/nix-system",
+      "kind": "Commit",
+      "title": "fix(gnome): free Super+V for clipboard history",
+      "url": "https://github.com/oddship/nix-system/commit/5c163869003f58cfe6999d27c5ed5cd684cc830c",
+      "at": "2026-10-27T10:41:05Z"
+    },
+    {
+      "id": "event:18326581073",
+      "repo": "zerodha/kite-mcp-server",
+      "kind": "Published release",
+      "title": "v0.4.0-dev24",
+      "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev24",
+      "at": "2026-10-27T09:37:45Z"
+    },
+    {
+      "id": "event:18324636210",
+      "repo": "zerodha/kite-mcp-server",
+      "kind": "Published release",
+      "title": "v0.4.0-dev23",
+      "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev23",
+      "at": "2026-10-27T09:13:13Z"
+    },
+    {
       "id": "commit:oddship/px0-nix-flake:8e0b52182844166391becf30043289e237c8f622",
       "repo": "oddship/px0-nix-flake",
       "kind": "Commit",
@@ -2317,7 +2374,7 @@
       "language": "Rust",
       "stars": 2,
       "archived": false,
-      "pushed_at": "2026-10-26T14:27:00Z",
+      "pushed_at": "2026-10-27T13:17:24Z",
       "homepage": "",
       "owner": "oddship",
       "topics": [
@@ -2352,7 +2409,7 @@
       "url": "https://github.com/rhnvrm/simples3",
       "description": "Simple no frills AWS S3 Golang Library using REST with V4 Signing (without AWS Go SDK)",
       "language": "Go",
-      "stars": 208,
+      "stars": 209,
       "archived": false,
       "pushed_at": "2026-10-22T11:43:43Z",
       "homepage": "",
@@ -2411,6 +2468,72 @@
     }
   ],
   "days": [
+    {
+      "date": "2026-10-28",
+      "items": [
+        {
+          "id": "event:18391597028",
+          "repo": "rhnvrm/px0",
+          "kind": "Published release",
+          "title": "px0 0.1.20 — BB embedding integration, revision 2",
+          "url": "https://github.com/rhnvrm/px0/releases/tag/v0.1.20-bb.2",
+          "at": "2026-10-27T21:58:24Z"
+        },
+        {
+          "id": "event:18391210779",
+          "repo": "rhnvrm/px0",
+          "kind": "Published release",
+          "title": "px0 0.1.20 — BB embedding integration",
+          "url": "https://github.com/rhnvrm/px0/releases/tag/v0.1.20-bb.1",
+          "at": "2026-10-27T21:53:30Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "items": [
+        {
+          "id": "commit:oddship/nixos-update-manager:5f8a9289b88f31a51953db7cb51c288d6adeda2c",
+          "repo": "oddship/nixos-update-manager",
+          "kind": "Commit",
+          "title": "Merge pull request #6 from oddship/dependabot/github_actions/cachix/install-nix-action-31.11.3",
+          "url": "https://github.com/oddship/nixos-update-manager/commit/5f8a9289b88f31a51953db7cb51c288d6adeda2c",
+          "at": "2026-10-27T13:17:13Z"
+        },
+        {
+          "id": "commit:oddship/logchef-nix:05e648452ee4b6238f9832d41f18cb7b4ef48768",
+          "repo": "oddship/logchef-nix",
+          "kind": "Commit",
+          "title": "Merge pull request #9 from oddship/automation/logchef-2.5.0",
+          "url": "https://github.com/oddship/logchef-nix/commit/05e648452ee4b6238f9832d41f18cb7b4ef48768",
+          "at": "2026-10-27T13:16:28Z"
+        },
+        {
+          "id": "commit:oddship/nix-system:5c163869003f58cfe6999d27c5ed5cd684cc830c",
+          "repo": "oddship/nix-system",
+          "kind": "Commit",
+          "title": "fix(gnome): free Super+V for clipboard history",
+          "url": "https://github.com/oddship/nix-system/commit/5c163869003f58cfe6999d27c5ed5cd684cc830c",
+          "at": "2026-10-27T10:41:05Z"
+        },
+        {
+          "id": "event:18326581073",
+          "repo": "zerodha/kite-mcp-server",
+          "kind": "Published release",
+          "title": "v0.4.0-dev24",
+          "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev24",
+          "at": "2026-10-27T09:37:45Z"
+        },
+        {
+          "id": "event:18324636210",
+          "repo": "zerodha/kite-mcp-server",
+          "kind": "Published release",
+          "title": "v0.4.0-dev23",
+          "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev23",
+          "at": "2026-10-27T09:13:13Z"
+        }
+      ]
+    },
     {
       "date": "2026-10-25",
       "items": [
@@ -3167,6 +3290,82 @@
     {
       "private": false,
       "visibility": "public",
+      "name": "nixos-update-manager",
+      "full_name": "oddship/nixos-update-manager",
+      "url": "https://github.com/oddship/nixos-update-manager",
+      "description": "Native GNOME app for reviewing and applying updates to local NixOS flake repositories.",
+      "language": "Rust",
+      "stars": 2,
+      "archived": false,
+      "pushed_at": "2026-10-27T13:17:24Z",
+      "homepage": "",
+      "owner": "oddship",
+      "topics": [
+        "flakes",
+        "gnome",
+        "gtk4",
+        "nix",
+        "nixos",
+        "rust"
+      ],
+      "latest": {
+        "id": "commit:oddship/nixos-update-manager:5f8a9289b88f31a51953db7cb51c288d6adeda2c",
+        "repo": "oddship/nixos-update-manager",
+        "kind": "Commit",
+        "title": "Merge pull request #6 from oddship/dependabot/github_actions/cachix/install-nix-action-31.11.3",
+        "url": "https://github.com/oddship/nixos-update-manager/commit/5f8a9289b88f31a51953db7cb51c288d6adeda2c",
+        "at": "2026-10-27T13:17:13Z"
+      }
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "logchef-nix",
+      "full_name": "oddship/logchef-nix",
+      "url": "https://github.com/oddship/logchef-nix",
+      "description": "Native Nix package and NixOS module for Logchef",
+      "language": "Nix",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-10-27T13:16:29Z",
+      "homepage": "https://oddship.github.io/logchef-nix/",
+      "owner": "oddship",
+      "topics": [],
+      "latest": {
+        "id": "commit:oddship/logchef-nix:05e648452ee4b6238f9832d41f18cb7b4ef48768",
+        "repo": "oddship/logchef-nix",
+        "kind": "Commit",
+        "title": "Merge pull request #9 from oddship/automation/logchef-2.5.0",
+        "url": "https://github.com/oddship/logchef-nix/commit/05e648452ee4b6238f9832d41f18cb7b4ef48768",
+        "at": "2026-10-27T13:16:28Z"
+      }
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "nix-system",
+      "full_name": "oddship/nix-system",
+      "url": "https://github.com/oddship/nix-system",
+      "description": "Source code and project notes on GitHub.",
+      "language": "Nix",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-10-27T10:41:09Z",
+      "homepage": "",
+      "owner": "oddship",
+      "topics": [],
+      "latest": {
+        "id": "commit:oddship/nix-system:5c163869003f58cfe6999d27c5ed5cd684cc830c",
+        "repo": "oddship/nix-system",
+        "kind": "Commit",
+        "title": "fix(gnome): free Super+V for clipboard history",
+        "url": "https://github.com/oddship/nix-system/commit/5c163869003f58cfe6999d27c5ed5cd684cc830c",
+        "at": "2026-10-27T10:41:05Z"
+      }
+    },
+    {
+      "private": false,
+      "visibility": "public",
       "name": "px0-nix-flake",
       "full_name": "oddship/px0-nix-flake",
       "url": "https://github.com/oddship/px0-nix-flake",
@@ -3197,7 +3396,7 @@
       "language": "Python",
       "stars": 11,
       "archived": false,
-      "pushed_at": "2026-10-27T00:18:42Z",
+      "pushed_at": "2026-10-28T04:13:43Z",
       "homepage": "https://exchangecirculars.com/",
       "owner": "rhnvrm",
       "topics": [],
@@ -3218,7 +3417,7 @@
       "url": "https://github.com/rhnvrm/simples3",
       "description": "Simple no frills AWS S3 Golang Library using REST with V4 Signing (without AWS Go SDK)",
       "language": "Go",
-      "stars": 208,
+      "stars": 209,
       "archived": false,
       "pushed_at": "2026-10-22T11:43:43Z",
       "homepage": "",
@@ -3236,75 +3435,6 @@
         "title": "fix(ci): replace MinIO test fixture with SeaweedFS (#53)",
         "url": "https://github.com/rhnvrm/simples3/commit/61b17f646a260e65e5c9117b6e14ea3e41f679e0",
         "at": "2026-10-22T09:49:04Z"
-      }
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "s3site",
-      "full_name": "rhnvrm/s3site",
-      "url": "https://github.com/rhnvrm/s3site",
-      "description": "Static site server from S3 tar.gz archives + S3 file watcher",
-      "language": "Go",
-      "stars": 8,
-      "archived": false,
-      "pushed_at": "2026-10-22T06:00:12Z",
-      "homepage": "https://rhnvrm.github.io/s3site/",
-      "owner": "rhnvrm",
-      "topics": [],
-      "latest": {
-        "id": "event:17827225043",
-        "repo": "rhnvrm/s3site",
-        "kind": "Closed issue",
-        "title": "Serve site-specific 404.html for missing paths",
-        "url": "https://github.com/rhnvrm/s3site/issues/5",
-        "at": "2026-10-21T15:14:48Z"
-      }
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "nix-system",
-      "full_name": "oddship/nix-system",
-      "url": "https://github.com/oddship/nix-system",
-      "description": "Source code and project notes on GitHub.",
-      "language": "Nix",
-      "stars": 0,
-      "archived": false,
-      "pushed_at": "2026-10-18T13:10:12Z",
-      "homepage": "",
-      "owner": "oddship",
-      "topics": [],
-      "latest": {
-        "id": "commit:oddship/nix-system:d8c25e85959c2c3744681f83c076dcb1601e6ad8",
-        "repo": "oddship/nix-system",
-        "kind": "Commit",
-        "title": "chore: update flake lock",
-        "url": "https://github.com/oddship/nix-system/commit/d8c25e85959c2c3744681f83c076dcb1601e6ad8",
-        "at": "2026-10-21T15:11:01Z"
-      }
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "doordarshan-zola",
-      "full_name": "oddship/doordarshan-zola",
-      "url": "https://github.com/oddship/doordarshan-zola",
-      "description": "Doordarshan is a Zola theme for a retro Indian terminal/notebook aesthetic.",
-      "language": "SCSS",
-      "stars": 1,
-      "archived": false,
-      "pushed_at": "2026-10-21T08:39:21Z",
-      "homepage": "",
-      "owner": "oddship",
-      "topics": [],
-      "latest": {
-        "id": "commit:oddship/doordarshan-zola:b45a5d5421eb7a2dfcb5f5e081ac5b3dc04d1c5c",
-        "repo": "oddship/doordarshan-zola",
-        "kind": "Commit",
-        "title": "fix(theme): improve readability and responsive spacing",
-        "url": "https://github.com/oddship/doordarshan-zola/commit/b45a5d5421eb7a2dfcb5f5e081ac5b3dc04d1c5c",
-        "at": "2026-10-21T08:39:04Z"
       }
     }
   ]
