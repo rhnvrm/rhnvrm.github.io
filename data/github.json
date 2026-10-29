@@ -1,12 +1,14 @@
 {
-  "updated_at": "2026-10-28T06:50:49+00:00",
+  "updated_at": "2026-10-29T07:02:17+00:00",
   "public_repositories": [
+    "oddship/bb-plugins",
     "oddship/bosun",
     "oddship/doordarshan-zola",
     "oddship/doot",
     "oddship/esgun",
     "oddship/fidget-toys-android",
     "oddship/forge",
+    "oddship/gnome-quickshare",
     "oddship/logchef-nix",
     "oddship/moat",
     "oddship/nix-system",
@@ -115,7 +117,7 @@
       "language": "Python",
       "stars": 11,
       "archived": false,
-      "pushed_at": "2026-10-28T04:13:43Z",
+      "pushed_at": "2026-10-29T00:41:00Z",
       "homepage": "https://exchangecirculars.com/",
       "owner": "rhnvrm",
       "topics": []
@@ -130,10 +132,77 @@
       "language": "HTML",
       "stars": 0,
       "archived": false,
-      "pushed_at": "2026-10-27T16:54:34Z",
+      "pushed_at": "2026-10-28T18:44:54Z",
       "homepage": "https://reading-list.oddship.net",
       "owner": "oddship",
       "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "logchef-nix",
+      "full_name": "oddship/logchef-nix",
+      "url": "https://github.com/oddship/logchef-nix",
+      "description": "Native Nix package and NixOS module for Logchef",
+      "language": "Nix",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-10-28T11:28:51Z",
+      "homepage": "https://oddship.github.io/logchef-nix/",
+      "owner": "oddship",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "nix-system",
+      "full_name": "oddship/nix-system",
+      "url": "https://github.com/oddship/nix-system",
+      "description": "Source code and project notes on GitHub.",
+      "language": "Nix",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-10-28T10:25:17Z",
+      "homepage": "",
+      "owner": "oddship",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "bb-plugins",
+      "full_name": "oddship/bb-plugins",
+      "url": "https://github.com/oddship/bb-plugins",
+      "description": "BB plugins maintained by Oddship",
+      "language": "TypeScript",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-10-28T10:19:04Z",
+      "homepage": "",
+      "owner": "oddship",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "gnome-quickshare",
+      "full_name": "oddship/gnome-quickshare",
+      "url": "https://github.com/oddship/gnome-quickshare",
+      "description": "Native GTK 4/libadwaita Quick Share client for GNOME. Send and receive files, text, links, and Wi-Fi credentials.",
+      "language": "Rust",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-10-28T08:36:35Z",
+      "homepage": "https://github.com/oddship/gnome-quickshare",
+      "owner": "oddship",
+      "topics": [
+        "gnome",
+        "gtk4",
+        "libadwaita",
+        "linux",
+        "quick-share",
+        "rust"
+      ]
     },
     {
       "private": false,
@@ -156,36 +225,6 @@
         "nixos",
         "rust"
       ]
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "logchef-nix",
-      "full_name": "oddship/logchef-nix",
-      "url": "https://github.com/oddship/logchef-nix",
-      "description": "Native Nix package and NixOS module for Logchef",
-      "language": "Nix",
-      "stars": 0,
-      "archived": false,
-      "pushed_at": "2026-10-27T13:16:29Z",
-      "homepage": "https://oddship.github.io/logchef-nix/",
-      "owner": "oddship",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "nix-system",
-      "full_name": "oddship/nix-system",
-      "url": "https://github.com/oddship/nix-system",
-      "description": "Source code and project notes on GitHub.",
-      "language": "Nix",
-      "stars": 0,
-      "archived": false,
-      "pushed_at": "2026-10-27T10:41:09Z",
-      "homepage": "",
-      "owner": "oddship",
-      "topics": []
     },
     {
       "private": false,
@@ -1611,6 +1650,102 @@
   ],
   "activity": [
     {
+      "id": "commit:oddship/nix-system:d96e120f5b80ad0b5056a65c6f3fe7a04baeb7b2",
+      "repo": "oddship/nix-system",
+      "kind": "Commit",
+      "title": "docs: simplify agent guide around repository discovery",
+      "url": "https://github.com/oddship/nix-system/commit/d96e120f5b80ad0b5056a65c6f3fe7a04baeb7b2",
+      "at": "2026-10-28T10:25:03Z"
+    },
+    {
+      "id": "commit:oddship/bb-plugins:ad75e10c0ac0c23b17cced8f7bc17285c03f3077",
+      "repo": "oddship/bb-plugins",
+      "kind": "Commit",
+      "title": "test(px0-review): replace personal hostname with example origin",
+      "url": "https://github.com/oddship/bb-plugins/commit/ad75e10c0ac0c23b17cced8f7bc17285c03f3077",
+      "at": "2026-10-28T10:18:20Z"
+    },
+    {
+      "id": "commit:oddship/nix-system:4b3f10f838402ac7b9b3106427828725a3fd1a83",
+      "repo": "oddship/nix-system",
+      "kind": "Commit",
+      "title": "Add BB desktop package with native host launcher",
+      "url": "https://github.com/oddship/nix-system/commit/4b3f10f838402ac7b9b3106427828725a3fd1a83",
+      "at": "2026-10-28T10:12:38Z"
+    },
+    {
+      "id": "commit:oddship/bb-plugins:808c188fd1fcc8c53630b396ccee9ffe9ecedf9d",
+      "repo": "oddship/bb-plugins",
+      "kind": "Commit",
+      "title": "Complete five-plugin collection, unique IDs, px0 fixes, and walkthroughs",
+      "url": "https://github.com/oddship/bb-plugins/commit/808c188fd1fcc8c53630b396ccee9ffe9ecedf9d",
+      "at": "2026-10-28T08:54:13Z"
+    },
+    {
+      "id": "commit:oddship/gnome-quickshare:91a4e4e470395e71e12519fb32f52696e1741eeb",
+      "repo": "oddship/gnome-quickshare",
+      "kind": "Commit",
+      "title": "Install GNOME Platform runtime for Flatpak CI",
+      "url": "https://github.com/oddship/gnome-quickshare/commit/91a4e4e470395e71e12519fb32f52696e1741eeb",
+      "at": "2026-10-28T08:36:34Z"
+    },
+    {
+      "id": "commit:oddship/gnome-quickshare:c0a0398d2647e825967624be4cc8f80aaf03fc8e",
+      "repo": "oddship/gnome-quickshare",
+      "kind": "Commit",
+      "title": "Build native GNOME Quickshare app with protocol integration and CI",
+      "url": "https://github.com/oddship/gnome-quickshare/commit/c0a0398d2647e825967624be4cc8f80aaf03fc8e",
+      "at": "2026-10-28T07:51:23Z"
+    },
+    {
+      "id": "commit:oddship/bb-plugins:8d8c3a984686159c500f5cc9d40dddbf19ff0104",
+      "repo": "oddship/bb-plugins",
+      "kind": "Commit",
+      "title": "Release Mattermost 0.4.0 with attachment previews and personal bookmarks",
+      "url": "https://github.com/oddship/bb-plugins/commit/8d8c3a984686159c500f5cc9d40dddbf19ff0104",
+      "at": "2026-10-27T22:47:00Z"
+    },
+    {
+      "id": "commit:oddship/bb-plugins:b6fa5fb8a9199e8bfaa42d7b8bf63d8c7c03e2c0",
+      "repo": "oddship/bb-plugins",
+      "kind": "Commit",
+      "title": "Add Mattermost plugin to Oddship collection",
+      "url": "https://github.com/oddship/bb-plugins/commit/b6fa5fb8a9199e8bfaa42d7b8bf63d8c7c03e2c0",
+      "at": "2026-10-27T22:31:46Z"
+    },
+    {
+      "id": "commit:oddship/bb-plugins:063c8202ab506cd4da5032dd7160312b959f056d",
+      "repo": "oddship/bb-plugins",
+      "kind": "Commit",
+      "title": "Organize Oddship plugin collection with px0 Review",
+      "url": "https://github.com/oddship/bb-plugins/commit/063c8202ab506cd4da5032dd7160312b959f056d",
+      "at": "2026-10-27T22:24:32Z"
+    },
+    {
+      "id": "commit:oddship/bb-plugins:3358ac188734877d6fd2af11d814856e7890028b",
+      "repo": "oddship/bb-plugins",
+      "kind": "Commit",
+      "title": "Label px0 header action and explain empty workspaces",
+      "url": "https://github.com/oddship/bb-plugins/commit/3358ac188734877d6fd2af11d814856e7890028b",
+      "at": "2026-10-27T22:10:51Z"
+    },
+    {
+      "id": "commit:oddship/bb-plugins:379e601bc7a0aa0f98becbe2dcb38c850f12c962",
+      "repo": "oddship/bb-plugins",
+      "kind": "Commit",
+      "title": "Document the px0 review plugin surfaces",
+      "url": "https://github.com/oddship/bb-plugins/commit/379e601bc7a0aa0f98becbe2dcb38c850f12c962",
+      "at": "2026-10-27T22:01:25Z"
+    },
+    {
+      "id": "commit:oddship/bb-plugins:a1ba5706aa8ddfe3353c8175a6f271cde975fb55",
+      "repo": "oddship/bb-plugins",
+      "kind": "Commit",
+      "title": "Integrate forked px0 review workbench with BB threads",
+      "url": "https://github.com/oddship/bb-plugins/commit/a1ba5706aa8ddfe3353c8175a6f271cde975fb55",
+      "at": "2026-10-27T22:00:40Z"
+    },
+    {
       "id": "event:18391597028",
       "repo": "rhnvrm/px0",
       "kind": "Published release",
@@ -2472,6 +2607,102 @@
       "date": "2026-10-28",
       "items": [
         {
+          "id": "commit:oddship/nix-system:d96e120f5b80ad0b5056a65c6f3fe7a04baeb7b2",
+          "repo": "oddship/nix-system",
+          "kind": "Commit",
+          "title": "docs: simplify agent guide around repository discovery",
+          "url": "https://github.com/oddship/nix-system/commit/d96e120f5b80ad0b5056a65c6f3fe7a04baeb7b2",
+          "at": "2026-10-28T10:25:03Z"
+        },
+        {
+          "id": "commit:oddship/bb-plugins:ad75e10c0ac0c23b17cced8f7bc17285c03f3077",
+          "repo": "oddship/bb-plugins",
+          "kind": "Commit",
+          "title": "test(px0-review): replace personal hostname with example origin",
+          "url": "https://github.com/oddship/bb-plugins/commit/ad75e10c0ac0c23b17cced8f7bc17285c03f3077",
+          "at": "2026-10-28T10:18:20Z"
+        },
+        {
+          "id": "commit:oddship/nix-system:4b3f10f838402ac7b9b3106427828725a3fd1a83",
+          "repo": "oddship/nix-system",
+          "kind": "Commit",
+          "title": "Add BB desktop package with native host launcher",
+          "url": "https://github.com/oddship/nix-system/commit/4b3f10f838402ac7b9b3106427828725a3fd1a83",
+          "at": "2026-10-28T10:12:38Z"
+        },
+        {
+          "id": "commit:oddship/bb-plugins:808c188fd1fcc8c53630b396ccee9ffe9ecedf9d",
+          "repo": "oddship/bb-plugins",
+          "kind": "Commit",
+          "title": "Complete five-plugin collection, unique IDs, px0 fixes, and walkthroughs",
+          "url": "https://github.com/oddship/bb-plugins/commit/808c188fd1fcc8c53630b396ccee9ffe9ecedf9d",
+          "at": "2026-10-28T08:54:13Z"
+        },
+        {
+          "id": "commit:oddship/gnome-quickshare:91a4e4e470395e71e12519fb32f52696e1741eeb",
+          "repo": "oddship/gnome-quickshare",
+          "kind": "Commit",
+          "title": "Install GNOME Platform runtime for Flatpak CI",
+          "url": "https://github.com/oddship/gnome-quickshare/commit/91a4e4e470395e71e12519fb32f52696e1741eeb",
+          "at": "2026-10-28T08:36:34Z"
+        },
+        {
+          "id": "commit:oddship/gnome-quickshare:c0a0398d2647e825967624be4cc8f80aaf03fc8e",
+          "repo": "oddship/gnome-quickshare",
+          "kind": "Commit",
+          "title": "Build native GNOME Quickshare app with protocol integration and CI",
+          "url": "https://github.com/oddship/gnome-quickshare/commit/c0a0398d2647e825967624be4cc8f80aaf03fc8e",
+          "at": "2026-10-28T07:51:23Z"
+        },
+        {
+          "id": "commit:oddship/bb-plugins:8d8c3a984686159c500f5cc9d40dddbf19ff0104",
+          "repo": "oddship/bb-plugins",
+          "kind": "Commit",
+          "title": "Release Mattermost 0.4.0 with attachment previews and personal bookmarks",
+          "url": "https://github.com/oddship/bb-plugins/commit/8d8c3a984686159c500f5cc9d40dddbf19ff0104",
+          "at": "2026-10-27T22:47:00Z"
+        },
+        {
+          "id": "commit:oddship/bb-plugins:b6fa5fb8a9199e8bfaa42d7b8bf63d8c7c03e2c0",
+          "repo": "oddship/bb-plugins",
+          "kind": "Commit",
+          "title": "Add Mattermost plugin to Oddship collection",
+          "url": "https://github.com/oddship/bb-plugins/commit/b6fa5fb8a9199e8bfaa42d7b8bf63d8c7c03e2c0",
+          "at": "2026-10-27T22:31:46Z"
+        },
+        {
+          "id": "commit:oddship/bb-plugins:063c8202ab506cd4da5032dd7160312b959f056d",
+          "repo": "oddship/bb-plugins",
+          "kind": "Commit",
+          "title": "Organize Oddship plugin collection with px0 Review",
+          "url": "https://github.com/oddship/bb-plugins/commit/063c8202ab506cd4da5032dd7160312b959f056d",
+          "at": "2026-10-27T22:24:32Z"
+        },
+        {
+          "id": "commit:oddship/bb-plugins:3358ac188734877d6fd2af11d814856e7890028b",
+          "repo": "oddship/bb-plugins",
+          "kind": "Commit",
+          "title": "Label px0 header action and explain empty workspaces",
+          "url": "https://github.com/oddship/bb-plugins/commit/3358ac188734877d6fd2af11d814856e7890028b",
+          "at": "2026-10-27T22:10:51Z"
+        },
+        {
+          "id": "commit:oddship/bb-plugins:379e601bc7a0aa0f98becbe2dcb38c850f12c962",
+          "repo": "oddship/bb-plugins",
+          "kind": "Commit",
+          "title": "Document the px0 review plugin surfaces",
+          "url": "https://github.com/oddship/bb-plugins/commit/379e601bc7a0aa0f98becbe2dcb38c850f12c962",
+          "at": "2026-10-27T22:01:25Z"
+        },
+        {
+          "id": "commit:oddship/bb-plugins:a1ba5706aa8ddfe3353c8175a6f271cde975fb55",
+          "repo": "oddship/bb-plugins",
+          "kind": "Commit",
+          "title": "Integrate forked px0 review workbench with BB threads",
+          "url": "https://github.com/oddship/bb-plugins/commit/a1ba5706aa8ddfe3353c8175a6f271cde975fb55",
+          "at": "2026-10-27T22:00:40Z"
+        },
+        {
           "id": "event:18391597028",
           "repo": "rhnvrm/px0",
           "kind": "Published release",
@@ -3290,6 +3521,82 @@
     {
       "private": false,
       "visibility": "public",
+      "name": "nix-system",
+      "full_name": "oddship/nix-system",
+      "url": "https://github.com/oddship/nix-system",
+      "description": "Source code and project notes on GitHub.",
+      "language": "Nix",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-10-28T10:25:17Z",
+      "homepage": "",
+      "owner": "oddship",
+      "topics": [],
+      "latest": {
+        "id": "commit:oddship/nix-system:d96e120f5b80ad0b5056a65c6f3fe7a04baeb7b2",
+        "repo": "oddship/nix-system",
+        "kind": "Commit",
+        "title": "docs: simplify agent guide around repository discovery",
+        "url": "https://github.com/oddship/nix-system/commit/d96e120f5b80ad0b5056a65c6f3fe7a04baeb7b2",
+        "at": "2026-10-28T10:25:03Z"
+      }
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "bb-plugins",
+      "full_name": "oddship/bb-plugins",
+      "url": "https://github.com/oddship/bb-plugins",
+      "description": "BB plugins maintained by Oddship",
+      "language": "TypeScript",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-10-28T10:19:04Z",
+      "homepage": "",
+      "owner": "oddship",
+      "topics": [],
+      "latest": {
+        "id": "commit:oddship/bb-plugins:ad75e10c0ac0c23b17cced8f7bc17285c03f3077",
+        "repo": "oddship/bb-plugins",
+        "kind": "Commit",
+        "title": "test(px0-review): replace personal hostname with example origin",
+        "url": "https://github.com/oddship/bb-plugins/commit/ad75e10c0ac0c23b17cced8f7bc17285c03f3077",
+        "at": "2026-10-28T10:18:20Z"
+      }
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "gnome-quickshare",
+      "full_name": "oddship/gnome-quickshare",
+      "url": "https://github.com/oddship/gnome-quickshare",
+      "description": "Native GTK 4/libadwaita Quick Share client for GNOME. Send and receive files, text, links, and Wi-Fi credentials.",
+      "language": "Rust",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-10-28T08:36:35Z",
+      "homepage": "https://github.com/oddship/gnome-quickshare",
+      "owner": "oddship",
+      "topics": [
+        "gnome",
+        "gtk4",
+        "libadwaita",
+        "linux",
+        "quick-share",
+        "rust"
+      ],
+      "latest": {
+        "id": "commit:oddship/gnome-quickshare:91a4e4e470395e71e12519fb32f52696e1741eeb",
+        "repo": "oddship/gnome-quickshare",
+        "kind": "Commit",
+        "title": "Install GNOME Platform runtime for Flatpak CI",
+        "url": "https://github.com/oddship/gnome-quickshare/commit/91a4e4e470395e71e12519fb32f52696e1741eeb",
+        "at": "2026-10-28T08:36:34Z"
+      }
+    },
+    {
+      "private": false,
+      "visibility": "public",
       "name": "nixos-update-manager",
       "full_name": "oddship/nixos-update-manager",
       "url": "https://github.com/oddship/nixos-update-manager",
@@ -3327,7 +3634,7 @@
       "language": "Nix",
       "stars": 0,
       "archived": false,
-      "pushed_at": "2026-10-27T13:16:29Z",
+      "pushed_at": "2026-10-28T11:28:51Z",
       "homepage": "https://oddship.github.io/logchef-nix/",
       "owner": "oddship",
       "topics": [],
@@ -3338,29 +3645,6 @@
         "title": "Merge pull request #9 from oddship/automation/logchef-2.5.0",
         "url": "https://github.com/oddship/logchef-nix/commit/05e648452ee4b6238f9832d41f18cb7b4ef48768",
         "at": "2026-10-27T13:16:28Z"
-      }
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "nix-system",
-      "full_name": "oddship/nix-system",
-      "url": "https://github.com/oddship/nix-system",
-      "description": "Source code and project notes on GitHub.",
-      "language": "Nix",
-      "stars": 0,
-      "archived": false,
-      "pushed_at": "2026-10-27T10:41:09Z",
-      "homepage": "",
-      "owner": "oddship",
-      "topics": [],
-      "latest": {
-        "id": "commit:oddship/nix-system:5c163869003f58cfe6999d27c5ed5cd684cc830c",
-        "repo": "oddship/nix-system",
-        "kind": "Commit",
-        "title": "fix(gnome): free Super+V for clipboard history",
-        "url": "https://github.com/oddship/nix-system/commit/5c163869003f58cfe6999d27c5ed5cd684cc830c",
-        "at": "2026-10-27T10:41:05Z"
       }
     },
     {
@@ -3384,57 +3668,6 @@
         "title": "fix: handle extracted upstream updater in v0.1.20",
         "url": "https://github.com/oddship/px0-nix-flake/commit/8e0b52182844166391becf30043289e237c8f622",
         "at": "2026-10-25T05:19:00Z"
-      }
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "exchange-circulars",
-      "full_name": "rhnvrm/exchange-circulars",
-      "url": "https://github.com/rhnvrm/exchange-circulars",
-      "description": "Automated processing and publishing of regulatory circulars from NSE, BSE, and SEBI with AI-powered summaries",
-      "language": "Python",
-      "stars": 11,
-      "archived": false,
-      "pushed_at": "2026-10-28T04:13:43Z",
-      "homepage": "https://exchangecirculars.com/",
-      "owner": "rhnvrm",
-      "topics": [],
-      "latest": {
-        "id": "event:17905894909",
-        "repo": "rhnvrm/exchange-circulars",
-        "kind": "Published release",
-        "title": "v0.1.0 — First release",
-        "url": "https://github.com/rhnvrm/exchange-circulars/releases/tag/v0.1.0",
-        "at": "2026-10-22T10:56:40Z"
-      }
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "simples3",
-      "full_name": "rhnvrm/simples3",
-      "url": "https://github.com/rhnvrm/simples3",
-      "description": "Simple no frills AWS S3 Golang Library using REST with V4 Signing (without AWS Go SDK)",
-      "language": "Go",
-      "stars": 209,
-      "archived": false,
-      "pushed_at": "2026-10-22T11:43:43Z",
-      "homepage": "",
-      "owner": "rhnvrm",
-      "topics": [
-        "aws",
-        "aws-s3",
-        "aws-signature-v4",
-        "golang"
-      ],
-      "latest": {
-        "id": "commit:rhnvrm/simples3:61b17f646a260e65e5c9117b6e14ea3e41f679e0",
-        "repo": "rhnvrm/simples3",
-        "kind": "Commit",
-        "title": "fix(ci): replace MinIO test fixture with SeaweedFS (#53)",
-        "url": "https://github.com/rhnvrm/simples3/commit/61b17f646a260e65e5c9117b6e14ea3e41f679e0",
-        "at": "2026-10-22T09:49:04Z"
       }
     }
   ]
