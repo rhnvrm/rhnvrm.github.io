@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T07:02:17+00:00",
+  "updated_at": "2026-10-30T07:05:04+00:00",
   "public_repositories": [
     "oddship/bb-plugins",
     "oddship/bosun",
@@ -110,6 +110,21 @@
     {
       "private": false,
       "visibility": "public",
+      "name": "doordarshan-zola",
+      "full_name": "oddship/doordarshan-zola",
+      "url": "https://github.com/oddship/doordarshan-zola",
+      "description": "Doordarshan is a Zola theme for a retro Indian terminal/notebook aesthetic.",
+      "language": "HTML",
+      "stars": 2,
+      "archived": false,
+      "pushed_at": "2026-10-30T04:51:17Z",
+      "homepage": "",
+      "owner": "oddship",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
       "name": "exchange-circulars",
       "full_name": "rhnvrm/exchange-circulars",
       "url": "https://github.com/rhnvrm/exchange-circulars",
@@ -117,7 +132,7 @@
       "language": "Python",
       "stars": 11,
       "archived": false,
-      "pushed_at": "2026-10-29T00:41:00Z",
+      "pushed_at": "2026-10-30T00:51:35Z",
       "homepage": "https://exchangecirculars.com/",
       "owner": "rhnvrm",
       "topics": []
@@ -132,7 +147,7 @@
       "language": "HTML",
       "stars": 0,
       "archived": false,
-      "pushed_at": "2026-10-28T18:44:54Z",
+      "pushed_at": "2026-10-29T22:01:41Z",
       "homepage": "https://reading-list.oddship.net",
       "owner": "oddship",
       "topics": []
@@ -140,15 +155,15 @@
     {
       "private": false,
       "visibility": "public",
-      "name": "logchef-nix",
-      "full_name": "oddship/logchef-nix",
-      "url": "https://github.com/oddship/logchef-nix",
-      "description": "Native Nix package and NixOS module for Logchef",
-      "language": "Nix",
+      "name": "oddship.net",
+      "full_name": "oddship/oddship.net",
+      "url": "https://github.com/oddship/oddship.net",
+      "description": "oddship.net website",
+      "language": "Python",
       "stars": 0,
       "archived": false,
-      "pushed_at": "2026-10-28T11:28:51Z",
-      "homepage": "https://oddship.github.io/logchef-nix/",
+      "pushed_at": "2026-10-29T20:40:36Z",
+      "homepage": "https://oddship.net",
       "owner": "oddship",
       "topics": []
     },
@@ -162,8 +177,23 @@
       "language": "Nix",
       "stars": 0,
       "archived": false,
-      "pushed_at": "2026-10-28T10:25:17Z",
+      "pushed_at": "2026-10-29T20:30:05Z",
       "homepage": "",
+      "owner": "oddship",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "logchef-nix",
+      "full_name": "oddship/logchef-nix",
+      "url": "https://github.com/oddship/logchef-nix",
+      "description": "Native Nix package and NixOS module for Logchef",
+      "language": "Nix",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-10-29T11:38:44Z",
+      "homepage": "https://oddship.github.io/logchef-nix/",
       "owner": "oddship",
       "topics": []
     },
@@ -177,7 +207,7 @@
       "language": "TypeScript",
       "stars": 0,
       "archived": false,
-      "pushed_at": "2026-10-28T10:19:04Z",
+      "pushed_at": "2026-10-29T08:07:12Z",
       "homepage": "",
       "owner": "oddship",
       "topics": []
@@ -279,21 +309,6 @@
     {
       "private": false,
       "visibility": "public",
-      "name": "doordarshan-zola",
-      "full_name": "oddship/doordarshan-zola",
-      "url": "https://github.com/oddship/doordarshan-zola",
-      "description": "Doordarshan is a Zola theme for a retro Indian terminal/notebook aesthetic.",
-      "language": "SCSS",
-      "stars": 1,
-      "archived": false,
-      "pushed_at": "2026-10-21T08:39:21Z",
-      "homepage": "",
-      "owner": "oddship",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
       "name": "doot",
       "full_name": "oddship/doot",
       "url": "https://github.com/oddship/doot",
@@ -318,21 +333,6 @@
       "archived": false,
       "pushed_at": "2026-10-20T16:52:44Z",
       "homepage": "https://oddship.github.io/oatbase/",
-      "owner": "oddship",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "oddship.net",
-      "full_name": "oddship/oddship.net",
-      "url": "https://github.com/oddship/oddship.net",
-      "description": "oddship.net website",
-      "language": "HTML",
-      "stars": 0,
-      "archived": false,
-      "pushed_at": "2026-10-19T20:33:23Z",
-      "homepage": "https://oddship.net",
       "owner": "oddship",
       "topics": []
     },
@@ -1650,6 +1650,78 @@
   ],
   "activity": [
     {
+      "id": "commit:oddship/doordarshan-zola:4e15f29ebd9a58fb8aa7f096e6e87e88d58b03c4",
+      "repo": "oddship/doordarshan-zola",
+      "kind": "Commit",
+      "title": "feat: generate static social previews in the theme",
+      "url": "https://github.com/oddship/doordarshan-zola/commit/4e15f29ebd9a58fb8aa7f096e6e87e88d58b03c4",
+      "at": "2026-10-30T04:44:03Z"
+    },
+    {
+      "id": "commit:oddship/oddship.net:fbf2742f358acea55c85d83d6c06c6509725f6ec",
+      "repo": "oddship/oddship.net",
+      "kind": "Commit",
+      "title": "Merge pull request #4 from oddship/fix/site-maintenance",
+      "url": "https://github.com/oddship/oddship.net/commit/fbf2742f358acea55c85d83d6c06c6509725f6ec",
+      "at": "2026-10-29T20:39:32Z"
+    },
+    {
+      "id": "commit:oddship/oddship.net:e709953ed295d9ad3604e866a740ecb2b00bbbd3",
+      "repo": "oddship/oddship.net",
+      "kind": "Commit",
+      "title": "fix(site): automate maintenance and verify deployments",
+      "url": "https://github.com/oddship/oddship.net/commit/e709953ed295d9ad3604e866a740ecb2b00bbbd3",
+      "at": "2026-10-29T20:37:03Z"
+    },
+    {
+      "id": "commit:rhnvrm/exchange-circulars:3581e89fe740d67b67a2e7042dc521111a77521a",
+      "repo": "rhnvrm/exchange-circulars",
+      "kind": "Commit",
+      "title": "Merge pull request #15 from rhnvrm/fix-nix-installer-failure-in-circular-update-ci-thr_yxy8tzbjzp",
+      "url": "https://github.com/rhnvrm/exchange-circulars/commit/3581e89fe740d67b67a2e7042dc521111a77521a",
+      "at": "2026-10-29T19:13:07Z"
+    },
+    {
+      "id": "commit:rhnvrm/exchange-circulars:11bfe34bde697026ab5d8ead5f7bddc59b81fbbd",
+      "repo": "rhnvrm/exchange-circulars",
+      "kind": "Commit",
+      "title": "fix(ci): update Nix installer for Node 24 and network retries",
+      "url": "https://github.com/rhnvrm/exchange-circulars/commit/11bfe34bde697026ab5d8ead5f7bddc59b81fbbd",
+      "at": "2026-10-29T19:02:10Z"
+    },
+    {
+      "id": "commit:oddship/bb-plugins:7d415870acba6b05e6b0209053f04148ccb01f68",
+      "repo": "oddship/bb-plugins",
+      "kind": "Commit",
+      "title": "fix(px0-review): install react-slot as a runtime dependency",
+      "url": "https://github.com/oddship/bb-plugins/commit/7d415870acba6b05e6b0209053f04148ccb01f68",
+      "at": "2026-10-29T08:05:10Z"
+    },
+    {
+      "id": "event:18537110793",
+      "repo": "rhnvrm/exchange-circulars",
+      "kind": "Published release",
+      "title": "v0.2.0 — MCX circular feeds",
+      "url": "https://github.com/rhnvrm/exchange-circulars/releases/tag/v0.2.0",
+      "at": "2026-10-29T08:01:58Z"
+    },
+    {
+      "id": "commit:rhnvrm/exchange-circulars:294b93cdcc29fbde483e28f2787f62cc14b09e07",
+      "repo": "rhnvrm/exchange-circulars",
+      "kind": "Commit",
+      "title": "Merge pull request #14 from rhnvrm/feat/mcx-circulars",
+      "url": "https://github.com/rhnvrm/exchange-circulars/commit/294b93cdcc29fbde483e28f2787f62cc14b09e07",
+      "at": "2026-10-29T07:59:58Z"
+    },
+    {
+      "id": "commit:rhnvrm/exchange-circulars:97f95394551f1987e5f0f3b38fd24e8e8075082b",
+      "repo": "rhnvrm/exchange-circulars",
+      "kind": "Commit",
+      "title": "fix: preserve MCX frontmatter and add search source filter",
+      "url": "https://github.com/rhnvrm/exchange-circulars/commit/97f95394551f1987e5f0f3b38fd24e8e8075082b",
+      "at": "2026-10-29T07:58:12Z"
+    },
+    {
       "id": "commit:oddship/nix-system:d96e120f5b80ad0b5056a65c6f3fe7a04baeb7b2",
       "repo": "oddship/nix-system",
       "kind": "Commit",
@@ -1754,12 +1826,28 @@
       "at": "2026-10-27T21:58:24Z"
     },
     {
+      "id": "commit:rhnvrm/px0:063f9459ec11241609a84c1a8c145e29fc3833c3",
+      "repo": "rhnvrm/px0",
+      "kind": "Commit",
+      "title": "Hide standalone agent actions in embedded BB reviews",
+      "url": "https://github.com/rhnvrm/px0/commit/063f9459ec11241609a84c1a8c145e29fc3833c3",
+      "at": "2026-10-27T21:57:21Z"
+    },
+    {
       "id": "event:18391210779",
       "repo": "rhnvrm/px0",
       "kind": "Published release",
       "title": "px0 0.1.20 — BB embedding integration",
       "url": "https://github.com/rhnvrm/px0/releases/tag/v0.1.20-bb.1",
       "at": "2026-10-27T21:53:30Z"
+    },
+    {
+      "id": "commit:rhnvrm/px0:0b9b96fee85d17ed888113fa208650828093f912",
+      "repo": "rhnvrm/px0",
+      "kind": "Commit",
+      "title": "Add authenticated embedding and BB review feedback integration",
+      "url": "https://github.com/rhnvrm/px0/commit/0b9b96fee85d17ed888113fa208650828093f912",
+      "at": "2026-10-27T21:49:04Z"
     },
     {
       "id": "commit:oddship/nixos-update-manager:5f8a9289b88f31a51953db7cb51c288d6adeda2c",
@@ -1808,6 +1896,14 @@
       "title": "fix: handle extracted upstream updater in v0.1.20",
       "url": "https://github.com/oddship/px0-nix-flake/commit/8e0b52182844166391becf30043289e237c8f622",
       "at": "2026-10-25T05:19:00Z"
+    },
+    {
+      "id": "commit:rhnvrm/exchange-circulars:89dc44e013e51704178e7403997d3dd0f96b10e8",
+      "repo": "rhnvrm/exchange-circulars",
+      "kind": "Commit",
+      "title": "feat: add MCX circular feeds and site integration",
+      "url": "https://github.com/rhnvrm/exchange-circulars/commit/89dc44e013e51704178e7403997d3dd0f96b10e8",
+      "at": "2026-10-23T07:03:59Z"
     },
     {
       "id": "event:17987812175",
@@ -2604,6 +2700,88 @@
   ],
   "days": [
     {
+      "date": "2026-10-30",
+      "items": [
+        {
+          "id": "commit:oddship/doordarshan-zola:4e15f29ebd9a58fb8aa7f096e6e87e88d58b03c4",
+          "repo": "oddship/doordarshan-zola",
+          "kind": "Commit",
+          "title": "feat: generate static social previews in the theme",
+          "url": "https://github.com/oddship/doordarshan-zola/commit/4e15f29ebd9a58fb8aa7f096e6e87e88d58b03c4",
+          "at": "2026-10-30T04:44:03Z"
+        },
+        {
+          "id": "commit:oddship/oddship.net:fbf2742f358acea55c85d83d6c06c6509725f6ec",
+          "repo": "oddship/oddship.net",
+          "kind": "Commit",
+          "title": "Merge pull request #4 from oddship/fix/site-maintenance",
+          "url": "https://github.com/oddship/oddship.net/commit/fbf2742f358acea55c85d83d6c06c6509725f6ec",
+          "at": "2026-10-29T20:39:32Z"
+        },
+        {
+          "id": "commit:oddship/oddship.net:e709953ed295d9ad3604e866a740ecb2b00bbbd3",
+          "repo": "oddship/oddship.net",
+          "kind": "Commit",
+          "title": "fix(site): automate maintenance and verify deployments",
+          "url": "https://github.com/oddship/oddship.net/commit/e709953ed295d9ad3604e866a740ecb2b00bbbd3",
+          "at": "2026-10-29T20:37:03Z"
+        },
+        {
+          "id": "commit:rhnvrm/exchange-circulars:3581e89fe740d67b67a2e7042dc521111a77521a",
+          "repo": "rhnvrm/exchange-circulars",
+          "kind": "Commit",
+          "title": "Merge pull request #15 from rhnvrm/fix-nix-installer-failure-in-circular-update-ci-thr_yxy8tzbjzp",
+          "url": "https://github.com/rhnvrm/exchange-circulars/commit/3581e89fe740d67b67a2e7042dc521111a77521a",
+          "at": "2026-10-29T19:13:07Z"
+        },
+        {
+          "id": "commit:rhnvrm/exchange-circulars:11bfe34bde697026ab5d8ead5f7bddc59b81fbbd",
+          "repo": "rhnvrm/exchange-circulars",
+          "kind": "Commit",
+          "title": "fix(ci): update Nix installer for Node 24 and network retries",
+          "url": "https://github.com/rhnvrm/exchange-circulars/commit/11bfe34bde697026ab5d8ead5f7bddc59b81fbbd",
+          "at": "2026-10-29T19:02:10Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "items": [
+        {
+          "id": "commit:oddship/bb-plugins:7d415870acba6b05e6b0209053f04148ccb01f68",
+          "repo": "oddship/bb-plugins",
+          "kind": "Commit",
+          "title": "fix(px0-review): install react-slot as a runtime dependency",
+          "url": "https://github.com/oddship/bb-plugins/commit/7d415870acba6b05e6b0209053f04148ccb01f68",
+          "at": "2026-10-29T08:05:10Z"
+        },
+        {
+          "id": "event:18537110793",
+          "repo": "rhnvrm/exchange-circulars",
+          "kind": "Published release",
+          "title": "v0.2.0 — MCX circular feeds",
+          "url": "https://github.com/rhnvrm/exchange-circulars/releases/tag/v0.2.0",
+          "at": "2026-10-29T08:01:58Z"
+        },
+        {
+          "id": "commit:rhnvrm/exchange-circulars:294b93cdcc29fbde483e28f2787f62cc14b09e07",
+          "repo": "rhnvrm/exchange-circulars",
+          "kind": "Commit",
+          "title": "Merge pull request #14 from rhnvrm/feat/mcx-circulars",
+          "url": "https://github.com/rhnvrm/exchange-circulars/commit/294b93cdcc29fbde483e28f2787f62cc14b09e07",
+          "at": "2026-10-29T07:59:58Z"
+        },
+        {
+          "id": "commit:rhnvrm/exchange-circulars:97f95394551f1987e5f0f3b38fd24e8e8075082b",
+          "repo": "rhnvrm/exchange-circulars",
+          "kind": "Commit",
+          "title": "fix: preserve MCX frontmatter and add search source filter",
+          "url": "https://github.com/rhnvrm/exchange-circulars/commit/97f95394551f1987e5f0f3b38fd24e8e8075082b",
+          "at": "2026-10-29T07:58:12Z"
+        }
+      ]
+    },
+    {
       "date": "2026-10-28",
       "items": [
         {
@@ -2711,12 +2889,28 @@
           "at": "2026-10-27T21:58:24Z"
         },
         {
+          "id": "commit:rhnvrm/px0:063f9459ec11241609a84c1a8c145e29fc3833c3",
+          "repo": "rhnvrm/px0",
+          "kind": "Commit",
+          "title": "Hide standalone agent actions in embedded BB reviews",
+          "url": "https://github.com/rhnvrm/px0/commit/063f9459ec11241609a84c1a8c145e29fc3833c3",
+          "at": "2026-10-27T21:57:21Z"
+        },
+        {
           "id": "event:18391210779",
           "repo": "rhnvrm/px0",
           "kind": "Published release",
           "title": "px0 0.1.20 — BB embedding integration",
           "url": "https://github.com/rhnvrm/px0/releases/tag/v0.1.20-bb.1",
           "at": "2026-10-27T21:53:30Z"
+        },
+        {
+          "id": "commit:rhnvrm/px0:0b9b96fee85d17ed888113fa208650828093f912",
+          "repo": "rhnvrm/px0",
+          "kind": "Commit",
+          "title": "Add authenticated embedding and BB review feedback integration",
+          "url": "https://github.com/rhnvrm/px0/commit/0b9b96fee85d17ed888113fa208650828093f912",
+          "at": "2026-10-27T21:49:04Z"
         }
       ]
     },
@@ -2781,6 +2975,14 @@
     {
       "date": "2026-10-23",
       "items": [
+        {
+          "id": "commit:rhnvrm/exchange-circulars:89dc44e013e51704178e7403997d3dd0f96b10e8",
+          "repo": "rhnvrm/exchange-circulars",
+          "kind": "Commit",
+          "title": "feat: add MCX circular feeds and site integration",
+          "url": "https://github.com/rhnvrm/exchange-circulars/commit/89dc44e013e51704178e7403997d3dd0f96b10e8",
+          "at": "2026-10-23T07:03:59Z"
+        },
         {
           "id": "event:17987812175",
           "repo": "zerodha/kite-mcp-server",
@@ -3521,24 +3723,70 @@
     {
       "private": false,
       "visibility": "public",
-      "name": "nix-system",
-      "full_name": "oddship/nix-system",
-      "url": "https://github.com/oddship/nix-system",
-      "description": "Source code and project notes on GitHub.",
-      "language": "Nix",
-      "stars": 0,
+      "name": "doordarshan-zola",
+      "full_name": "oddship/doordarshan-zola",
+      "url": "https://github.com/oddship/doordarshan-zola",
+      "description": "Doordarshan is a Zola theme for a retro Indian terminal/notebook aesthetic.",
+      "language": "HTML",
+      "stars": 2,
       "archived": false,
-      "pushed_at": "2026-10-28T10:25:17Z",
+      "pushed_at": "2026-10-30T04:51:17Z",
       "homepage": "",
       "owner": "oddship",
       "topics": [],
       "latest": {
-        "id": "commit:oddship/nix-system:d96e120f5b80ad0b5056a65c6f3fe7a04baeb7b2",
-        "repo": "oddship/nix-system",
+        "id": "commit:oddship/doordarshan-zola:4e15f29ebd9a58fb8aa7f096e6e87e88d58b03c4",
+        "repo": "oddship/doordarshan-zola",
         "kind": "Commit",
-        "title": "docs: simplify agent guide around repository discovery",
-        "url": "https://github.com/oddship/nix-system/commit/d96e120f5b80ad0b5056a65c6f3fe7a04baeb7b2",
-        "at": "2026-10-28T10:25:03Z"
+        "title": "feat: generate static social previews in the theme",
+        "url": "https://github.com/oddship/doordarshan-zola/commit/4e15f29ebd9a58fb8aa7f096e6e87e88d58b03c4",
+        "at": "2026-10-30T04:44:03Z"
+      }
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "oddship.net",
+      "full_name": "oddship/oddship.net",
+      "url": "https://github.com/oddship/oddship.net",
+      "description": "oddship.net website",
+      "language": "Python",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-10-29T20:40:36Z",
+      "homepage": "https://oddship.net",
+      "owner": "oddship",
+      "topics": [],
+      "latest": {
+        "id": "commit:oddship/oddship.net:fbf2742f358acea55c85d83d6c06c6509725f6ec",
+        "repo": "oddship/oddship.net",
+        "kind": "Commit",
+        "title": "Merge pull request #4 from oddship/fix/site-maintenance",
+        "url": "https://github.com/oddship/oddship.net/commit/fbf2742f358acea55c85d83d6c06c6509725f6ec",
+        "at": "2026-10-29T20:39:32Z"
+      }
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "exchange-circulars",
+      "full_name": "rhnvrm/exchange-circulars",
+      "url": "https://github.com/rhnvrm/exchange-circulars",
+      "description": "Automated processing and publishing of regulatory circulars from NSE, BSE, and SEBI with AI-powered summaries",
+      "language": "Python",
+      "stars": 11,
+      "archived": false,
+      "pushed_at": "2026-10-30T00:51:35Z",
+      "homepage": "https://exchangecirculars.com/",
+      "owner": "rhnvrm",
+      "topics": [],
+      "latest": {
+        "id": "commit:rhnvrm/exchange-circulars:3581e89fe740d67b67a2e7042dc521111a77521a",
+        "repo": "rhnvrm/exchange-circulars",
+        "kind": "Commit",
+        "title": "Merge pull request #15 from rhnvrm/fix-nix-installer-failure-in-circular-update-ci-thr_yxy8tzbjzp",
+        "url": "https://github.com/rhnvrm/exchange-circulars/commit/3581e89fe740d67b67a2e7042dc521111a77521a",
+        "at": "2026-10-29T19:13:07Z"
       }
     },
     {
@@ -3551,17 +3799,40 @@
       "language": "TypeScript",
       "stars": 0,
       "archived": false,
-      "pushed_at": "2026-10-28T10:19:04Z",
+      "pushed_at": "2026-10-29T08:07:12Z",
       "homepage": "",
       "owner": "oddship",
       "topics": [],
       "latest": {
-        "id": "commit:oddship/bb-plugins:ad75e10c0ac0c23b17cced8f7bc17285c03f3077",
+        "id": "commit:oddship/bb-plugins:7d415870acba6b05e6b0209053f04148ccb01f68",
         "repo": "oddship/bb-plugins",
         "kind": "Commit",
-        "title": "test(px0-review): replace personal hostname with example origin",
-        "url": "https://github.com/oddship/bb-plugins/commit/ad75e10c0ac0c23b17cced8f7bc17285c03f3077",
-        "at": "2026-10-28T10:18:20Z"
+        "title": "fix(px0-review): install react-slot as a runtime dependency",
+        "url": "https://github.com/oddship/bb-plugins/commit/7d415870acba6b05e6b0209053f04148ccb01f68",
+        "at": "2026-10-29T08:05:10Z"
+      }
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "nix-system",
+      "full_name": "oddship/nix-system",
+      "url": "https://github.com/oddship/nix-system",
+      "description": "Source code and project notes on GitHub.",
+      "language": "Nix",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-10-29T20:30:05Z",
+      "homepage": "",
+      "owner": "oddship",
+      "topics": [],
+      "latest": {
+        "id": "commit:oddship/nix-system:d96e120f5b80ad0b5056a65c6f3fe7a04baeb7b2",
+        "repo": "oddship/nix-system",
+        "kind": "Commit",
+        "title": "docs: simplify agent guide around repository discovery",
+        "url": "https://github.com/oddship/nix-system/commit/d96e120f5b80ad0b5056a65c6f3fe7a04baeb7b2",
+        "at": "2026-10-28T10:25:03Z"
       }
     },
     {
@@ -3592,82 +3863,6 @@
         "title": "Install GNOME Platform runtime for Flatpak CI",
         "url": "https://github.com/oddship/gnome-quickshare/commit/91a4e4e470395e71e12519fb32f52696e1741eeb",
         "at": "2026-10-28T08:36:34Z"
-      }
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "nixos-update-manager",
-      "full_name": "oddship/nixos-update-manager",
-      "url": "https://github.com/oddship/nixos-update-manager",
-      "description": "Native GNOME app for reviewing and applying updates to local NixOS flake repositories.",
-      "language": "Rust",
-      "stars": 2,
-      "archived": false,
-      "pushed_at": "2026-10-27T13:17:24Z",
-      "homepage": "",
-      "owner": "oddship",
-      "topics": [
-        "flakes",
-        "gnome",
-        "gtk4",
-        "nix",
-        "nixos",
-        "rust"
-      ],
-      "latest": {
-        "id": "commit:oddship/nixos-update-manager:5f8a9289b88f31a51953db7cb51c288d6adeda2c",
-        "repo": "oddship/nixos-update-manager",
-        "kind": "Commit",
-        "title": "Merge pull request #6 from oddship/dependabot/github_actions/cachix/install-nix-action-31.11.3",
-        "url": "https://github.com/oddship/nixos-update-manager/commit/5f8a9289b88f31a51953db7cb51c288d6adeda2c",
-        "at": "2026-10-27T13:17:13Z"
-      }
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "logchef-nix",
-      "full_name": "oddship/logchef-nix",
-      "url": "https://github.com/oddship/logchef-nix",
-      "description": "Native Nix package and NixOS module for Logchef",
-      "language": "Nix",
-      "stars": 0,
-      "archived": false,
-      "pushed_at": "2026-10-28T11:28:51Z",
-      "homepage": "https://oddship.github.io/logchef-nix/",
-      "owner": "oddship",
-      "topics": [],
-      "latest": {
-        "id": "commit:oddship/logchef-nix:05e648452ee4b6238f9832d41f18cb7b4ef48768",
-        "repo": "oddship/logchef-nix",
-        "kind": "Commit",
-        "title": "Merge pull request #9 from oddship/automation/logchef-2.5.0",
-        "url": "https://github.com/oddship/logchef-nix/commit/05e648452ee4b6238f9832d41f18cb7b4ef48768",
-        "at": "2026-10-27T13:16:28Z"
-      }
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "px0-nix-flake",
-      "full_name": "oddship/px0-nix-flake",
-      "url": "https://github.com/oddship/px0-nix-flake",
-      "description": "Source-built px0 Nix flake with validated daily upstream release updates",
-      "language": "Nix",
-      "stars": 1,
-      "archived": false,
-      "pushed_at": "2026-10-25T07:51:09Z",
-      "homepage": "",
-      "owner": "oddship",
-      "topics": [],
-      "latest": {
-        "id": "commit:oddship/px0-nix-flake:8e0b52182844166391becf30043289e237c8f622",
-        "repo": "oddship/px0-nix-flake",
-        "kind": "Commit",
-        "title": "fix: handle extracted upstream updater in v0.1.20",
-        "url": "https://github.com/oddship/px0-nix-flake/commit/8e0b52182844166391becf30043289e237c8f622",
-        "at": "2026-10-25T05:19:00Z"
       }
     }
   ]
