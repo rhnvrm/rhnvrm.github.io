@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T07:05:04+00:00",
+  "updated_at": "2026-10-31T06:58:50+00:00",
   "public_repositories": [
     "oddship/bb-plugins",
     "oddship/bosun",
@@ -110,6 +110,36 @@
     {
       "private": false,
       "visibility": "public",
+      "name": "exchange-circulars",
+      "full_name": "rhnvrm/exchange-circulars",
+      "url": "https://github.com/rhnvrm/exchange-circulars",
+      "description": "Automated processing and publishing of regulatory circulars from NSE, BSE, and SEBI with AI-powered summaries",
+      "language": "Python",
+      "stars": 11,
+      "archived": false,
+      "pushed_at": "2026-10-31T04:19:17Z",
+      "homepage": "https://exchangecirculars.com/",
+      "owner": "rhnvrm",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "logchef-nix",
+      "full_name": "oddship/logchef-nix",
+      "url": "https://github.com/oddship/logchef-nix",
+      "description": "Native Nix package and NixOS module for Logchef",
+      "language": "Nix",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-10-30T18:24:11Z",
+      "homepage": "https://oddship.github.io/logchef-nix/",
+      "owner": "oddship",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
       "name": "doordarshan-zola",
       "full_name": "oddship/doordarshan-zola",
       "url": "https://github.com/oddship/doordarshan-zola",
@@ -120,21 +150,6 @@
       "pushed_at": "2026-10-30T04:51:17Z",
       "homepage": "",
       "owner": "oddship",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "exchange-circulars",
-      "full_name": "rhnvrm/exchange-circulars",
-      "url": "https://github.com/rhnvrm/exchange-circulars",
-      "description": "Automated processing and publishing of regulatory circulars from NSE, BSE, and SEBI with AI-powered summaries",
-      "language": "Python",
-      "stars": 11,
-      "archived": false,
-      "pushed_at": "2026-10-30T00:51:35Z",
-      "homepage": "https://exchangecirculars.com/",
-      "owner": "rhnvrm",
       "topics": []
     },
     {
@@ -179,21 +194,6 @@
       "archived": false,
       "pushed_at": "2026-10-29T20:30:05Z",
       "homepage": "",
-      "owner": "oddship",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "logchef-nix",
-      "full_name": "oddship/logchef-nix",
-      "url": "https://github.com/oddship/logchef-nix",
-      "description": "Native Nix package and NixOS module for Logchef",
-      "language": "Nix",
-      "stars": 0,
-      "archived": false,
-      "pushed_at": "2026-10-29T11:38:44Z",
-      "homepage": "https://oddship.github.io/logchef-nix/",
       "owner": "oddship",
       "topics": []
     },
@@ -498,7 +498,7 @@
       "url": "https://github.com/rhnvrm/mattermost-cli",
       "description": "Mattermost CLI for humans and agents",
       "language": "Python",
-      "stars": 11,
+      "stars": 12,
       "archived": false,
       "pushed_at": "2026-06-29T03:57:14Z",
       "homepage": "https://rhnvrm.github.io/mattermost-cli/",
@@ -1650,6 +1650,38 @@
   ],
   "activity": [
     {
+      "id": "commit:oddship/logchef-nix:0abd2c79c728d7a59d5f271e35bdd06b22ac4ac1",
+      "repo": "oddship/logchef-nix",
+      "kind": "Commit",
+      "title": "fix(logchef): update to v2.6.1 and isolate the shutdown test",
+      "url": "https://github.com/oddship/logchef-nix/commit/0abd2c79c728d7a59d5f271e35bdd06b22ac4ac1",
+      "at": "2026-10-30T18:24:11Z"
+    },
+    {
+      "id": "commit:oddship/logchef-nix:9725d14db7bff1fcd228f0deba574be664541128",
+      "repo": "oddship/logchef-nix",
+      "kind": "Commit",
+      "title": "fix(checks): isolate the process-wide shutdown leak test",
+      "url": "https://github.com/oddship/logchef-nix/commit/9725d14db7bff1fcd228f0deba574be664541128",
+      "at": "2026-10-30T18:16:31Z"
+    },
+    {
+      "id": "event:18660406041",
+      "repo": "zerodha/kite-mcp-server",
+      "kind": "Published release",
+      "title": "v0.4.0-dev26",
+      "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev26",
+      "at": "2026-10-30T11:28:02Z"
+    },
+    {
+      "id": "event:18654910654",
+      "repo": "zerodha/kite-mcp-server",
+      "kind": "Published release",
+      "title": "v0.4.0-dev25",
+      "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev25",
+      "at": "2026-10-30T10:10:24Z"
+    },
+    {
       "id": "commit:oddship/doordarshan-zola:4e15f29ebd9a58fb8aa7f096e6e87e88d58b03c4",
       "repo": "oddship/doordarshan-zola",
       "kind": "Commit",
@@ -2703,6 +2735,38 @@
       "date": "2026-10-30",
       "items": [
         {
+          "id": "commit:oddship/logchef-nix:0abd2c79c728d7a59d5f271e35bdd06b22ac4ac1",
+          "repo": "oddship/logchef-nix",
+          "kind": "Commit",
+          "title": "fix(logchef): update to v2.6.1 and isolate the shutdown test",
+          "url": "https://github.com/oddship/logchef-nix/commit/0abd2c79c728d7a59d5f271e35bdd06b22ac4ac1",
+          "at": "2026-10-30T18:24:11Z"
+        },
+        {
+          "id": "commit:oddship/logchef-nix:9725d14db7bff1fcd228f0deba574be664541128",
+          "repo": "oddship/logchef-nix",
+          "kind": "Commit",
+          "title": "fix(checks): isolate the process-wide shutdown leak test",
+          "url": "https://github.com/oddship/logchef-nix/commit/9725d14db7bff1fcd228f0deba574be664541128",
+          "at": "2026-10-30T18:16:31Z"
+        },
+        {
+          "id": "event:18660406041",
+          "repo": "zerodha/kite-mcp-server",
+          "kind": "Published release",
+          "title": "v0.4.0-dev26",
+          "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev26",
+          "at": "2026-10-30T11:28:02Z"
+        },
+        {
+          "id": "event:18654910654",
+          "repo": "zerodha/kite-mcp-server",
+          "kind": "Published release",
+          "title": "v0.4.0-dev25",
+          "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev25",
+          "at": "2026-10-30T10:10:24Z"
+        },
+        {
           "id": "commit:oddship/doordarshan-zola:4e15f29ebd9a58fb8aa7f096e6e87e88d58b03c4",
           "repo": "oddship/doordarshan-zola",
           "kind": "Commit",
@@ -3723,6 +3787,29 @@
     {
       "private": false,
       "visibility": "public",
+      "name": "logchef-nix",
+      "full_name": "oddship/logchef-nix",
+      "url": "https://github.com/oddship/logchef-nix",
+      "description": "Native Nix package and NixOS module for Logchef",
+      "language": "Nix",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-10-30T18:24:11Z",
+      "homepage": "https://oddship.github.io/logchef-nix/",
+      "owner": "oddship",
+      "topics": [],
+      "latest": {
+        "id": "commit:oddship/logchef-nix:0abd2c79c728d7a59d5f271e35bdd06b22ac4ac1",
+        "repo": "oddship/logchef-nix",
+        "kind": "Commit",
+        "title": "fix(logchef): update to v2.6.1 and isolate the shutdown test",
+        "url": "https://github.com/oddship/logchef-nix/commit/0abd2c79c728d7a59d5f271e35bdd06b22ac4ac1",
+        "at": "2026-10-30T18:24:11Z"
+      }
+    },
+    {
+      "private": false,
+      "visibility": "public",
       "name": "doordarshan-zola",
       "full_name": "oddship/doordarshan-zola",
       "url": "https://github.com/oddship/doordarshan-zola",
@@ -3776,7 +3863,7 @@
       "language": "Python",
       "stars": 11,
       "archived": false,
-      "pushed_at": "2026-10-30T00:51:35Z",
+      "pushed_at": "2026-10-31T04:19:17Z",
       "homepage": "https://exchangecirculars.com/",
       "owner": "rhnvrm",
       "topics": [],
@@ -3833,36 +3920,6 @@
         "title": "docs: simplify agent guide around repository discovery",
         "url": "https://github.com/oddship/nix-system/commit/d96e120f5b80ad0b5056a65c6f3fe7a04baeb7b2",
         "at": "2026-10-28T10:25:03Z"
-      }
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "gnome-quickshare",
-      "full_name": "oddship/gnome-quickshare",
-      "url": "https://github.com/oddship/gnome-quickshare",
-      "description": "Native GTK 4/libadwaita Quick Share client for GNOME. Send and receive files, text, links, and Wi-Fi credentials.",
-      "language": "Rust",
-      "stars": 0,
-      "archived": false,
-      "pushed_at": "2026-10-28T08:36:35Z",
-      "homepage": "https://github.com/oddship/gnome-quickshare",
-      "owner": "oddship",
-      "topics": [
-        "gnome",
-        "gtk4",
-        "libadwaita",
-        "linux",
-        "quick-share",
-        "rust"
-      ],
-      "latest": {
-        "id": "commit:oddship/gnome-quickshare:91a4e4e470395e71e12519fb32f52696e1741eeb",
-        "repo": "oddship/gnome-quickshare",
-        "kind": "Commit",
-        "title": "Install GNOME Platform runtime for Flatpak CI",
-        "url": "https://github.com/oddship/gnome-quickshare/commit/91a4e4e470395e71e12519fb32f52696e1741eeb",
-        "at": "2026-10-28T08:36:34Z"
       }
     }
   ]
