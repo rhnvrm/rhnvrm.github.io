@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T06:58:50+00:00",
+  "updated_at": "2026-11-01T07:30:56+00:00",
   "public_repositories": [
     "oddship/bb-plugins",
     "oddship/bosun",
@@ -110,6 +110,21 @@
     {
       "private": false,
       "visibility": "public",
+      "name": "reading-list",
+      "full_name": "oddship/reading-list",
+      "url": "https://github.com/oddship/reading-list",
+      "description": "Source code and project notes on GitHub.",
+      "language": "HTML",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-11-01T07:29:27Z",
+      "homepage": "https://reading-list.oddship.net",
+      "owner": "oddship",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
       "name": "exchange-circulars",
       "full_name": "rhnvrm/exchange-circulars",
       "url": "https://github.com/rhnvrm/exchange-circulars",
@@ -117,7 +132,7 @@
       "language": "Python",
       "stars": 11,
       "archived": false,
-      "pushed_at": "2026-10-31T04:19:17Z",
+      "pushed_at": "2026-11-01T04:41:15Z",
       "homepage": "https://exchangecirculars.com/",
       "owner": "rhnvrm",
       "topics": []
@@ -149,21 +164,6 @@
       "archived": false,
       "pushed_at": "2026-10-30T04:51:17Z",
       "homepage": "",
-      "owner": "oddship",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "reading-list",
-      "full_name": "oddship/reading-list",
-      "url": "https://github.com/oddship/reading-list",
-      "description": "Source code and project notes on GitHub.",
-      "language": "HTML",
-      "stars": 0,
-      "archived": false,
-      "pushed_at": "2026-10-29T22:01:41Z",
-      "homepage": "https://reading-list.oddship.net",
       "owner": "oddship",
       "topics": []
     },
@@ -3863,7 +3863,7 @@
       "language": "Python",
       "stars": 11,
       "archived": false,
-      "pushed_at": "2026-10-31T04:19:17Z",
+      "pushed_at": "2026-11-01T04:41:15Z",
       "homepage": "https://exchangecirculars.com/",
       "owner": "rhnvrm",
       "topics": [],
