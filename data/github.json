@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T07:30:56+00:00",
+  "updated_at": "2026-11-02T07:40:00+00:00",
   "public_repositories": [
     "oddship/bb-plugins",
     "oddship/bosun",
@@ -110,21 +110,6 @@
     {
       "private": false,
       "visibility": "public",
-      "name": "reading-list",
-      "full_name": "oddship/reading-list",
-      "url": "https://github.com/oddship/reading-list",
-      "description": "Source code and project notes on GitHub.",
-      "language": "HTML",
-      "stars": 0,
-      "archived": false,
-      "pushed_at": "2026-11-01T07:29:27Z",
-      "homepage": "https://reading-list.oddship.net",
-      "owner": "oddship",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
       "name": "exchange-circulars",
       "full_name": "rhnvrm/exchange-circulars",
       "url": "https://github.com/rhnvrm/exchange-circulars",
@@ -132,9 +117,24 @@
       "language": "Python",
       "stars": 11,
       "archived": false,
-      "pushed_at": "2026-11-01T04:41:15Z",
+      "pushed_at": "2026-11-02T00:24:10Z",
       "homepage": "https://exchangecirculars.com/",
       "owner": "rhnvrm",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "reading-list",
+      "full_name": "oddship/reading-list",
+      "url": "https://github.com/oddship/reading-list",
+      "description": "Source code and project notes on GitHub.",
+      "language": "HTML",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-11-01T17:31:42Z",
+      "homepage": "https://reading-list.oddship.net",
+      "owner": "oddship",
       "topics": []
     },
     {
@@ -1650,6 +1650,14 @@
   ],
   "activity": [
     {
+      "id": "event:18858273098",
+      "repo": "zerodha/kite-mcp-server",
+      "kind": "Published release",
+      "title": "v0.4.0-dev27",
+      "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev27",
+      "at": "2026-11-02T06:31:34Z"
+    },
+    {
       "id": "commit:oddship/logchef-nix:0abd2c79c728d7a59d5f271e35bdd06b22ac4ac1",
       "repo": "oddship/logchef-nix",
       "kind": "Commit",
@@ -2731,6 +2739,19 @@
     }
   ],
   "days": [
+    {
+      "date": "2026-11-02",
+      "items": [
+        {
+          "id": "event:18858273098",
+          "repo": "zerodha/kite-mcp-server",
+          "kind": "Published release",
+          "title": "v0.4.0-dev27",
+          "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev27",
+          "at": "2026-11-02T06:31:34Z"
+        }
+      ]
+    },
     {
       "date": "2026-10-30",
       "items": [
@@ -3863,7 +3884,7 @@
       "language": "Python",
       "stars": 11,
       "archived": false,
-      "pushed_at": "2026-11-01T04:41:15Z",
+      "pushed_at": "2026-11-02T00:24:10Z",
       "homepage": "https://exchangecirculars.com/",
       "owner": "rhnvrm",
       "topics": [],
