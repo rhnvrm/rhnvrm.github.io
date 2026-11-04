@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T07:54:03+00:00",
+  "updated_at": "2026-11-04T07:29:04+00:00",
   "public_repositories": [
     "oddship/bb-plugins",
     "oddship/bosun",
@@ -117,8 +117,23 @@
       "language": "HTML",
       "stars": 0,
       "archived": false,
-      "pushed_at": "2026-11-03T06:32:23Z",
+      "pushed_at": "2026-11-04T05:52:12Z",
       "homepage": "https://reading-list.oddship.net",
+      "owner": "oddship",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "doot",
+      "full_name": "oddship/doot",
+      "url": "https://github.com/oddship/doot",
+      "description": "A trusted, local-first emissary for your inbox",
+      "language": "TypeScript",
+      "stars": 1,
+      "archived": false,
+      "pushed_at": "2026-11-04T04:55:28Z",
+      "homepage": "https://oddship.github.io/doot/",
       "owner": "oddship",
       "topics": []
     },
@@ -132,9 +147,24 @@
       "language": "Python",
       "stars": 11,
       "archived": false,
-      "pushed_at": "2026-11-03T05:35:24Z",
+      "pushed_at": "2026-11-04T01:07:25Z",
       "homepage": "https://exchangecirculars.com/",
       "owner": "rhnvrm",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "nix-system",
+      "full_name": "oddship/nix-system",
+      "url": "https://github.com/oddship/nix-system",
+      "description": "Source code and project notes on GitHub.",
+      "language": "Nix",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-11-03T18:07:17Z",
+      "homepage": "",
+      "owner": "oddship",
       "topics": []
     },
     {
@@ -178,21 +208,6 @@
       "stars": 2,
       "archived": false,
       "pushed_at": "2026-10-30T04:51:17Z",
-      "homepage": "",
-      "owner": "oddship",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "nix-system",
-      "full_name": "oddship/nix-system",
-      "url": "https://github.com/oddship/nix-system",
-      "description": "Source code and project notes on GitHub.",
-      "language": "Nix",
-      "stars": 0,
-      "archived": false,
-      "pushed_at": "2026-10-29T20:30:05Z",
       "homepage": "",
       "owner": "oddship",
       "topics": []
@@ -304,21 +319,6 @@
       "pushed_at": "2026-10-22T06:00:12Z",
       "homepage": "https://rhnvrm.github.io/s3site/",
       "owner": "rhnvrm",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "doot",
-      "full_name": "oddship/doot",
-      "url": "https://github.com/oddship/doot",
-      "description": "A trusted, local-first emissary for your inbox",
-      "language": "TypeScript",
-      "stars": 1,
-      "archived": false,
-      "pushed_at": "2026-10-21T04:55:19Z",
-      "homepage": "https://oddship.github.io/doot/",
-      "owner": "oddship",
       "topics": []
     },
     {
@@ -962,7 +962,7 @@
       "url": "https://github.com/rhnvrm/simplelock",
       "description": "Fast and simple wrapper over i3lock with multiple modes. Supports xkcd and unsplash",
       "language": "Shell",
-      "stars": 8,
+      "stars": 9,
       "archived": false,
       "pushed_at": "2019-11-28T08:32:32Z",
       "homepage": "",
@@ -1649,6 +1649,102 @@
     }
   ],
   "activity": [
+    {
+      "id": "commit:oddship/doot:4685874c7cd7361ef5f01fa78749d25f77c6dc8d",
+      "repo": "oddship/doot",
+      "kind": "Commit",
+      "title": "test: add production browser performance audit",
+      "url": "https://github.com/oddship/doot/commit/4685874c7cd7361ef5f01fa78749d25f77c6dc8d",
+      "at": "2026-11-03T21:59:36Z"
+    },
+    {
+      "id": "commit:oddship/doot:0a03dfcd1b31f296aff460d5604f47a15e82023b",
+      "repo": "oddship/doot",
+      "kind": "Commit",
+      "title": "fix: preserve edits and selection through client navigation",
+      "url": "https://github.com/oddship/doot/commit/0a03dfcd1b31f296aff460d5604f47a15e82023b",
+      "at": "2026-11-03T21:59:24Z"
+    },
+    {
+      "id": "commit:oddship/doot:2637fa3d67943c903b98c24ad378e46318fcfd46",
+      "repo": "oddship/doot",
+      "kind": "Commit",
+      "title": "perf: share cache events and stop redundant background reads",
+      "url": "https://github.com/oddship/doot/commit/2637fa3d67943c903b98c24ad378e46318fcfd46",
+      "at": "2026-11-03T21:59:13Z"
+    },
+    {
+      "id": "commit:oddship/doot:8309a5917d3f7c373d6480ae0b099e0ad2f1bfbb",
+      "repo": "oddship/doot",
+      "kind": "Commit",
+      "title": "feat(ui): improve keyboard access and conversation rendering",
+      "url": "https://github.com/oddship/doot/commit/8309a5917d3f7c373d6480ae0b099e0ad2f1bfbb",
+      "at": "2026-11-03T21:58:59Z"
+    },
+    {
+      "id": "commit:oddship/doot:e7853a5eb9c2dec093058fc9d0e981ba8f361ff1",
+      "repo": "oddship/doot",
+      "kind": "Commit",
+      "title": "fix(security): validate request hosts and origins before accepting work",
+      "url": "https://github.com/oddship/doot/commit/e7853a5eb9c2dec093058fc9d0e981ba8f361ff1",
+      "at": "2026-11-03T19:36:27Z"
+    },
+    {
+      "id": "commit:oddship/doot:d6f27ab9df3fb9cee11a409f2c2f473d1bd56294",
+      "repo": "oddship/doot",
+      "kind": "Commit",
+      "title": "feat(history): show live job outcomes and saved step receipts",
+      "url": "https://github.com/oddship/doot/commit/d6f27ab9df3fb9cee11a409f2c2f473d1bd56294",
+      "at": "2026-11-03T19:36:16Z"
+    },
+    {
+      "id": "commit:oddship/doot:a454d7d3c2f69c9bb5589e74cd776e984a1a583a",
+      "repo": "oddship/doot",
+      "kind": "Commit",
+      "title": "feat(auth): restore provider login progress across browser sessions",
+      "url": "https://github.com/oddship/doot/commit/a454d7d3c2f69c9bb5589e74cd776e984a1a583a",
+      "at": "2026-11-03T19:36:06Z"
+    },
+    {
+      "id": "commit:oddship/doot:e9693acd193bf4ca75e03d5f8be2e949e2122e32",
+      "repo": "oddship/doot",
+      "kind": "Commit",
+      "title": "feat(jobs): persist approved work and recover agent turns",
+      "url": "https://github.com/oddship/doot/commit/e9693acd193bf4ca75e03d5f8be2e949e2122e32",
+      "at": "2026-11-03T19:35:24Z"
+    },
+    {
+      "id": "commit:oddship/doot:fb54de0015f67e401d5c1cf2e08772feb0603da4",
+      "repo": "oddship/doot",
+      "kind": "Commit",
+      "title": "feat(state): persist shared context and acknowledge navigation writes",
+      "url": "https://github.com/oddship/doot/commit/fb54de0015f67e401d5c1cf2e08772feb0603da4",
+      "at": "2026-11-03T19:34:32Z"
+    },
+    {
+      "id": "commit:oddship/doot:ad0331073614f38ee61ef01df072cf0aeb6d69b5",
+      "repo": "oddship/doot",
+      "kind": "Commit",
+      "title": "fix(deps): update vulnerable framework and mail dependencies",
+      "url": "https://github.com/oddship/doot/commit/ad0331073614f38ee61ef01df072cf0aeb6d69b5",
+      "at": "2026-11-03T19:34:17Z"
+    },
+    {
+      "id": "commit:oddship/nix-system:9c126a31ae505f53f0670099b7af7c89acbd753b",
+      "repo": "oddship/nix-system",
+      "kind": "Commit",
+      "title": "chore(desktop): remove unused apps and keep Antigravity CLI",
+      "url": "https://github.com/oddship/nix-system/commit/9c126a31ae505f53f0670099b7af7c89acbd753b",
+      "at": "2026-11-03T18:07:01Z"
+    },
+    {
+      "id": "commit:oddship/nix-system:d2523688dba946bb5eadf0ac7a8fce013df77fa5",
+      "repo": "oddship/nix-system",
+      "kind": "Commit",
+      "title": "chore(system): update inputs and remove unused apps",
+      "url": "https://github.com/oddship/nix-system/commit/d2523688dba946bb5eadf0ac7a8fce013df77fa5",
+      "at": "2026-11-03T17:54:20Z"
+    },
     {
       "id": "event:18894325796",
       "repo": "zerodha/kite-mcp-server",
@@ -2764,6 +2860,112 @@
   ],
   "days": [
     {
+      "date": "2026-11-04",
+      "items": [
+        {
+          "id": "commit:oddship/doot:4685874c7cd7361ef5f01fa78749d25f77c6dc8d",
+          "repo": "oddship/doot",
+          "kind": "Commit",
+          "title": "test: add production browser performance audit",
+          "url": "https://github.com/oddship/doot/commit/4685874c7cd7361ef5f01fa78749d25f77c6dc8d",
+          "at": "2026-11-03T21:59:36Z"
+        },
+        {
+          "id": "commit:oddship/doot:0a03dfcd1b31f296aff460d5604f47a15e82023b",
+          "repo": "oddship/doot",
+          "kind": "Commit",
+          "title": "fix: preserve edits and selection through client navigation",
+          "url": "https://github.com/oddship/doot/commit/0a03dfcd1b31f296aff460d5604f47a15e82023b",
+          "at": "2026-11-03T21:59:24Z"
+        },
+        {
+          "id": "commit:oddship/doot:2637fa3d67943c903b98c24ad378e46318fcfd46",
+          "repo": "oddship/doot",
+          "kind": "Commit",
+          "title": "perf: share cache events and stop redundant background reads",
+          "url": "https://github.com/oddship/doot/commit/2637fa3d67943c903b98c24ad378e46318fcfd46",
+          "at": "2026-11-03T21:59:13Z"
+        },
+        {
+          "id": "commit:oddship/doot:8309a5917d3f7c373d6480ae0b099e0ad2f1bfbb",
+          "repo": "oddship/doot",
+          "kind": "Commit",
+          "title": "feat(ui): improve keyboard access and conversation rendering",
+          "url": "https://github.com/oddship/doot/commit/8309a5917d3f7c373d6480ae0b099e0ad2f1bfbb",
+          "at": "2026-11-03T21:58:59Z"
+        },
+        {
+          "id": "commit:oddship/doot:e7853a5eb9c2dec093058fc9d0e981ba8f361ff1",
+          "repo": "oddship/doot",
+          "kind": "Commit",
+          "title": "fix(security): validate request hosts and origins before accepting work",
+          "url": "https://github.com/oddship/doot/commit/e7853a5eb9c2dec093058fc9d0e981ba8f361ff1",
+          "at": "2026-11-03T19:36:27Z"
+        },
+        {
+          "id": "commit:oddship/doot:d6f27ab9df3fb9cee11a409f2c2f473d1bd56294",
+          "repo": "oddship/doot",
+          "kind": "Commit",
+          "title": "feat(history): show live job outcomes and saved step receipts",
+          "url": "https://github.com/oddship/doot/commit/d6f27ab9df3fb9cee11a409f2c2f473d1bd56294",
+          "at": "2026-11-03T19:36:16Z"
+        },
+        {
+          "id": "commit:oddship/doot:a454d7d3c2f69c9bb5589e74cd776e984a1a583a",
+          "repo": "oddship/doot",
+          "kind": "Commit",
+          "title": "feat(auth): restore provider login progress across browser sessions",
+          "url": "https://github.com/oddship/doot/commit/a454d7d3c2f69c9bb5589e74cd776e984a1a583a",
+          "at": "2026-11-03T19:36:06Z"
+        },
+        {
+          "id": "commit:oddship/doot:e9693acd193bf4ca75e03d5f8be2e949e2122e32",
+          "repo": "oddship/doot",
+          "kind": "Commit",
+          "title": "feat(jobs): persist approved work and recover agent turns",
+          "url": "https://github.com/oddship/doot/commit/e9693acd193bf4ca75e03d5f8be2e949e2122e32",
+          "at": "2026-11-03T19:35:24Z"
+        },
+        {
+          "id": "commit:oddship/doot:fb54de0015f67e401d5c1cf2e08772feb0603da4",
+          "repo": "oddship/doot",
+          "kind": "Commit",
+          "title": "feat(state): persist shared context and acknowledge navigation writes",
+          "url": "https://github.com/oddship/doot/commit/fb54de0015f67e401d5c1cf2e08772feb0603da4",
+          "at": "2026-11-03T19:34:32Z"
+        },
+        {
+          "id": "commit:oddship/doot:ad0331073614f38ee61ef01df072cf0aeb6d69b5",
+          "repo": "oddship/doot",
+          "kind": "Commit",
+          "title": "fix(deps): update vulnerable framework and mail dependencies",
+          "url": "https://github.com/oddship/doot/commit/ad0331073614f38ee61ef01df072cf0aeb6d69b5",
+          "at": "2026-11-03T19:34:17Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "items": [
+        {
+          "id": "commit:oddship/nix-system:9c126a31ae505f53f0670099b7af7c89acbd753b",
+          "repo": "oddship/nix-system",
+          "kind": "Commit",
+          "title": "chore(desktop): remove unused apps and keep Antigravity CLI",
+          "url": "https://github.com/oddship/nix-system/commit/9c126a31ae505f53f0670099b7af7c89acbd753b",
+          "at": "2026-11-03T18:07:01Z"
+        },
+        {
+          "id": "commit:oddship/nix-system:d2523688dba946bb5eadf0ac7a8fce013df77fa5",
+          "repo": "oddship/nix-system",
+          "kind": "Commit",
+          "title": "chore(system): update inputs and remove unused apps",
+          "url": "https://github.com/oddship/nix-system/commit/d2523688dba946bb5eadf0ac7a8fce013df77fa5",
+          "at": "2026-11-03T17:54:20Z"
+        }
+      ]
+    },
+    {
       "date": "2026-11-02",
       "items": [
         {
@@ -3856,6 +4058,52 @@
     {
       "private": false,
       "visibility": "public",
+      "name": "doot",
+      "full_name": "oddship/doot",
+      "url": "https://github.com/oddship/doot",
+      "description": "A trusted, local-first emissary for your inbox",
+      "language": "TypeScript",
+      "stars": 1,
+      "archived": false,
+      "pushed_at": "2026-11-04T04:55:28Z",
+      "homepage": "https://oddship.github.io/doot/",
+      "owner": "oddship",
+      "topics": [],
+      "latest": {
+        "id": "commit:oddship/doot:4685874c7cd7361ef5f01fa78749d25f77c6dc8d",
+        "repo": "oddship/doot",
+        "kind": "Commit",
+        "title": "test: add production browser performance audit",
+        "url": "https://github.com/oddship/doot/commit/4685874c7cd7361ef5f01fa78749d25f77c6dc8d",
+        "at": "2026-11-03T21:59:36Z"
+      }
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "nix-system",
+      "full_name": "oddship/nix-system",
+      "url": "https://github.com/oddship/nix-system",
+      "description": "Source code and project notes on GitHub.",
+      "language": "Nix",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-11-03T18:07:17Z",
+      "homepage": "",
+      "owner": "oddship",
+      "topics": [],
+      "latest": {
+        "id": "commit:oddship/nix-system:9c126a31ae505f53f0670099b7af7c89acbd753b",
+        "repo": "oddship/nix-system",
+        "kind": "Commit",
+        "title": "chore(desktop): remove unused apps and keep Antigravity CLI",
+        "url": "https://github.com/oddship/nix-system/commit/9c126a31ae505f53f0670099b7af7c89acbd753b",
+        "at": "2026-11-03T18:07:01Z"
+      }
+    },
+    {
+      "private": false,
+      "visibility": "public",
       "name": "logchef-nix",
       "full_name": "oddship/logchef-nix",
       "url": "https://github.com/oddship/logchef-nix",
@@ -3932,7 +4180,7 @@
       "language": "Python",
       "stars": 11,
       "archived": false,
-      "pushed_at": "2026-11-03T05:35:24Z",
+      "pushed_at": "2026-11-04T01:07:25Z",
       "homepage": "https://exchangecirculars.com/",
       "owner": "rhnvrm",
       "topics": [],
@@ -3943,52 +4191,6 @@
         "title": "Merge pull request #15 from rhnvrm/fix-nix-installer-failure-in-circular-update-ci-thr_yxy8tzbjzp",
         "url": "https://github.com/rhnvrm/exchange-circulars/commit/3581e89fe740d67b67a2e7042dc521111a77521a",
         "at": "2026-10-29T19:13:07Z"
-      }
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "bb-plugins",
-      "full_name": "oddship/bb-plugins",
-      "url": "https://github.com/oddship/bb-plugins",
-      "description": "BB plugins maintained by Oddship",
-      "language": "TypeScript",
-      "stars": 0,
-      "archived": false,
-      "pushed_at": "2026-10-29T08:07:12Z",
-      "homepage": "",
-      "owner": "oddship",
-      "topics": [],
-      "latest": {
-        "id": "commit:oddship/bb-plugins:7d415870acba6b05e6b0209053f04148ccb01f68",
-        "repo": "oddship/bb-plugins",
-        "kind": "Commit",
-        "title": "fix(px0-review): install react-slot as a runtime dependency",
-        "url": "https://github.com/oddship/bb-plugins/commit/7d415870acba6b05e6b0209053f04148ccb01f68",
-        "at": "2026-10-29T08:05:10Z"
-      }
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "nix-system",
-      "full_name": "oddship/nix-system",
-      "url": "https://github.com/oddship/nix-system",
-      "description": "Source code and project notes on GitHub.",
-      "language": "Nix",
-      "stars": 0,
-      "archived": false,
-      "pushed_at": "2026-10-29T20:30:05Z",
-      "homepage": "",
-      "owner": "oddship",
-      "topics": [],
-      "latest": {
-        "id": "commit:oddship/nix-system:d96e120f5b80ad0b5056a65c6f3fe7a04baeb7b2",
-        "repo": "oddship/nix-system",
-        "kind": "Commit",
-        "title": "docs: simplify agent guide around repository discovery",
-        "url": "https://github.com/oddship/nix-system/commit/d96e120f5b80ad0b5056a65c6f3fe7a04baeb7b2",
-        "at": "2026-10-28T10:25:03Z"
       }
     }
   ]
