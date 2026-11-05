@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T07:29:04+00:00",
+  "updated_at": "2026-11-05T07:54:07+00:00",
   "public_repositories": [
     "oddship/bb-plugins",
     "oddship/bosun",
@@ -110,30 +110,15 @@
     {
       "private": false,
       "visibility": "public",
-      "name": "reading-list",
-      "full_name": "oddship/reading-list",
-      "url": "https://github.com/oddship/reading-list",
+      "name": "nix-system",
+      "full_name": "oddship/nix-system",
+      "url": "https://github.com/oddship/nix-system",
       "description": "Source code and project notes on GitHub.",
-      "language": "HTML",
+      "language": "Nix",
       "stars": 0,
       "archived": false,
-      "pushed_at": "2026-11-04T05:52:12Z",
-      "homepage": "https://reading-list.oddship.net",
-      "owner": "oddship",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "doot",
-      "full_name": "oddship/doot",
-      "url": "https://github.com/oddship/doot",
-      "description": "A trusted, local-first emissary for your inbox",
-      "language": "TypeScript",
-      "stars": 1,
-      "archived": false,
-      "pushed_at": "2026-11-04T04:55:28Z",
-      "homepage": "https://oddship.github.io/doot/",
+      "pushed_at": "2026-11-05T06:20:43Z",
+      "homepage": "",
       "owner": "oddship",
       "topics": []
     },
@@ -147,7 +132,7 @@
       "language": "Python",
       "stars": 11,
       "archived": false,
-      "pushed_at": "2026-11-04T01:07:25Z",
+      "pushed_at": "2026-11-05T01:24:45Z",
       "homepage": "https://exchangecirculars.com/",
       "owner": "rhnvrm",
       "topics": []
@@ -155,15 +140,45 @@
     {
       "private": false,
       "visibility": "public",
-      "name": "nix-system",
-      "full_name": "oddship/nix-system",
-      "url": "https://github.com/oddship/nix-system",
+      "name": "moat",
+      "full_name": "oddship/moat",
+      "url": "https://github.com/oddship/moat",
+      "description": "markdown + oat static site generator",
+      "language": "Go",
+      "stars": 5,
+      "archived": false,
+      "pushed_at": "2026-11-04T11:42:45Z",
+      "homepage": "https://oddship.github.io/moat/",
+      "owner": "oddship",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "doot",
+      "full_name": "oddship/doot",
+      "url": "https://github.com/oddship/doot",
+      "description": "A trusted, local-first emissary for your inbox",
+      "language": "TypeScript",
+      "stars": 1,
+      "archived": false,
+      "pushed_at": "2026-11-04T08:09:30Z",
+      "homepage": "https://oddship.github.io/doot/",
+      "owner": "oddship",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "reading-list",
+      "full_name": "oddship/reading-list",
+      "url": "https://github.com/oddship/reading-list",
       "description": "Source code and project notes on GitHub.",
-      "language": "Nix",
+      "language": "HTML",
       "stars": 0,
       "archived": false,
-      "pushed_at": "2026-11-03T18:07:17Z",
-      "homepage": "",
+      "pushed_at": "2026-11-04T05:52:12Z",
+      "homepage": "https://reading-list.oddship.net",
       "owner": "oddship",
       "topics": []
     },
@@ -294,7 +309,7 @@
       "url": "https://github.com/rhnvrm/simples3",
       "description": "Simple no frills AWS S3 Golang Library using REST with V4 Signing (without AWS Go SDK)",
       "language": "Go",
-      "stars": 209,
+      "stars": 210,
       "archived": false,
       "pushed_at": "2026-10-22T11:43:43Z",
       "homepage": "",
@@ -427,21 +442,6 @@
       "archived": false,
       "pushed_at": "2026-09-02T10:55:53Z",
       "homepage": "",
-      "owner": "oddship",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "moat",
-      "full_name": "oddship/moat",
-      "url": "https://github.com/oddship/moat",
-      "description": "markdown + oat static site generator",
-      "language": "Go",
-      "stars": 5,
-      "archived": false,
-      "pushed_at": "2026-08-20T10:36:56Z",
-      "homepage": "https://oddship.github.io/moat/",
       "owner": "oddship",
       "topics": []
     },
@@ -1650,6 +1650,46 @@
   ],
   "activity": [
     {
+      "id": "commit:oddship/nix-system:fa1d056729fd41fc0d4bdc2b5d95d671b3a7b34f",
+      "repo": "oddship/nix-system",
+      "kind": "Commit",
+      "title": "chore(system): update flake inputs",
+      "url": "https://github.com/oddship/nix-system/commit/fa1d056729fd41fc0d4bdc2b5d95d671b3a7b34f",
+      "at": "2026-11-05T06:20:29Z"
+    },
+    {
+      "id": "commit:oddship/moat:280318a7d537634f8a2754e0d1d7339eb485508e",
+      "repo": "oddship/moat",
+      "kind": "Commit",
+      "title": "Merge pull request #2 from oddship/feat/version-navigation",
+      "url": "https://github.com/oddship/moat/commit/280318a7d537634f8a2754e0d1d7339eb485508e",
+      "at": "2026-11-04T11:39:29Z"
+    },
+    {
+      "id": "commit:oddship/moat:a0642b6fea30909db624ca9b307f8daff5baf4f5",
+      "repo": "oddship/moat",
+      "kind": "Commit",
+      "title": "fix(ci): skip GitHub Pages deployment on pull requests",
+      "url": "https://github.com/oddship/moat/commit/a0642b6fea30909db624ca9b307f8daff5baf4f5",
+      "at": "2026-11-04T11:33:08Z"
+    },
+    {
+      "id": "commit:oddship/moat:72d882aa2f1ae6c84fc96ee58531304681b82a57",
+      "repo": "oddship/moat",
+      "kind": "Commit",
+      "title": "feat: add configurable version navigation to the built-in layout",
+      "url": "https://github.com/oddship/moat/commit/72d882aa2f1ae6c84fc96ee58531304681b82a57",
+      "at": "2026-11-04T11:30:02Z"
+    },
+    {
+      "id": "commit:oddship/doot:dc30c3d94bf734ace35028fef8d086f64cc5b09d",
+      "repo": "oddship/doot",
+      "kind": "Commit",
+      "title": "perf(inbox): reuse opened messages and warm readers on intent",
+      "url": "https://github.com/oddship/doot/commit/dc30c3d94bf734ace35028fef8d086f64cc5b09d",
+      "at": "2026-11-04T08:08:09Z"
+    },
+    {
       "id": "commit:oddship/doot:4685874c7cd7361ef5f01fa78749d25f77c6dc8d",
       "repo": "oddship/doot",
       "kind": "Commit",
@@ -2800,7 +2840,7 @@
       "url": "https://github.com/rhnvrm/simples3",
       "description": "Simple no frills AWS S3 Golang Library using REST with V4 Signing (without AWS Go SDK)",
       "language": "Go",
-      "stars": 209,
+      "stars": 210,
       "archived": false,
       "pushed_at": "2026-10-22T11:43:43Z",
       "homepage": "",
@@ -2822,7 +2862,7 @@
       "language": "Go",
       "stars": 5,
       "archived": false,
-      "pushed_at": "2026-08-20T10:36:56Z",
+      "pushed_at": "2026-11-04T11:42:45Z",
       "homepage": "https://oddship.github.io/moat/",
       "owner": "oddship",
       "topics": []
@@ -2860,8 +2900,53 @@
   ],
   "days": [
     {
+      "date": "2026-11-05",
+      "items": [
+        {
+          "id": "commit:oddship/nix-system:fa1d056729fd41fc0d4bdc2b5d95d671b3a7b34f",
+          "repo": "oddship/nix-system",
+          "kind": "Commit",
+          "title": "chore(system): update flake inputs",
+          "url": "https://github.com/oddship/nix-system/commit/fa1d056729fd41fc0d4bdc2b5d95d671b3a7b34f",
+          "at": "2026-11-05T06:20:29Z"
+        }
+      ]
+    },
+    {
       "date": "2026-11-04",
       "items": [
+        {
+          "id": "commit:oddship/moat:280318a7d537634f8a2754e0d1d7339eb485508e",
+          "repo": "oddship/moat",
+          "kind": "Commit",
+          "title": "Merge pull request #2 from oddship/feat/version-navigation",
+          "url": "https://github.com/oddship/moat/commit/280318a7d537634f8a2754e0d1d7339eb485508e",
+          "at": "2026-11-04T11:39:29Z"
+        },
+        {
+          "id": "commit:oddship/moat:a0642b6fea30909db624ca9b307f8daff5baf4f5",
+          "repo": "oddship/moat",
+          "kind": "Commit",
+          "title": "fix(ci): skip GitHub Pages deployment on pull requests",
+          "url": "https://github.com/oddship/moat/commit/a0642b6fea30909db624ca9b307f8daff5baf4f5",
+          "at": "2026-11-04T11:33:08Z"
+        },
+        {
+          "id": "commit:oddship/moat:72d882aa2f1ae6c84fc96ee58531304681b82a57",
+          "repo": "oddship/moat",
+          "kind": "Commit",
+          "title": "feat: add configurable version navigation to the built-in layout",
+          "url": "https://github.com/oddship/moat/commit/72d882aa2f1ae6c84fc96ee58531304681b82a57",
+          "at": "2026-11-04T11:30:02Z"
+        },
+        {
+          "id": "commit:oddship/doot:dc30c3d94bf734ace35028fef8d086f64cc5b09d",
+          "repo": "oddship/doot",
+          "kind": "Commit",
+          "title": "perf(inbox): reuse opened messages and warm readers on intent",
+          "url": "https://github.com/oddship/doot/commit/dc30c3d94bf734ace35028fef8d086f64cc5b09d",
+          "at": "2026-11-04T08:08:09Z"
+        },
         {
           "id": "commit:oddship/doot:4685874c7cd7361ef5f01fa78749d25f77c6dc8d",
           "repo": "oddship/doot",
@@ -4058,29 +4143,6 @@
     {
       "private": false,
       "visibility": "public",
-      "name": "doot",
-      "full_name": "oddship/doot",
-      "url": "https://github.com/oddship/doot",
-      "description": "A trusted, local-first emissary for your inbox",
-      "language": "TypeScript",
-      "stars": 1,
-      "archived": false,
-      "pushed_at": "2026-11-04T04:55:28Z",
-      "homepage": "https://oddship.github.io/doot/",
-      "owner": "oddship",
-      "topics": [],
-      "latest": {
-        "id": "commit:oddship/doot:4685874c7cd7361ef5f01fa78749d25f77c6dc8d",
-        "repo": "oddship/doot",
-        "kind": "Commit",
-        "title": "test: add production browser performance audit",
-        "url": "https://github.com/oddship/doot/commit/4685874c7cd7361ef5f01fa78749d25f77c6dc8d",
-        "at": "2026-11-03T21:59:36Z"
-      }
-    },
-    {
-      "private": false,
-      "visibility": "public",
       "name": "nix-system",
       "full_name": "oddship/nix-system",
       "url": "https://github.com/oddship/nix-system",
@@ -4088,17 +4150,63 @@
       "language": "Nix",
       "stars": 0,
       "archived": false,
-      "pushed_at": "2026-11-03T18:07:17Z",
+      "pushed_at": "2026-11-05T06:20:43Z",
       "homepage": "",
       "owner": "oddship",
       "topics": [],
       "latest": {
-        "id": "commit:oddship/nix-system:9c126a31ae505f53f0670099b7af7c89acbd753b",
+        "id": "commit:oddship/nix-system:fa1d056729fd41fc0d4bdc2b5d95d671b3a7b34f",
         "repo": "oddship/nix-system",
         "kind": "Commit",
-        "title": "chore(desktop): remove unused apps and keep Antigravity CLI",
-        "url": "https://github.com/oddship/nix-system/commit/9c126a31ae505f53f0670099b7af7c89acbd753b",
-        "at": "2026-11-03T18:07:01Z"
+        "title": "chore(system): update flake inputs",
+        "url": "https://github.com/oddship/nix-system/commit/fa1d056729fd41fc0d4bdc2b5d95d671b3a7b34f",
+        "at": "2026-11-05T06:20:29Z"
+      }
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "moat",
+      "full_name": "oddship/moat",
+      "url": "https://github.com/oddship/moat",
+      "description": "markdown + oat static site generator",
+      "language": "Go",
+      "stars": 5,
+      "archived": false,
+      "pushed_at": "2026-11-04T11:42:45Z",
+      "homepage": "https://oddship.github.io/moat/",
+      "owner": "oddship",
+      "topics": [],
+      "latest": {
+        "id": "commit:oddship/moat:280318a7d537634f8a2754e0d1d7339eb485508e",
+        "repo": "oddship/moat",
+        "kind": "Commit",
+        "title": "Merge pull request #2 from oddship/feat/version-navigation",
+        "url": "https://github.com/oddship/moat/commit/280318a7d537634f8a2754e0d1d7339eb485508e",
+        "at": "2026-11-04T11:39:29Z"
+      }
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "doot",
+      "full_name": "oddship/doot",
+      "url": "https://github.com/oddship/doot",
+      "description": "A trusted, local-first emissary for your inbox",
+      "language": "TypeScript",
+      "stars": 1,
+      "archived": false,
+      "pushed_at": "2026-11-04T08:09:30Z",
+      "homepage": "https://oddship.github.io/doot/",
+      "owner": "oddship",
+      "topics": [],
+      "latest": {
+        "id": "commit:oddship/doot:dc30c3d94bf734ace35028fef8d086f64cc5b09d",
+        "repo": "oddship/doot",
+        "kind": "Commit",
+        "title": "perf(inbox): reuse opened messages and warm readers on intent",
+        "url": "https://github.com/oddship/doot/commit/dc30c3d94bf734ace35028fef8d086f64cc5b09d",
+        "at": "2026-11-04T08:08:09Z"
       }
     },
     {
@@ -4168,29 +4276,6 @@
         "title": "Merge pull request #4 from oddship/fix/site-maintenance",
         "url": "https://github.com/oddship/oddship.net/commit/fbf2742f358acea55c85d83d6c06c6509725f6ec",
         "at": "2026-10-29T20:39:32Z"
-      }
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "exchange-circulars",
-      "full_name": "rhnvrm/exchange-circulars",
-      "url": "https://github.com/rhnvrm/exchange-circulars",
-      "description": "Automated processing and publishing of regulatory circulars from NSE, BSE, and SEBI with AI-powered summaries",
-      "language": "Python",
-      "stars": 11,
-      "archived": false,
-      "pushed_at": "2026-11-04T01:07:25Z",
-      "homepage": "https://exchangecirculars.com/",
-      "owner": "rhnvrm",
-      "topics": [],
-      "latest": {
-        "id": "commit:rhnvrm/exchange-circulars:3581e89fe740d67b67a2e7042dc521111a77521a",
-        "repo": "rhnvrm/exchange-circulars",
-        "kind": "Commit",
-        "title": "Merge pull request #15 from rhnvrm/fix-nix-installer-failure-in-circular-update-ci-thr_yxy8tzbjzp",
-        "url": "https://github.com/rhnvrm/exchange-circulars/commit/3581e89fe740d67b67a2e7042dc521111a77521a",
-        "at": "2026-10-29T19:13:07Z"
       }
     }
   ]
