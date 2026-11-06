@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T07:54:07+00:00",
+  "updated_at": "2026-11-06T07:55:08+00:00",
   "public_repositories": [
     "oddship/bb-plugins",
     "oddship/bosun",
@@ -110,15 +110,15 @@
     {
       "private": false,
       "visibility": "public",
-      "name": "nix-system",
-      "full_name": "oddship/nix-system",
-      "url": "https://github.com/oddship/nix-system",
+      "name": "reading-list",
+      "full_name": "oddship/reading-list",
+      "url": "https://github.com/oddship/reading-list",
       "description": "Source code and project notes on GitHub.",
-      "language": "Nix",
+      "language": "HTML",
       "stars": 0,
       "archived": false,
-      "pushed_at": "2026-11-05T06:20:43Z",
-      "homepage": "",
+      "pushed_at": "2026-11-06T03:30:34Z",
+      "homepage": "https://reading-list.oddship.net",
       "owner": "oddship",
       "topics": []
     },
@@ -132,9 +132,39 @@
       "language": "Python",
       "stars": 11,
       "archived": false,
-      "pushed_at": "2026-11-05T01:24:45Z",
+      "pushed_at": "2026-11-06T01:28:41Z",
       "homepage": "https://exchangecirculars.com/",
       "owner": "rhnvrm",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "s3site",
+      "full_name": "rhnvrm/s3site",
+      "url": "https://github.com/rhnvrm/s3site",
+      "description": "Static site server from S3 tar.gz archives + S3 file watcher",
+      "language": "Go",
+      "stars": 8,
+      "archived": false,
+      "pushed_at": "2026-11-05T10:46:45Z",
+      "homepage": "https://rhnvrm.github.io/s3site/",
+      "owner": "rhnvrm",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "nix-system",
+      "full_name": "oddship/nix-system",
+      "url": "https://github.com/oddship/nix-system",
+      "description": "Source code and project notes on GitHub.",
+      "language": "Nix",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-11-05T08:54:05Z",
+      "homepage": "",
+      "owner": "oddship",
       "topics": []
     },
     {
@@ -164,21 +194,6 @@
       "archived": false,
       "pushed_at": "2026-11-04T08:09:30Z",
       "homepage": "https://oddship.github.io/doot/",
-      "owner": "oddship",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "reading-list",
-      "full_name": "oddship/reading-list",
-      "url": "https://github.com/oddship/reading-list",
-      "description": "Source code and project notes on GitHub.",
-      "language": "HTML",
-      "stars": 0,
-      "archived": false,
-      "pushed_at": "2026-11-04T05:52:12Z",
-      "homepage": "https://reading-list.oddship.net",
       "owner": "oddship",
       "topics": []
     },
@@ -309,7 +324,7 @@
       "url": "https://github.com/rhnvrm/simples3",
       "description": "Simple no frills AWS S3 Golang Library using REST with V4 Signing (without AWS Go SDK)",
       "language": "Go",
-      "stars": 210,
+      "stars": 211,
       "archived": false,
       "pushed_at": "2026-10-22T11:43:43Z",
       "homepage": "",
@@ -324,27 +339,12 @@
     {
       "private": false,
       "visibility": "public",
-      "name": "s3site",
-      "full_name": "rhnvrm/s3site",
-      "url": "https://github.com/rhnvrm/s3site",
-      "description": "Static site server from S3 tar.gz archives + S3 file watcher",
-      "language": "Go",
-      "stars": 8,
-      "archived": false,
-      "pushed_at": "2026-10-22T06:00:12Z",
-      "homepage": "https://rhnvrm.github.io/s3site/",
-      "owner": "rhnvrm",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
       "name": "oatbase",
       "full_name": "oddship/oatbase",
       "url": "https://github.com/oddship/oatbase",
       "description": "Advanced, semantic components for Oat UI",
       "language": "JavaScript",
-      "stars": 1,
+      "stars": 2,
       "archived": false,
       "pushed_at": "2026-10-20T16:52:44Z",
       "homepage": "https://oddship.github.io/oatbase/",
@@ -468,7 +468,7 @@
       "url": "https://github.com/rhnvrm/linkpage",
       "description": "LinkPage is a FOSS self-hosted alternative to link listing websites such as LinkTree and Campsite.bio",
       "language": "Go",
-      "stars": 138,
+      "stars": 139,
       "archived": false,
       "pushed_at": "2026-08-10T14:26:06Z",
       "homepage": "",
@@ -1649,6 +1649,14 @@
     }
   ],
   "activity": [
+    {
+      "id": "commit:oddship/nix-system:c475c4bd33a7bb5265c0cac1000e021b640ce4aa",
+      "repo": "oddship/nix-system",
+      "kind": "Commit",
+      "title": "fix(bb): resolve agent CLIs and desktop icon",
+      "url": "https://github.com/oddship/nix-system/commit/c475c4bd33a7bb5265c0cac1000e021b640ce4aa",
+      "at": "2026-11-05T08:53:51Z"
+    },
     {
       "id": "commit:oddship/nix-system:fa1d056729fd41fc0d4bdc2b5d95d671b3a7b34f",
       "repo": "oddship/nix-system",
@@ -2840,7 +2848,7 @@
       "url": "https://github.com/rhnvrm/simples3",
       "description": "Simple no frills AWS S3 Golang Library using REST with V4 Signing (without AWS Go SDK)",
       "language": "Go",
-      "stars": 210,
+      "stars": 211,
       "archived": false,
       "pushed_at": "2026-10-22T11:43:43Z",
       "homepage": "",
@@ -2892,7 +2900,7 @@
       "language": "Go",
       "stars": 8,
       "archived": false,
-      "pushed_at": "2026-10-22T06:00:12Z",
+      "pushed_at": "2026-11-05T10:46:45Z",
       "homepage": "https://rhnvrm.github.io/s3site/",
       "owner": "rhnvrm",
       "topics": []
@@ -2902,6 +2910,14 @@
     {
       "date": "2026-11-05",
       "items": [
+        {
+          "id": "commit:oddship/nix-system:c475c4bd33a7bb5265c0cac1000e021b640ce4aa",
+          "repo": "oddship/nix-system",
+          "kind": "Commit",
+          "title": "fix(bb): resolve agent CLIs and desktop icon",
+          "url": "https://github.com/oddship/nix-system/commit/c475c4bd33a7bb5265c0cac1000e021b640ce4aa",
+          "at": "2026-11-05T08:53:51Z"
+        },
         {
           "id": "commit:oddship/nix-system:fa1d056729fd41fc0d4bdc2b5d95d671b3a7b34f",
           "repo": "oddship/nix-system",
@@ -4150,17 +4166,17 @@
       "language": "Nix",
       "stars": 0,
       "archived": false,
-      "pushed_at": "2026-11-05T06:20:43Z",
+      "pushed_at": "2026-11-05T08:54:05Z",
       "homepage": "",
       "owner": "oddship",
       "topics": [],
       "latest": {
-        "id": "commit:oddship/nix-system:fa1d056729fd41fc0d4bdc2b5d95d671b3a7b34f",
+        "id": "commit:oddship/nix-system:c475c4bd33a7bb5265c0cac1000e021b640ce4aa",
         "repo": "oddship/nix-system",
         "kind": "Commit",
-        "title": "chore(system): update flake inputs",
-        "url": "https://github.com/oddship/nix-system/commit/fa1d056729fd41fc0d4bdc2b5d95d671b3a7b34f",
-        "at": "2026-11-05T06:20:29Z"
+        "title": "fix(bb): resolve agent CLIs and desktop icon",
+        "url": "https://github.com/oddship/nix-system/commit/c475c4bd33a7bb5265c0cac1000e021b640ce4aa",
+        "at": "2026-11-05T08:53:51Z"
       }
     },
     {
