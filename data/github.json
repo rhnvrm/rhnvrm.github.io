@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T07:06:28+00:00",
+  "updated_at": "2026-11-08T07:18:00+00:00",
   "public_repositories": [
     "oddship/bb-plugins",
     "oddship/bosun",
@@ -110,6 +110,21 @@
     {
       "private": false,
       "visibility": "public",
+      "name": "exchange-circulars",
+      "full_name": "rhnvrm/exchange-circulars",
+      "url": "https://github.com/rhnvrm/exchange-circulars",
+      "description": "Automated processing and publishing of regulatory circulars from NSE, BSE, and SEBI with AI-powered summaries",
+      "language": "Python",
+      "stars": 11,
+      "archived": false,
+      "pushed_at": "2026-11-08T04:40:35Z",
+      "homepage": "https://exchangecirculars.com/",
+      "owner": "rhnvrm",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
       "name": "reading-list",
       "full_name": "oddship/reading-list",
       "url": "https://github.com/oddship/reading-list",
@@ -120,21 +135,6 @@
       "pushed_at": "2026-11-07T05:52:09Z",
       "homepage": "https://reading-list.oddship.net",
       "owner": "oddship",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "exchange-circulars",
-      "full_name": "rhnvrm/exchange-circulars",
-      "url": "https://github.com/rhnvrm/exchange-circulars",
-      "description": "Automated processing and publishing of regulatory circulars from NSE, BSE, and SEBI with AI-powered summaries",
-      "language": "Python",
-      "stars": 11,
-      "archived": false,
-      "pushed_at": "2026-11-07T00:41:56Z",
-      "homepage": "https://exchangecirculars.com/",
-      "owner": "rhnvrm",
       "topics": []
     },
     {
