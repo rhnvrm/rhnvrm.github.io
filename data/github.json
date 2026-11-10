@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T07:56:19+00:00",
+  "updated_at": "2026-11-10T08:24:12+00:00",
   "public_repositories": [
     "oddship/bb-plugins",
     "oddship/bosun",
@@ -117,9 +117,39 @@
       "language": "Python",
       "stars": 11,
       "archived": false,
-      "pushed_at": "2026-11-08T12:50:04Z",
+      "pushed_at": "2026-11-10T06:06:23Z",
       "homepage": "https://exchangecirculars.com/",
       "owner": "rhnvrm",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "bodhi",
+      "full_name": "rhnvrm/bodhi",
+      "url": "https://github.com/rhnvrm/bodhi",
+      "description": "A simple, minimal, personal website theme for Hugo. Demo: https://rhnvrm.github.io/bodhi/",
+      "language": "HTML",
+      "stars": 12,
+      "archived": false,
+      "pushed_at": "2026-11-10T06:03:34Z",
+      "homepage": "https://rhnvrm.github.io/bodhi/",
+      "owner": "rhnvrm",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "oddship.net",
+      "full_name": "oddship/oddship.net",
+      "url": "https://github.com/oddship/oddship.net",
+      "description": "oddship.net website",
+      "language": "Python",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2026-11-09T16:40:39Z",
+      "homepage": "https://oddship.net",
+      "owner": "oddship",
       "topics": []
     },
     {
@@ -209,21 +239,6 @@
       "archived": false,
       "pushed_at": "2026-11-04T08:09:30Z",
       "homepage": "https://oddship.github.io/doot/",
-      "owner": "oddship",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "oddship.net",
-      "full_name": "oddship/oddship.net",
-      "url": "https://github.com/oddship/oddship.net",
-      "description": "oddship.net website",
-      "language": "Python",
-      "stars": 0,
-      "archived": false,
-      "pushed_at": "2026-11-02T16:21:34Z",
-      "homepage": "https://oddship.net",
       "owner": "oddship",
       "topics": []
     },
@@ -502,21 +517,6 @@
       "archived": false,
       "pushed_at": "2026-06-29T03:57:14Z",
       "homepage": "https://rhnvrm.github.io/mattermost-cli/",
-      "owner": "rhnvrm",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "bodhi",
-      "full_name": "rhnvrm/bodhi",
-      "url": "https://github.com/rhnvrm/bodhi",
-      "description": "A simple, minimal, personal website theme for Hugo.",
-      "language": "HTML",
-      "stars": 12,
-      "archived": false,
-      "pushed_at": "2026-06-03T06:56:08Z",
-      "homepage": "",
       "owner": "rhnvrm",
       "topics": []
     },
@@ -1649,6 +1649,118 @@
     }
   ],
   "activity": [
+    {
+      "id": "event:19635410518",
+      "repo": "rhnvrm/bodhi",
+      "kind": "Published release",
+      "title": "v0.2.1",
+      "url": "https://github.com/rhnvrm/bodhi/releases/tag/v0.2.1",
+      "at": "2026-11-10T06:03:35Z"
+    },
+    {
+      "id": "commit:rhnvrm/bodhi:7af084068648af5beb03ce251a5d1d036bc0c43b",
+      "repo": "rhnvrm/bodhi",
+      "kind": "Commit",
+      "title": "fix: meet Hugo Themes metadata and README requirements",
+      "url": "https://github.com/rhnvrm/bodhi/commit/7af084068648af5beb03ce251a5d1d036bc0c43b",
+      "at": "2026-11-10T06:01:50Z"
+    },
+    {
+      "id": "commit:rhnvrm/bodhi:a2f648fbf756b5d0a5c77f09cef13e8d6961c6f9",
+      "repo": "rhnvrm/bodhi",
+      "kind": "Commit",
+      "title": "feat: publish Pages demo and refresh documentation",
+      "url": "https://github.com/rhnvrm/bodhi/commit/a2f648fbf756b5d0a5c77f09cef13e8d6961c6f9",
+      "at": "2026-11-10T05:53:07Z"
+    },
+    {
+      "id": "event:19634101570",
+      "repo": "rhnvrm/bodhi",
+      "kind": "Published release",
+      "title": "v0.2.0",
+      "url": "https://github.com/rhnvrm/bodhi/releases/tag/v0.2.0",
+      "at": "2026-11-10T05:42:22Z"
+    },
+    {
+      "id": "commit:rhnvrm/bodhi:1a305d0c672596838adc0a3455b37b6ec0bc4dbd",
+      "repo": "rhnvrm/bodhi",
+      "kind": "Commit",
+      "title": "Merge pull request #6 from rhnvrm/feat/hugo-modern",
+      "url": "https://github.com/rhnvrm/bodhi/commit/1a305d0c672596838adc0a3455b37b6ec0bc4dbd",
+      "at": "2026-11-10T05:38:54Z"
+    },
+    {
+      "id": "event:19633813138",
+      "repo": "rhnvrm/bodhi",
+      "kind": "Published release",
+      "title": "v0.1.2",
+      "url": "https://github.com/rhnvrm/bodhi/releases/tag/v0.1.2",
+      "at": "2026-11-10T05:37:34Z"
+    },
+    {
+      "id": "commit:rhnvrm/bodhi:c43296b62a5ca0fcd829cfd8d63dbb1c7f6c3885",
+      "repo": "rhnvrm/bodhi",
+      "kind": "Commit",
+      "title": "Merge pull request #5 from rhnvrm/fix/bodhi-maintenance",
+      "url": "https://github.com/rhnvrm/bodhi/commit/c43296b62a5ca0fcd829cfd8d63dbb1c7f6c3885",
+      "at": "2026-11-10T05:21:27Z"
+    },
+    {
+      "id": "commit:rhnvrm/bodhi:73c4506acfdcf3ebb23af08cd2d72948b426f71c",
+      "repo": "rhnvrm/bodhi",
+      "kind": "Commit",
+      "title": "feat!: migrate to modern Hugo templates",
+      "url": "https://github.com/rhnvrm/bodhi/commit/73c4506acfdcf3ebb23af08cd2d72948b426f71c",
+      "at": "2026-11-10T05:20:53Z"
+    },
+    {
+      "id": "commit:rhnvrm/bodhi:9cc9a8758128e1b5fc72272bf30ae7e2a91a86d5",
+      "repo": "rhnvrm/bodhi",
+      "kind": "Commit",
+      "title": "fix: preserve links and search across Hugo versions",
+      "url": "https://github.com/rhnvrm/bodhi/commit/9cc9a8758128e1b5fc72272bf30ae7e2a91a86d5",
+      "at": "2026-11-10T05:19:57Z"
+    },
+    {
+      "id": "commit:rhnvrm/bodhi:a776e758d399a41d9421b7ddfd266594fa6b3b12",
+      "repo": "rhnvrm/bodhi",
+      "kind": "Commit",
+      "title": "fix: harden search and refresh Hugo compatibility",
+      "url": "https://github.com/rhnvrm/bodhi/commit/a776e758d399a41d9421b7ddfd266594fa6b3b12",
+      "at": "2026-11-10T05:02:19Z"
+    },
+    {
+      "id": "event:19589222515",
+      "repo": "zerodha/kite-mcp-server",
+      "kind": "Published release",
+      "title": "v0.4.0-dev34",
+      "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev34",
+      "at": "2026-11-09T19:55:23Z"
+    },
+    {
+      "id": "event:19588248995",
+      "repo": "zerodha/kite-mcp-server",
+      "kind": "Published release",
+      "title": "v0.4.0-dev33",
+      "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev33",
+      "at": "2026-11-09T19:46:28Z"
+    },
+    {
+      "id": "event:19582615130",
+      "repo": "zerodha/kite-mcp-server",
+      "kind": "Published release",
+      "title": "v0.4.0-dev32",
+      "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev32",
+      "at": "2026-11-09T18:50:13Z"
+    },
+    {
+      "id": "event:19576899516",
+      "repo": "zerodha/kite-mcp-server",
+      "kind": "Published release",
+      "title": "v0.4.0-dev31",
+      "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev31",
+      "at": "2026-11-09T17:49:06Z"
+    },
     {
       "id": "commit:oddship/nix-system:c475c4bd33a7bb5265c0cac1000e021b640ce4aa",
       "repo": "oddship/nix-system",
@@ -2908,6 +3020,128 @@
   ],
   "days": [
     {
+      "date": "2026-11-10",
+      "items": [
+        {
+          "id": "event:19635410518",
+          "repo": "rhnvrm/bodhi",
+          "kind": "Published release",
+          "title": "v0.2.1",
+          "url": "https://github.com/rhnvrm/bodhi/releases/tag/v0.2.1",
+          "at": "2026-11-10T06:03:35Z"
+        },
+        {
+          "id": "commit:rhnvrm/bodhi:7af084068648af5beb03ce251a5d1d036bc0c43b",
+          "repo": "rhnvrm/bodhi",
+          "kind": "Commit",
+          "title": "fix: meet Hugo Themes metadata and README requirements",
+          "url": "https://github.com/rhnvrm/bodhi/commit/7af084068648af5beb03ce251a5d1d036bc0c43b",
+          "at": "2026-11-10T06:01:50Z"
+        },
+        {
+          "id": "commit:rhnvrm/bodhi:a2f648fbf756b5d0a5c77f09cef13e8d6961c6f9",
+          "repo": "rhnvrm/bodhi",
+          "kind": "Commit",
+          "title": "feat: publish Pages demo and refresh documentation",
+          "url": "https://github.com/rhnvrm/bodhi/commit/a2f648fbf756b5d0a5c77f09cef13e8d6961c6f9",
+          "at": "2026-11-10T05:53:07Z"
+        },
+        {
+          "id": "event:19634101570",
+          "repo": "rhnvrm/bodhi",
+          "kind": "Published release",
+          "title": "v0.2.0",
+          "url": "https://github.com/rhnvrm/bodhi/releases/tag/v0.2.0",
+          "at": "2026-11-10T05:42:22Z"
+        },
+        {
+          "id": "commit:rhnvrm/bodhi:1a305d0c672596838adc0a3455b37b6ec0bc4dbd",
+          "repo": "rhnvrm/bodhi",
+          "kind": "Commit",
+          "title": "Merge pull request #6 from rhnvrm/feat/hugo-modern",
+          "url": "https://github.com/rhnvrm/bodhi/commit/1a305d0c672596838adc0a3455b37b6ec0bc4dbd",
+          "at": "2026-11-10T05:38:54Z"
+        },
+        {
+          "id": "event:19633813138",
+          "repo": "rhnvrm/bodhi",
+          "kind": "Published release",
+          "title": "v0.1.2",
+          "url": "https://github.com/rhnvrm/bodhi/releases/tag/v0.1.2",
+          "at": "2026-11-10T05:37:34Z"
+        },
+        {
+          "id": "commit:rhnvrm/bodhi:c43296b62a5ca0fcd829cfd8d63dbb1c7f6c3885",
+          "repo": "rhnvrm/bodhi",
+          "kind": "Commit",
+          "title": "Merge pull request #5 from rhnvrm/fix/bodhi-maintenance",
+          "url": "https://github.com/rhnvrm/bodhi/commit/c43296b62a5ca0fcd829cfd8d63dbb1c7f6c3885",
+          "at": "2026-11-10T05:21:27Z"
+        },
+        {
+          "id": "commit:rhnvrm/bodhi:73c4506acfdcf3ebb23af08cd2d72948b426f71c",
+          "repo": "rhnvrm/bodhi",
+          "kind": "Commit",
+          "title": "feat!: migrate to modern Hugo templates",
+          "url": "https://github.com/rhnvrm/bodhi/commit/73c4506acfdcf3ebb23af08cd2d72948b426f71c",
+          "at": "2026-11-10T05:20:53Z"
+        },
+        {
+          "id": "commit:rhnvrm/bodhi:9cc9a8758128e1b5fc72272bf30ae7e2a91a86d5",
+          "repo": "rhnvrm/bodhi",
+          "kind": "Commit",
+          "title": "fix: preserve links and search across Hugo versions",
+          "url": "https://github.com/rhnvrm/bodhi/commit/9cc9a8758128e1b5fc72272bf30ae7e2a91a86d5",
+          "at": "2026-11-10T05:19:57Z"
+        },
+        {
+          "id": "commit:rhnvrm/bodhi:a776e758d399a41d9421b7ddfd266594fa6b3b12",
+          "repo": "rhnvrm/bodhi",
+          "kind": "Commit",
+          "title": "fix: harden search and refresh Hugo compatibility",
+          "url": "https://github.com/rhnvrm/bodhi/commit/a776e758d399a41d9421b7ddfd266594fa6b3b12",
+          "at": "2026-11-10T05:02:19Z"
+        },
+        {
+          "id": "event:19589222515",
+          "repo": "zerodha/kite-mcp-server",
+          "kind": "Published release",
+          "title": "v0.4.0-dev34",
+          "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev34",
+          "at": "2026-11-09T19:55:23Z"
+        },
+        {
+          "id": "event:19588248995",
+          "repo": "zerodha/kite-mcp-server",
+          "kind": "Published release",
+          "title": "v0.4.0-dev33",
+          "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev33",
+          "at": "2026-11-09T19:46:28Z"
+        },
+        {
+          "id": "event:19582615130",
+          "repo": "zerodha/kite-mcp-server",
+          "kind": "Published release",
+          "title": "v0.4.0-dev32",
+          "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev32",
+          "at": "2026-11-09T18:50:13Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "items": [
+        {
+          "id": "event:19576899516",
+          "repo": "zerodha/kite-mcp-server",
+          "kind": "Published release",
+          "title": "v0.4.0-dev31",
+          "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev31",
+          "at": "2026-11-09T17:49:06Z"
+        }
+      ]
+    },
+    {
       "date": "2026-11-05",
       "items": [
         {
@@ -4159,6 +4393,29 @@
     {
       "private": false,
       "visibility": "public",
+      "name": "bodhi",
+      "full_name": "rhnvrm/bodhi",
+      "url": "https://github.com/rhnvrm/bodhi",
+      "description": "A simple, minimal, personal website theme for Hugo. Demo: https://rhnvrm.github.io/bodhi/",
+      "language": "HTML",
+      "stars": 12,
+      "archived": false,
+      "pushed_at": "2026-11-10T06:03:34Z",
+      "homepage": "https://rhnvrm.github.io/bodhi/",
+      "owner": "rhnvrm",
+      "topics": [],
+      "latest": {
+        "id": "event:19635410518",
+        "repo": "rhnvrm/bodhi",
+        "kind": "Published release",
+        "title": "v0.2.1",
+        "url": "https://github.com/rhnvrm/bodhi/releases/tag/v0.2.1",
+        "at": "2026-11-10T06:03:35Z"
+      }
+    },
+    {
+      "private": false,
+      "visibility": "public",
       "name": "nix-system",
       "full_name": "oddship/nix-system",
       "url": "https://github.com/oddship/nix-system",
@@ -4269,29 +4526,6 @@
         "title": "feat: generate static social previews in the theme",
         "url": "https://github.com/oddship/doordarshan-zola/commit/4e15f29ebd9a58fb8aa7f096e6e87e88d58b03c4",
         "at": "2026-10-30T04:44:03Z"
-      }
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "oddship.net",
-      "full_name": "oddship/oddship.net",
-      "url": "https://github.com/oddship/oddship.net",
-      "description": "oddship.net website",
-      "language": "Python",
-      "stars": 0,
-      "archived": false,
-      "pushed_at": "2026-11-02T16:21:34Z",
-      "homepage": "https://oddship.net",
-      "owner": "oddship",
-      "topics": [],
-      "latest": {
-        "id": "commit:oddship/oddship.net:fbf2742f358acea55c85d83d6c06c6509725f6ec",
-        "repo": "oddship/oddship.net",
-        "kind": "Commit",
-        "title": "Merge pull request #4 from oddship/fix/site-maintenance",
-        "url": "https://github.com/oddship/oddship.net/commit/fbf2742f358acea55c85d83d6c06c6509725f6ec",
-        "at": "2026-10-29T20:39:32Z"
       }
     }
   ]
