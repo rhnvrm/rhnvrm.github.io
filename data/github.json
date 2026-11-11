@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T08:24:12+00:00",
+  "updated_at": "2026-11-11T07:44:15+00:00",
   "public_repositories": [
     "oddship/bb-plugins",
     "oddship/bosun",
@@ -117,9 +117,39 @@
       "language": "Python",
       "stars": 11,
       "archived": false,
-      "pushed_at": "2026-11-10T06:06:23Z",
+      "pushed_at": "2026-11-11T04:56:42Z",
       "homepage": "https://exchangecirculars.com/",
       "owner": "rhnvrm",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "doot",
+      "full_name": "oddship/doot",
+      "url": "https://github.com/oddship/doot",
+      "description": "A trusted, local-first emissary for your inbox",
+      "language": "TypeScript",
+      "stars": 1,
+      "archived": false,
+      "pushed_at": "2026-11-11T04:55:34Z",
+      "homepage": "https://oddship.github.io/doot/",
+      "owner": "oddship",
+      "topics": []
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "esgun",
+      "full_name": "oddship/esgun",
+      "url": "https://github.com/oddship/esgun",
+      "description": "Source code and project notes on GitHub.",
+      "language": "Go",
+      "stars": 3,
+      "archived": false,
+      "pushed_at": "2026-11-10T18:17:40Z",
+      "homepage": "",
+      "owner": "oddship",
       "topics": []
     },
     {
@@ -224,21 +254,6 @@
       "archived": false,
       "pushed_at": "2026-11-04T11:42:45Z",
       "homepage": "https://oddship.github.io/moat/",
-      "owner": "oddship",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "doot",
-      "full_name": "oddship/doot",
-      "url": "https://github.com/oddship/doot",
-      "description": "A trusted, local-first emissary for your inbox",
-      "language": "TypeScript",
-      "stars": 1,
-      "archived": false,
-      "pushed_at": "2026-11-04T08:09:30Z",
-      "homepage": "https://oddship.github.io/doot/",
       "owner": "oddship",
       "topics": []
     },
@@ -448,21 +463,6 @@
     {
       "private": false,
       "visibility": "public",
-      "name": "esgun",
-      "full_name": "oddship/esgun",
-      "url": "https://github.com/oddship/esgun",
-      "description": "Source code and project notes on GitHub.",
-      "language": "Go",
-      "stars": 3,
-      "archived": false,
-      "pushed_at": "2026-09-02T10:55:53Z",
-      "homepage": "",
-      "owner": "oddship",
-      "topics": []
-    },
-    {
-      "private": false,
-      "visibility": "public",
       "name": "stargazers-action",
       "full_name": "oddship/stargazers-action",
       "url": "https://github.com/oddship/stargazers-action",
@@ -648,7 +648,7 @@
       "url": "https://github.com/rhnvrm/listmonk-mcp",
       "description": "MCP (Model Context Protocol) server for Listmonk newsletter management",
       "language": "Python",
-      "stars": 43,
+      "stars": 44,
       "archived": false,
       "pushed_at": "2026-01-13T04:02:00Z",
       "homepage": "https://rhnvrm.github.io/listmonk-mcp/",
@@ -1649,6 +1649,86 @@
     }
   ],
   "activity": [
+    {
+      "id": "event:19743374155",
+      "repo": "zerodha/kite-mcp-server",
+      "kind": "Published release",
+      "title": "v0.4.0-dev36",
+      "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev36",
+      "at": "2026-11-11T03:59:12Z"
+    },
+    {
+      "id": "event:19742844033",
+      "repo": "zerodha/kite-mcp-server",
+      "kind": "Published release",
+      "title": "v0.4.0-dev35",
+      "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev35",
+      "at": "2026-11-11T03:50:02Z"
+    },
+    {
+      "id": "event:19695475453",
+      "repo": "oddship/esgun",
+      "kind": "Published release",
+      "title": "esgun v0.1.0",
+      "url": "https://github.com/oddship/esgun/releases/tag/v0.1.0",
+      "at": "2026-11-10T18:19:17Z"
+    },
+    {
+      "id": "commit:oddship/esgun:d34250064766cc02c83de509b4dc019d2bbd8d52",
+      "repo": "oddship/esgun",
+      "kind": "Commit",
+      "title": "docs: prepare v0.1.0 release and document build options (#4)",
+      "url": "https://github.com/oddship/esgun/commit/d34250064766cc02c83de509b4dc019d2bbd8d52",
+      "at": "2026-11-10T18:12:34Z"
+    },
+    {
+      "id": "commit:oddship/esgun:a5209b32891b46923853fd510f340127e4b19326",
+      "repo": "oddship/esgun",
+      "kind": "Commit",
+      "title": "feat(build): support mounted output roots with preserveRoot (#3)",
+      "url": "https://github.com/oddship/esgun/commit/a5209b32891b46923853fd510f340127e4b19326",
+      "at": "2026-11-10T18:09:37Z"
+    },
+    {
+      "id": "commit:oddship/esgun:efd6eba7f1b657e988abd2f091e09a599e3df7e9",
+      "repo": "oddship/esgun",
+      "kind": "Commit",
+      "title": "feat(build): add optional staged gzip compression (#2)",
+      "url": "https://github.com/oddship/esgun/commit/efd6eba7f1b657e988abd2f091e09a599e3df7e9",
+      "at": "2026-11-10T18:06:27Z"
+    },
+    {
+      "id": "commit:oddship/esgun:631548a440b61eb13a78a1af1e1521f3afa9c6c8",
+      "repo": "oddship/esgun",
+      "kind": "Commit",
+      "title": "fix(watch): rebuild on config edits and reload watch paths (#1)",
+      "url": "https://github.com/oddship/esgun/commit/631548a440b61eb13a78a1af1e1521f3afa9c6c8",
+      "at": "2026-11-10T18:05:17Z"
+    },
+    {
+      "id": "commit:oddship/doot:4ab6e9fc781e334c724a73425152ce9eba4fcee4",
+      "repo": "oddship/doot",
+      "kind": "Commit",
+      "title": "fix: resolve six audited UI state and accessibility defects",
+      "url": "https://github.com/oddship/doot/commit/4ab6e9fc781e334c724a73425152ce9eba4fcee4",
+      "at": "2026-11-10T17:35:22Z"
+    },
+    {
+      "id": "commit:oddship/doot:0ce328cf3702d632d6ef79a927493b1d48215b23",
+      "repo": "oddship/doot",
+      "kind": "Commit",
+      "title": "fix: adapt workspace and inbox navigation for mobile",
+      "url": "https://github.com/oddship/doot/commit/0ce328cf3702d632d6ef79a927493b1d48215b23",
+      "at": "2026-11-10T15:31:27Z"
+    },
+    {
+      "id": "commit:oddship/doot:75e2728eef50499b2024834892ce165243859aad",
+      "repo": "oddship/doot",
+      "kind": "Commit",
+      "title": "fix: allow safe cross-site document navigation",
+      "url": "https://github.com/oddship/doot/commit/75e2728eef50499b2024834892ce165243859aad",
+      "at": "2026-11-10T15:16:41Z"
+    },
     {
       "id": "event:19635410518",
       "repo": "rhnvrm/bodhi",
@@ -3020,8 +3100,93 @@
   ],
   "days": [
     {
+      "date": "2026-11-11",
+      "items": [
+        {
+          "id": "event:19743374155",
+          "repo": "zerodha/kite-mcp-server",
+          "kind": "Published release",
+          "title": "v0.4.0-dev36",
+          "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev36",
+          "at": "2026-11-11T03:59:12Z"
+        },
+        {
+          "id": "event:19742844033",
+          "repo": "zerodha/kite-mcp-server",
+          "kind": "Published release",
+          "title": "v0.4.0-dev35",
+          "url": "https://github.com/zerodha/kite-mcp-server/releases/tag/v0.4.0-dev35",
+          "at": "2026-11-11T03:50:02Z"
+        }
+      ]
+    },
+    {
       "date": "2026-11-10",
       "items": [
+        {
+          "id": "event:19695475453",
+          "repo": "oddship/esgun",
+          "kind": "Published release",
+          "title": "esgun v0.1.0",
+          "url": "https://github.com/oddship/esgun/releases/tag/v0.1.0",
+          "at": "2026-11-10T18:19:17Z"
+        },
+        {
+          "id": "commit:oddship/esgun:d34250064766cc02c83de509b4dc019d2bbd8d52",
+          "repo": "oddship/esgun",
+          "kind": "Commit",
+          "title": "docs: prepare v0.1.0 release and document build options (#4)",
+          "url": "https://github.com/oddship/esgun/commit/d34250064766cc02c83de509b4dc019d2bbd8d52",
+          "at": "2026-11-10T18:12:34Z"
+        },
+        {
+          "id": "commit:oddship/esgun:a5209b32891b46923853fd510f340127e4b19326",
+          "repo": "oddship/esgun",
+          "kind": "Commit",
+          "title": "feat(build): support mounted output roots with preserveRoot (#3)",
+          "url": "https://github.com/oddship/esgun/commit/a5209b32891b46923853fd510f340127e4b19326",
+          "at": "2026-11-10T18:09:37Z"
+        },
+        {
+          "id": "commit:oddship/esgun:efd6eba7f1b657e988abd2f091e09a599e3df7e9",
+          "repo": "oddship/esgun",
+          "kind": "Commit",
+          "title": "feat(build): add optional staged gzip compression (#2)",
+          "url": "https://github.com/oddship/esgun/commit/efd6eba7f1b657e988abd2f091e09a599e3df7e9",
+          "at": "2026-11-10T18:06:27Z"
+        },
+        {
+          "id": "commit:oddship/esgun:631548a440b61eb13a78a1af1e1521f3afa9c6c8",
+          "repo": "oddship/esgun",
+          "kind": "Commit",
+          "title": "fix(watch): rebuild on config edits and reload watch paths (#1)",
+          "url": "https://github.com/oddship/esgun/commit/631548a440b61eb13a78a1af1e1521f3afa9c6c8",
+          "at": "2026-11-10T18:05:17Z"
+        },
+        {
+          "id": "commit:oddship/doot:4ab6e9fc781e334c724a73425152ce9eba4fcee4",
+          "repo": "oddship/doot",
+          "kind": "Commit",
+          "title": "fix: resolve six audited UI state and accessibility defects",
+          "url": "https://github.com/oddship/doot/commit/4ab6e9fc781e334c724a73425152ce9eba4fcee4",
+          "at": "2026-11-10T17:35:22Z"
+        },
+        {
+          "id": "commit:oddship/doot:0ce328cf3702d632d6ef79a927493b1d48215b23",
+          "repo": "oddship/doot",
+          "kind": "Commit",
+          "title": "fix: adapt workspace and inbox navigation for mobile",
+          "url": "https://github.com/oddship/doot/commit/0ce328cf3702d632d6ef79a927493b1d48215b23",
+          "at": "2026-11-10T15:31:27Z"
+        },
+        {
+          "id": "commit:oddship/doot:75e2728eef50499b2024834892ce165243859aad",
+          "repo": "oddship/doot",
+          "kind": "Commit",
+          "title": "fix: allow safe cross-site document navigation",
+          "url": "https://github.com/oddship/doot/commit/75e2728eef50499b2024834892ce165243859aad",
+          "at": "2026-11-10T15:16:41Z"
+        },
         {
           "id": "event:19635410518",
           "repo": "rhnvrm/bodhi",
@@ -4393,6 +4558,52 @@
     {
       "private": false,
       "visibility": "public",
+      "name": "esgun",
+      "full_name": "oddship/esgun",
+      "url": "https://github.com/oddship/esgun",
+      "description": "Source code and project notes on GitHub.",
+      "language": "Go",
+      "stars": 3,
+      "archived": false,
+      "pushed_at": "2026-11-10T18:17:40Z",
+      "homepage": "",
+      "owner": "oddship",
+      "topics": [],
+      "latest": {
+        "id": "event:19695475453",
+        "repo": "oddship/esgun",
+        "kind": "Published release",
+        "title": "esgun v0.1.0",
+        "url": "https://github.com/oddship/esgun/releases/tag/v0.1.0",
+        "at": "2026-11-10T18:19:17Z"
+      }
+    },
+    {
+      "private": false,
+      "visibility": "public",
+      "name": "doot",
+      "full_name": "oddship/doot",
+      "url": "https://github.com/oddship/doot",
+      "description": "A trusted, local-first emissary for your inbox",
+      "language": "TypeScript",
+      "stars": 1,
+      "archived": false,
+      "pushed_at": "2026-11-11T04:55:34Z",
+      "homepage": "https://oddship.github.io/doot/",
+      "owner": "oddship",
+      "topics": [],
+      "latest": {
+        "id": "commit:oddship/doot:4ab6e9fc781e334c724a73425152ce9eba4fcee4",
+        "repo": "oddship/doot",
+        "kind": "Commit",
+        "title": "fix: resolve six audited UI state and accessibility defects",
+        "url": "https://github.com/oddship/doot/commit/4ab6e9fc781e334c724a73425152ce9eba4fcee4",
+        "at": "2026-11-10T17:35:22Z"
+      }
+    },
+    {
+      "private": false,
+      "visibility": "public",
       "name": "bodhi",
       "full_name": "rhnvrm/bodhi",
       "url": "https://github.com/rhnvrm/bodhi",
@@ -4462,29 +4673,6 @@
     {
       "private": false,
       "visibility": "public",
-      "name": "doot",
-      "full_name": "oddship/doot",
-      "url": "https://github.com/oddship/doot",
-      "description": "A trusted, local-first emissary for your inbox",
-      "language": "TypeScript",
-      "stars": 1,
-      "archived": false,
-      "pushed_at": "2026-11-04T08:09:30Z",
-      "homepage": "https://oddship.github.io/doot/",
-      "owner": "oddship",
-      "topics": [],
-      "latest": {
-        "id": "commit:oddship/doot:dc30c3d94bf734ace35028fef8d086f64cc5b09d",
-        "repo": "oddship/doot",
-        "kind": "Commit",
-        "title": "perf(inbox): reuse opened messages and warm readers on intent",
-        "url": "https://github.com/oddship/doot/commit/dc30c3d94bf734ace35028fef8d086f64cc5b09d",
-        "at": "2026-11-04T08:08:09Z"
-      }
-    },
-    {
-      "private": false,
-      "visibility": "public",
       "name": "logchef-nix",
       "full_name": "oddship/logchef-nix",
       "url": "https://github.com/oddship/logchef-nix",
@@ -4503,29 +4691,6 @@
         "title": "fix(logchef): update to v2.6.1 and isolate the shutdown test",
         "url": "https://github.com/oddship/logchef-nix/commit/0abd2c79c728d7a59d5f271e35bdd06b22ac4ac1",
         "at": "2026-10-30T18:24:11Z"
-      }
-    },
-    {
-      "private": false,
-      "visibility": "public",
-      "name": "doordarshan-zola",
-      "full_name": "oddship/doordarshan-zola",
-      "url": "https://github.com/oddship/doordarshan-zola",
-      "description": "Doordarshan is a Zola theme for a retro Indian terminal/notebook aesthetic.",
-      "language": "HTML",
-      "stars": 2,
-      "archived": false,
-      "pushed_at": "2026-10-30T04:51:17Z",
-      "homepage": "",
-      "owner": "oddship",
-      "topics": [],
-      "latest": {
-        "id": "commit:oddship/doordarshan-zola:4e15f29ebd9a58fb8aa7f096e6e87e88d58b03c4",
-        "repo": "oddship/doordarshan-zola",
-        "kind": "Commit",
-        "title": "feat: generate static social previews in the theme",
-        "url": "https://github.com/oddship/doordarshan-zola/commit/4e15f29ebd9a58fb8aa7f096e6e87e88d58b03c4",
-        "at": "2026-10-30T04:44:03Z"
       }
     }
   ]
